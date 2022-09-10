@@ -1,0 +1,27 @@
+Script started on 2022-09-05 22:15:11+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;pi@raspberry: ~/Desktop[01;32mpi@raspberry[00m:[01;34m~/Desktop $[00m cd ..
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ls
+[?2004l[0m[01;31marchive.tar.gz[0m  [01;34mDownloads[0m     [01;34mPictures[0m              [01;34mTemplates[0m
+[01;34mBookshelf[0m       [01;31mfile2.txt.gz[0m  [01;34mPublic[0m                textfile.txt
+copy            [01;34mkrazhevskiy[0m   task3krazhevskiy13r   timelog5krazhevskiy134r
+[01;34mDesktop[0m         [01;34mMusic[0m         task5krazhevskiy134r  timelog6krazhevskiy13r
+[01;34mDocuments[0m       [01;34mone[0m           task6krazhevskiy13r   [01;34mVideos[0m
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m un[K[Kgunzip archive.tar.gz
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ls
+[?2004l[0m[01;31marchive.tar[0m  [01;34mDownloads[0m     [01;34mPictures[0m              [01;34mTemplates[0m
+[01;34mBookshelf[0m    [01;31mfile2.txt.gz[0m  [01;34mPublic[0m                textfile.txt
+copy         [01;34mkrazhevskiy[0m   task3krazhevskiy13r   timelog5krazhevskiy134r
+[01;34mDesktop[0m      [01;34mMusic[0m         task5krazhevskiy134r  timelog6krazhevskiy13r
+[01;34mDocuments[0m    [01;34mone[0m           task6krazhevskiy13r   [01;34mVideos[0m
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m gunzip file2.txt.gz
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cat file2.txt 
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ls
+[?2004l[0m[01;31marchive.tar[0m  [01;34mDownloads[0m    [01;34mPictures[0m              [01;34mTemplates[0m
+[01;34mBookshelf[0m    file2.txt    [01;34mPublic[0m                textfile.txt
+copy         [01;34mkrazhevskiy[0m  task3krazhevskiy13r   timelog5krazhevskiy134r
+[01;34mDesktop[0m      [01;34mMusic[0m        task5krazhevskiy134r  timelog6krazhevskiy13r
+[01;34mDocuments[0m    [01;34mone[0m          task6krazhevskiy13r   [01;34mVideos[0m
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m exit
+[?2004lexit
+
+Script done on 2022-09-05 22:16:50+01:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,111 @@
+Script started on 2022-09-04 19:46:14+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m mkdir krazhevskiy[Ky
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ls
+[?2004l[0m[01;35m2022-09-03-172630_800x600_scrot.png[0m  [01;34mDocuments[0m    [01;34mPublic[0m
+[01;35m2022-09-04-185144_800x600_scrot.png[0m  [01;34mDownloads[0m    task3krazhevskiy13r
+[01;35m2022-09-04-185145_800x600_scrot.png[0m  [01;34mkrazhevskiy[0m  [01;34mTemplates[0m
+[01;34mBookshelf[0m                            [01;34mMusic[0m        [01;34mVideos[0m
+[01;34mDesktop[0m                              [01;34mPictures[0m
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cal
+[?2004lbash: cal: command not found
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m date
+[?2004lSun 04 Sep 2022 07:47:29 PM BST
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m who
+[?2004lpi       tty7         2022-09-04 18:50 (:0)
+pi       tty1         2022-09-04 18:50
+pi       pts/0        2022-09-04 19:45 (192.168.56.103)
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m whoami
+[?2004lpi
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m man tee
+[?2004l[?1049h[22;0;0t[?1h=TEE(1)                           User Commands                          TEE(1)[m
+[m
+[1mNAME[0m[m
+       tee - read from standard input and write to standard output and files[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mtee[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       Copy standard input to each FILE, and also to standard output.[m
+[m
+       [1m-a[0m, [1m--append[0m[m
+              append to the given FILEs, do not overwrite[m
+[m
+       [1m-i[0m, [1m--ignore-interrupts[0m[m
+              ignore interrupt signals[m
+[m
+       [1m-p[0m     diagnose errors writing to non pipes[m
+[m
+       [1m--output-error[0m[=[4mMODE[24m][m
+              set behavior on write error.  See MODE below[m
+[m
+       [1m--help[0m display this help and exit[m
+[7m Manual page tee(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m tee textfile.txt
+[?2004lcheck
+check
+test
+test
+end
+end
+stop
+stop
+^C
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cat  textfile.txt 
+[?2004lcheck
+test
+end
+stop
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m vi textfile.txt 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"textfile.txt" 4 lines, 20 bytes[1;1Hcheck
+test
+end
+stop
+[94m~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?2004l[>4;m[?25l[1;23r[m[1;1H[L[1;24r[1;1HB[24;1H[K[1;2H[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[1;23r[1;1H[L[1;24r[1;1HB[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[1;23r[1;1H[L[1;24r[1;1HA[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[1;23r[1;1H[L[1;24r[1;1HB[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[1;23r[1;1H[L[1;24r[1;1HA[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[1;23r[1;1H[L[1;24r[1;1HB[?25h[?25l[?25h[?2004h[>4;2m[?25l[1;1H[K[1;1H[?25h
+[?25l[2;1H[K[2;1H[?25h
+[?25l[3;1H[K[3;1H[?25h
+[?25l[4;1H[K[4;1H[?25h
+[?25l[5;1H[K[5;1H[?25h
+[?25l[6;1H[K[6;1H[?25h[5;1H[4;1H[3;1H[2;1H
+
+[?25l[24;1H:[?25hq[?25l[97m[41mE37: No write since last change (add ! to override)[4;1H[?25h[?25l[m[24;1H[K[24;1H:.,.+1![?25h[?25l[24;7H[K[24;7H[?25h[?25l[24;6H[K[24;6H[?25h[?25l[24;5H[K[24;5H[?25h[?25l[24;4H[K[24;4H[?25h[?25l[24;3H[K[24;3H[?25h[?25l[24;2H[K[24;2H[?25hq![?25l[?2004l[>4;m[24;1H[K[24;1H[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m vi textfile.txt [2@cat [C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lcheck
+test
+end
+stop
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cat  textfile.txt [2Pvi[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"textfile.txt" 4 lines, 20 bytes[1;1Hcheck
+test
+end
+stop
+[94m~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[mC[?25h
+t
+e
+st[?2004l[>4;m[?2004h[>4;2m[?2004l[>4;m[?25l[4;23r[4;1H[L[1;24r[4;1HD[24;1H[K[4;2H[?25h[?2004h[>4;2m[?25l[24;1H:[?25hwq[?25l[?2004l[>4;m"textfile.txt" 5 lines, 22 bytes written
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m vi textfile.txt [2@cat [C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lCheck
+test
+end
+D
+stop
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cp textfile.txt 
+[?2004lcp: missing destination file operand after 'textfile.txt'
+Try 'cp --help' for more information.
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cp textfile.txt copy.txt
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ls
+[?2004l[0m[01;35m2022-09-03-172630_800x600_scrot.png[0m  [01;34mDocuments[0m    task3krazhevskiy13r
+[01;35m2022-09-04-185144_800x600_scrot.png[0m  [01;34mDownloads[0m    [01;34mTemplates[0m
+[01;35m2022-09-04-185145_800x600_scrot.png[0m  [01;34mkrazhevskiy[0m  textfile.txt
+[01;34mBookshelf[0m                            [01;34mMusic[0m        [01;34mVideos[0m
+copy.txt                             [01;34mPictures[0m
+[01;34mDesktop[0m                              [01;34mPublic[0m
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m unlink copy.txt
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ls
+[?2004l[0m[01;35m2022-09-03-172630_800x600_scrot.png[0m  [01;34mDocuments[0m    [01;34mPublic[0m
+[01;35m2022-09-04-185144_800x600_scrot.png[0m  [01;34mDownloads[0m    task3krazhevskiy13r
+[01;35m2022-09-04-185145_800x600_scrot.png[0m  [01;34mkrazhevskiy[0m  [01;34mTemplates[0m
+[01;34mBookshelf[0m                            [01;34mMusic[0m        textfile.txt
+[01;34mDesktop[0m                              [01;34mPictures[0m     [01;34mVideos[0m
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m exit
+[?2004lexit
+
+Script done on 2022-09-04 19:55:53+01:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,302 @@
+Script started on 2022-09-04 14:59:57-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="26"]
+                                                                                ]0;krazhevskiy13@kali: ~[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[37mm[24m[39m[4m[37mm[24m[39m[38;2;153;153;153mkdir aaa[39m[8D[4m[37mm[4m[37mk[24m[39m[4m[37mm[4m[37mk[4m[37md[24m[39m[4m[37md[4m[37mi[24m[39m[24m[36mm[24m[36mk[24m[36md[24m[36mi[36mr[39m[39m [39mk[39m [39m razhevskiy[?1l>[?2004l
+                                                                                ]0;krazhevskiy13@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[37mc[24m[39m[4m[37mc[24m[39m[38;2;153;153;153md Music[39m[24m[36mc[36md[39m[39m [39m[1mk[0m[39m [39m [39m [39m [1mk[1mr[0m[1mr[1mazhevskiy/[0m[1my[0m[0m [?1l>[?2004l
+                                                                                ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36ml[39m[36ml[39m[38;2;153;153;153ms[39m[36ml[36ms[39m[?1l>[?2004l
+                                                                                ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[37mg[24m[39m[4m[37mg[4m[37mi[24m[39m[24m[36mg[24m[36mi[36mt[39m clonr  e [7mgit@github.com:pmvs2022/labrabota1-13a-alekseykrazhev.git[27m[57D[27mg[27mi[27mt[27m@[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m:[27mp[27mm[27mv[27ms[27m2[27m0[27m2[27m2[27m/[27ml[27ma[27mb[27mr[27ma[27mb[27mo[27mt[27ma[27m1[27m-[27m1[27m3[27ma[27m-[27ma[27ml[27me[27mk[27ms[27me[27my[27mk[27mr[27ma[27mz[27mh[27me[27mv[27m.[27mg[27mi[27mt[?1l>[?2004l
+Cloning into 'labrabota1-13a-alekseykrazhev'...
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+                                                                                ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mgit[39m clone git@github.com:pmvs2022/labrabota1-13a-alekseykrazhev.git[67D[39m [39m [39m                                                                 [67D[36mgit[39m clone git@github.com:pmvs2022/labrabota1-13a-alekseykrazhev.git[?1l>[?2004l
+Cloning into 'labrabota1-13a-alekseykrazhev'...
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+                                                                                ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[37mg[24m[39m[4m[37mg[24m[39m[38;2;153;153;153mit clone git@github.com:pmvs2022/labrabota1-13a-alekseykrazhev.git[39m[66D[4m[37mg[4m[37mi[24m[39m[24m[36mg[24m[36mi[36mt[39m[39m [39mc[39ml[39mo[39mn[39me[39m [39m[7mh[39m[7mt[39m[7mt[39m[7mp[39m[7ms[39m[7m:[39m[7m/[39m[7m/[39m[7mg[39m[7mi[39m[7mt[39m[7mh[39m[7mu[39m[7mb[39m[7m.[39m[7mc[39m[7mo[39m[7mm[39m[7m/[39m[7mp[39m[7mm[39m[7mv[39m[7ms[39m[7m2[39m[7m0[39m[7m2[39m[7m2[39m[7m/[39m[7ml[39m[7ma[39m[7mb[39m[7mr[39m[7ma[39m[7mb[39m[7mo[39m[7mt[39m[7ma[39m[7m1[39m[7m-[39m[7m1[39m[7m3[39m[7ma[39m[7m-[39m[7ma[39m[7ml[39m[7me[39m[7mk[39m[7ms[39m[7me[39m[7my[39m[7mk[39m[7mr[39m[7ma[39m[7mz[39m[7mh[39m[7me[39m[7mv[7m.git[27m[61D[27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m/[27mp[27mm[27mv[27ms[27m2[27m0[27m2[27m2[27m/[27ml[27ma[27mb[27mr[27ma[27mb[27mo[27mt[27ma[27m1[27m-[27m1[27m3[27ma[27m-[27ma[27ml[27me[27mk[27ms[27me[27my[27mk[27mr[27ma[27mz[27mh[27me[27mv[27m.[27mg[27mi[27mt[?1l>[?2004l
+Cloning into 'labrabota1-13a-alekseykrazhev'...
+fatal: unable to access 'https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git/': Could not resolve host: github.com
+                                                                                ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[37mg[24m[39m[4m[37mg[24m[39m[38;2;153;153;153mit clone https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git[39m[70D[4m[37mg[4m[37mi[24m[39m[24m[36mg[24m[36mi[36mt[39m[39m [32m-[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [66D[32m-[32m-[39m[32m-[32mv[39m[32mv[32me[39m[32me[32mr[39m[32mr[32ms[39m[32ms[32mi[39m[32mi[32mo[39m[32mo[32mn[39m[?1l>[?2004l
+git version 2.35.1
+                                                                                ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mgit[39m [32m--version[39m[9D[39mc[39ml[39mo[39mn[39me[39m [39mh[39mt[39mtps://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git[?1l>[?2004l
+Cloning into 'labrabota1-13a-alekseykrazhev'...
+fatal: unable to access 'https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git/': Could not resolve host: github.com
+                                                                                ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[37mg[24m[39m[4m[37mg[24m[39m[38;2;153;153;153mit clone https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git[39m[70D[4m[37mg[4m[37mi[24m[39m[24m[36mg[24m[36mi[36mt[39m[39m [39mc[39ml[39mo[39mn[39me[39m [39m[7mh[39m[7mt[39m[7mt[39m[7mp[39m[7ms[39m[7m:[39m[7m/[39m[7m/[39m[7mg[39m[7mi[39m[7mt[39m[7mh[39m[7mu[39m[7mb[39m[7m.[39m[7mc[39m[7mo[39m[7mm[39m[7m/[39m[7mp[39m[7mm[39m[7mv[39m[7ms[39m[7m2[39m[7m0[39m[7m2[39m[7m2[39m[7m/[39m[7ml[39m[7ma[39m[7mb[39m[7mr[39m[7ma[39m[7mb[39m[7mo[39m[7mt[39m[7ma[39m[7m1[39m[7m-[39m[7m1[39m[7m3[39m[7ma[39m[7m-[39m[7ma[39m[7ml[39m[7me[39m[7mk[39m[7ms[39m[7me[39m[7my[39m[7mk[39m[7mr[39m[7ma[39m[7mz[39m[7mh[39m[7me[39m[7mv[39m[7m.[39m[7mg[39m[7mi[39m[7mt[27m[61D[27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m/[27mp[27mm[27mv[27ms[27m2[27m0[27m2[27m2[27m/[27ml[27ma[27mb[27mr[27ma[27mb[27mo[27mt[27ma[27m1[27m-[27m1[27m3[27ma[27m-[27ma[27ml[27me[27mk[27ms[27me[27my[27mk[27mr[27ma[27mz[27mh[27me[27mv[27m.[27mg[27mi[27mt[?1l>[?2004l
+Cloning into 'labrabota1-13a-alekseykrazhev'...
+fatal: unable to access 'https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git/': Could not resolve host: github.com
+                                                                                ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[36mgit[39m[7m config [7m[32m--global[39m[7m http.proxy http://proxyuser:proxypwd@proxy.server.com:80[7m8[7m0[27m[K[A[2C[27m[36mg[27m[36mi[27m[36mt[39m[27m [27mc[27mo[27mn[27mf[27mi[27mg[27m [27m[32m-[27m[32m-[27m[32mg[27m[32ml[27m[32mo[27m[32mb[27m[32ma[27m[32ml[39m[27m [27mh[27mt[27mt[27mp[27m.[27mp[27mr[27mo[27mx[27my[27m [27mh[27mt[27mt[27mp[27m:[27m/[27m/[27mp[27mr[27mo[27mx[27my[27mu[27ms[27me[27mr[27m:[27mp[27mr[27mo[27mx[27my[27mp[27mw[27md[27m@[27mp[27mr[27mo[27mx[27my[27m.[27ms[27me[27mr[27mv[27me[27mr[27m.[27mc[27mo[27mm[27m:[27m8[27m08[27m0[?1l>[?2004l
+                                                                                ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mgit[39m config [32m--global[39m http.proxy http://proxyuser:proxypwd@proxy.server.com:8080[K[A[7Clone h[39mt[39mt[39mp[39ms[39m:[39m/[39m/[39mgithub.com/pmvs2022/labrabota1-13a-alekseykrazhev.git[K[1B[K[A[75C[?1l>[?2004l[1BCloning into 'labrabota1-13a-alekseykrazhev'...
+fatal: unable to access 'https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git/': Could not resolve proxy: proxy.server.com
+                                                                                ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[36mgit[39m[7m config [7m[32m--global[39m[7m [7m[32m--unset[39m[7m http.proxy [27m[39D[27m[36mg[27m[36mi[27m[36mt[39m[27m [27mc[27mo[27mn[27mf[27mi[27mg[27m [27m[32m-[27m[32m-[27m[32mg[27m[32ml[27m[32mo[27m[32mb[27m[32ma[27m[32ml[39m[27m [27m[32m-[27m[32m-[27m[32mu[27m[32mn[27m[32ms[27m[32me[27m[32mt[39m[27m [27mh[27mt[27mt[27mp[27m.[27mp[27mr[27mo[27mx[27my[27m [?1l>[?2004l
+                                                                                ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[36mgit[39m[7m config [7m[32m--global[39m[7m [7m[32m--unset[39m[7m https.proxy[27m[39D[27m[36mg[27m[36mi[27m[36mt[39m[27m [27mc[27mo[27mn[27mf[27mi[27mg[27m [27m[32m-[27m[32m-[27m[32mg[27m[32ml[27m[32mo[27m[32mb[27m[32ma[27m[32ml[39m[27m [27m[32m-[27m[32m-[27m[32mu[27m[32mn[27m[32ms[27m[32me[27m[32mt[39m[27m [27mh[27mt[27mt[27mp[27ms[27m.[27mp[27mr[27mo[27mx[27my[?1l>[?2004l
+                                                                                ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mgit[39m config [32m--global[39m [32m--unset[39m https.proxy.proxy [34Dlone h[39mt[39mt[39mp[39ms[39m:[39m/[39m/[39mgi[39mt[39mh[39mu[39mb[39m.[39mc[39mom/pmvs2022/labrabota1-13a-alekseykrazhev.git[66Donfig [32m-[32m-[32mg[32ml[32mo[32mb[32ma[32ml[39m http.proxy http://proxyuser:proxypwd@proxy.server.com:8080[K[A[7Clone h[39mt[39mt[39mp[39ms[39m:[39m/[39m/[39mgithub.com/pmvs2022/labrabota1-13a-alekseykrazhev.git[K[1B[K[A[75C[?1l>[?2004l[1BCloning into 'labrabota1-13a-alekseykrazhev'...
+fatal: unable to access 'https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git/': Could not resolve host: github.com
+                                                                                ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mgit[39m clone https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git[66Donfig [32m-[32m-[32mg[32ml[32mo[32mb[32ma[32ml[39m [32m-[32m-[32mu[32mn[32ms[32me[32mt[39m https.proxy                                [32D.proxy [34Dlone h[39mt[39mt[39mp[39ms[39m:[39m/[39m/[39mgi[39mt[39mh[39mu[39mb[39m.[39mc[39mom/pmvs2022/labrabota1-13a-alekseykrazhev.git[66Donfig [32m-[32m-[32mg[32ml[32mo[32mb[32ma[32ml[39m http.proxy http://proxyuser:proxypwd@proxy.server.com:8080[K[A[7Clone h[39mt[39mt[39mp[39ms[39m:[39m/[39m/[39mgithub.com/pmvs2022/labrabota1-13a-alekseykrazhev.git[K[1B[K[A[75C[67D[32m-[32m-[32mv[32me[32mr[32ms[32mi[32mo[32mn[39m                                                          [58D[9D[39mc[39ml[39mo[39mn[39me[39m [39mh[39mt[39mtps://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git[61Dgit@[4P[10C:[42C    [?1l>[?2004l[1BCloning into 'labrabota1-13a-alekseykrazhev'...
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+                                                                                ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mgit[39m clone git@github.com:pmvs2022/labrabota1-13a-alekseykrazhev.git[57Dhttps://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git[?1l>[?2004l
+Cloning into 'labrabota1-13a-alekseykrazhev'...
+fatal: unable to access 'https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git/': Could not resolve host: github.com
+                                                                                ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[A[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [A[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [A[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [A[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [A[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [A[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [A[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [A[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [36mgit[39m clone https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git[?1l>[?2004l
+Cloning into 'labrabota1-13a-alekseykrazhev'...
+fatal: unable to access 'https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git/': Could not resolve host: github.com
+                                                                                                         ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mgit[39m clone https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git[?1l>[?2004l
+Cloning into 'labrabota1-13a-alekseykrazhev'...
+fatal: unable to access 'https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git/': Could not resolve host: github.com
+                                                                                                         ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mgit[39m clone https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git[61Dgit@[4P[10C:[42C    [57Dhttps://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git[61Dgit@[4P[10C:[42C    [?1l>[?2004l
+Cloning into 'labrabota1-13a-alekseykrazhev'...
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+                                                                                                         ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mgit[39m clone git@github.com:pmvs2022/labrabota1-13a-alekseykrazhev.git[57Dhttps://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git[?1l>[?2004l
+Cloning into 'labrabota1-13a-alekseykrazhev'...
+fatal: unable to access 'https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git/': Could not resolve host: github.com
+                                                                                                         ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mgit[39m clone https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git[?1l>[?2004l
+Cloning into 'labrabota1-13a-alekseykrazhev'...
+fatal: unable to access 'https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git/': Could not resolve host: github.com
+                                                                                                         ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[36mgit[39m[7m config [7m[32m--global[39m[7m [7m[32m--unset[39m[7m http.proxy[27m[38;2;153;153;153m [39m[38D[27m[36mg[27m[36mi[27m[36mt[39m[27m [27mc[27mo[27mn[27mf[27mi[27mg[27m [27m[32m-[27m[32m-[27m[32mg[27m[32ml[27m[32mo[27m[32mb[27m[32ma[27m[32ml[39m[27m [27m[32m-[27m[32m-[27m[32mu[27m[32mn[27m[32ms[27m[32me[27m[32mt[39m[27m [27mh[27mt[27mt[27mp[27m.[27mp[27mr[27mo[27mx[27my[39m [?1l>[?2004l
+                                                                                                         ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[36mgit[39m[7m config [7m[32m--global[39m[7m user.name [7m[33m"user name"[27m[39m[41D[27m[36mg[27m[36mi[27m[36mt[39m[27m [27mc[27mo[27mn[27mf[27mi[27mg[27m [27m[32m-[27m[32m-[27m[32mg[27m[32ml[27m[32mo[27m[32mb[27m[32ma[27m[32ml[39m[27m [27mu[27ms[27me[27mr[27m.[27mn[27ma[27mm[27me[27m [27m[33m"[27m[33mu[27m[33ms[27m[33me[27m[33mr[27m[33m [27m[33mn[27m[33ma[27m[33mm[27m[33me[27m[33m"[39m[33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33ma[33m"[39m[33ml[33m"[39m[33me[33m"[39m[33mk[33m"[39m[33ms[33m"[39m[33me[33m"[39m[33my[33m"[39m[33mk[33m"[39m[33mr[33m"[39m[33ma[33m"[39m[33mz[33m"[39m[33mh[33m"[39m[33me[33m"[39m[33mv[33m"[39m[?1l>[?2004l
+                                                                                                         ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[36mgit[39m[7m config [7m[32m--global[39m[7m user.email [7m[33m"user email"[27m[39m[43D[27m[36mg[27m[36mi[27m[36mt[39m[27m [27mc[27mo[27mn[27mf[27mi[27mg[27m [27m[32m-[27m[32m-[27m[32mg[27m[32ml[27m[32mo[27m[32mb[27m[32ma[27m[32ml[39m[27m [27mu[27ms[27me[27mr[27m.[27me[27mm[27ma[27mi[27ml[27m [27m[33m"[27m[33mu[27m[33ms[27m[33me[27m[33mr[27m[33m [27m[33me[27m[33mm[27m[33ma[27m[33mi[27m[33ml[27m[33m"[39m[33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33ma[33m"[39m[33ml[33m"[39m[33me[33m"[39m[33mk[33m"[39m[33ms[33m"[39m[33me[33m"[39m[33my[33m"[39m[33mk[33m"[39m[33mr[33m"[39m[33mq[33m"[39m[33m"[39m[39m [33ma[33m"[39m[33mz[33m"[39m[33mh[33m"[39m[33me[33m"[39m[33mv[33m"[39m[33m@[33m"[39m[33my[33m"[39m[33ma[33m"[39m[33mn[33m"[39m[33md[33m"[39m[33me[33m"[39m[33mx[33m"[39m[33m.[33m"[39m[33mb[33m"[39m[33my[33m"[39m[?1l>[?2004l
+                                                                                                         ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mgit[39m config [32m--global[39m user.email [33m"alekseykrazhev@yandex.by"[39m[32Dname[P[16C[33m"[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m  [11D[26D[32m-[32m-[32mu[32mn[32ms[32me[32mt[39m ht[39mt[39mp[39m.[39mp[39mr[39mo[39mx[39my[39m [39m [39m [39m [39m [39m [39m [39m [8D[33Dlone h[39mt[39mt[39mp[39ms[39m:[39m/[39m/[39mgi[39mt[39mh[39mu[39mb[39m.[39mc[39mom/pmvs2022/labrabota1-13a-alekseykrazhev.git[?1l>[?2004l
+Cloning into 'labrabota1-13a-alekseykrazhev'...
+fatal: unable to access 'https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git/': Could not resolve host: github.com
+                                                                                                         ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mgit[39m clone https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git[?1l>[?2004l
+Cloning into 'labrabota1-13a-alekseykrazhev'...
+fatal: unable to access 'https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git/': Could not resolve host: github.com
+                                                                                                         ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[37mf[24m[39m[4m[37mf[4m[37mi[24m[39m[4m[37mf[4m[37mi[4m[37mr[24m[39m[4m[37mr[4m[37me[24m[39m[4m[37me[4m[37mw[24m[39m[4m[37mw[4m[37ma[24m[39m[4m[37ma[4m[37ml[24m[39m[4m[37ml[4m[37ml[24m[39m[?1l>[?2004l
+Command 'firewall' not found, did you mean:
+  command 'ifirewall' from deb ipmiutil
+  command 'firewalld' from deb firewalld
+  command 'firewalk' from deb firewalk
+Try: sudo apt install <deb name>
+                                                                                                         ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[37mfirewall[24m[39m[8D[24m[36mg[24m[36mi[24m[36mt[39m[24m[39m [24m[39mc[24m[39ml[24m[39mo[24m[39mne https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git[?1l>[?2004l
+Cloning into 'labrabota1-13a-alekseykrazhev'...
+fatal: unable to access 'https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git/': Could not resolve host: github.com
+                                                                                                         ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mgit[39m clone https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git[?1l>[?2004l
+Cloning into 'labrabota1-13a-alekseykrazhev'...
+fatal: unable to access 'https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git/': Could not resolve host: github.com
+                                                                                                         ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mgit[39m clone https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git[?1l>[?2004l
+Cloning into 'labrabota1-13a-alekseykrazhev'...
+fatal: unable to access 'https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git/': Could not resolve host: github.com
+                                                                                                         ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[4m[37m$[24m[39m[7m sudo apt install ufw[27m[22D[27m[4m[37m$[24m[39m[27m [27ms[27mu[27md[27mo[27m [27ma[27mp[27mt[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mu[27mf[27mw[?1l>[?2004l
+$: command not found
+                                                                                                         ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[37m$[24m[39m sudo apt install ufw[1C[4m[37m$[4m[37ms[4m[37mu[4m[37md[4m[37mo[24m[39m[P[16C [21D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[24m[39m [36ma[36mp[36mt[39m[P[12C [21D[?1l>[?2004l
+[sudo] password for krazhevskiy13: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  ufw
+0 upgraded, 1 newly installed, 0 to remove and 442 not upgraded.
+Need to get 169 kB of archives.
+After this operation, 861 kB of additional disk space will be used.
+[33m0% [Working][0m            Ign:1 http://http.kali.org/kali kali-rolling/main amd64 ufw all 0.36.1-4
+[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m            Ign:1 http://http.kali.org/kali kali-rolling/main amd64 ufw all 0.36.1-4
+[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m            Ign:1 http://http.kali.org/kali kali-rolling/main amd64 ufw all 0.36.1-4
+[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m            Err:1 http://http.kali.org/kali kali-rolling/main amd64 ufw all 0.36.1-4
+  Temporary failure resolving 'http.kali.org'
+[33m0% [Working][0m            [1;31mE: [0mFailed to fetch http://http.kali.org/kali/pool/main/u/ufw/ufw_0.36.1-4_all.deb  Temporary failure resolving 'http.kali.org'[0m
+[1;31mE: [0mUnable to fetch some archives, maybe run apt-get update or try with --fix-missing?[0m
+                                                                                                         ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[37ms[24m[39m[4m[37ms[24m[39m[38;2;153;153;153mudo apt install ufw[39m[19D[24m[36ms[36mu[39m[4m[37ms[4m[37mu[4m[37mo[24m[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [17D[24m[36ms[24m[36mu[39m[24m[39m [38;2;153;153;153mdo apt install ufw[39m[18D[4m[37ms[4m[37mu[4m[37md[24m[39m[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[39m [4m[37mu[24m[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14D[4m[37mu[4m[37mf[24m[39m[4m[37mf[4m[37mw[24m[39m status[?1l>[?2004l
+sudo: ufw: command not found
+                                                                                                         ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [4m[37mufw[24m[39m status[10D[24m[36ma[24m[36mp[24m[36mt[39m install ufw[?1l>[?2004l
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  ufw
+0 upgraded, 1 newly installed, 0 to remove and 442 not upgraded.
+Need to get 169 kB of archives.
+After this operation, 861 kB of additional disk space will be used.
+[33m0% [Working][0m            Ign:1 http://http.kali.org/kali kali-rolling/main amd64 ufw all 0.36.1-4
+[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m            Ign:1 http://http.kali.org/kali kali-rolling/main amd64 ufw all 0.36.1-4
+[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m            Ign:1 http://http.kali.org/kali kali-rolling/main amd64 ufw all 0.36.1-4
+[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m            Err:1 http://http.kali.org/kali kali-rolling/main amd64 ufw all 0.36.1-4
+  Temporary failure resolving 'http.kali.org'
+[33m0% [Working][0m            [1;31mE: [0mFailed to fetch http://http.kali.org/kali/pool/main/u/ufw/ufw_0.36.1-4_all.deb  Temporary failure resolving 'http.kali.org'[0m
+[1;31mE: [0mUnable to fetch some archives, maybe run apt-get update or try with --fix-missing?[0m
+                                                                                                         ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [36mapt[39m install ufw[?1l>[?2004l
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  ufw
+0 upgraded, 1 newly installed, 0 to remove and 442 not upgraded.
+Need to get 169 kB of archives.
+After this operation, 861 kB of additional disk space will be used.
+[33m0% [Working][0m            Ign:1 http://http.kali.org/kali kali-rolling/main amd64 ufw all 0.36.1-4
+[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m            Ign:1 http://http.kali.org/kali kali-rolling/main amd64 ufw all 0.36.1-4
+[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m            Ign:1 http://http.kali.org/kali kali-rolling/main amd64 ufw all 0.36.1-4
+[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m            Err:1 http://http.kali.org/kali kali-rolling/main amd64 ufw all 0.36.1-4
+  Temporary failure resolving 'http.kali.org'
+[33m0% [Working][0m            [1;31mE: [0mFailed to fetch http://http.kali.org/kali/pool/main/u/ufw/ufw_0.36.1-4_all.deb  Temporary failure resolving 'http.kali.org'[0m
+[1;31mE: [0mUnable to fetch some archives, maybe run apt-get update or try with --fix-missing?[0m
+                                                                                                         ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [36mapt[39m install ufw[4m[37ma[4m[37mp[4m[37mt[4m[37m-[24m[39m install ufw[12D[4m[37m-[4m[37mg[24m[39m install ufw[12D[4m[37mg[4m[37me[24m[39m install ufw[12D[24m[36ma[24m[36mp[24m[36mt[24m[36m-[24m[36mg[24m[36me[36mt[39m install ufw[12D[?1l>[?2004l
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  ufw
+0 upgraded, 1 newly installed, 0 to remove and 442 not upgraded.
+Need to get 169 kB of archives.
+After this operation, 861 kB of additional disk space will be used.
+0% [Working]            Ign:1 http://http.kali.org/kali kali-rolling/main amd64 ufw all 0.36.1-4
+0% [Working]0% [Working]0% [Working]0% [Working]            Ign:1 http://http.kali.org/kali kali-rolling/main amd64 ufw all 0.36.1-4
+0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]            Ign:1 http://http.kali.org/kali kali-rolling/main amd64 ufw all 0.36.1-4
+0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]            Err:1 http://http.kali.org/kali kali-rolling/main amd64 ufw all 0.36.1-4
+  Temporary failure resolving 'http.kali.org'
+0% [Working]            E: Failed to fetch http://http.kali.org/kali/pool/main/u/ufw/ufw_0.36.1-4_all.deb  Temporary failure resolving 'http.kali.org'
+E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
+                                                                                                         ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[37ms[24m[39m[4m[37ms[24m[39m[38;2;153;153;153mudo apt-get install ufw[39m[23D[24m[36ms[36mu[39m[4m[37ms[4m[37mu[4m[37md[24m[39m[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[39m [4m[37ma[24m[39m[4m[37ma[4m[37mp[24m[39m[4m[37ma[24m[39m[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [18D[38;2;153;153;153mpt-get install ufw[39m[18D[4m[37ma[4m[37mt[24m[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [17D[4m[37ma[24m[39m[24m[39m [38;2;153;153;153mpt-get install ufw[39m[18D[4m[37ma[24m[1m[31m[[0m[24m[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [17D[1m[31m[[0m[39m[4m[37mt[24m[39m[1m[31m[[0m[24m[39m[24m[39m [4m[37ma[24m[39m[0m[39m [38;2;153;153;153mpt-get install ufw[39m[18D[4m[37ma[4m[37mt[24m[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [17D[4m[37mt[4m[37mp[24m[39m[4m[37mp[4m[37m-[24m[39m[4m[37m-[4m[37mg[24m[39m[4m[37mg[4m[37me[24m[39m[4m[37me[4m[37mt[24m[39m ub pdate[P[10C [11D[4m[37m-[4m[37mg[4m[37me[4m[37mt[24m[39m update[10D[?1l>[?2004l
+sudo: atp-get: command not found
+                                                                                                         ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [4m[37matp-get[24m[39m update[1C[P[11C [12D[P[11C [12D[4m[37mp[4m[37m-[4m[37mg[4m[37me[4m[37mt[24m[39m update[11D[24m[36ma[24m[36mp[24m[36mt[24m[36m-[24m[36mg[24m[36me[36mt[39m update[11D[?1l>[?2004l
+0% [Working]            Ign:1 http://http.kali.org/kali kali-rolling InRelease
+0% [Working]0% [Working]0% [Working]0% [Working]            Ign:1 http://http.kali.org/kali kali-rolling InRelease
+0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]            Ign:1 http://http.kali.org/kali kali-rolling InRelease
+0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]            Err:1 http://http.kali.org/kali kali-rolling InRelease
+  Temporary failure resolving 'http.kali.org'
+0% [Working]            Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 94%Reading package lists... 94%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... Done
+W: Failed to fetch http://http.kali.org/kali/dists/kali-rolling/InRelease  Temporary failure resolving 'http.kali.org'
+W: Some index files failed to download. They have been ignored, or old ones used instead.
+                                                                                                         ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[32msudo[24m[39m [36mapt-get[39m update[14D[4m[37ma[4m[37mt[4m[37mp[4m[37m-[4m[37mg[4m[37me[4m[37mt[24m[39m[7C[14D[24m[36ma[24m[36mp[24m[36mt[24m[36m-[24m[36mg[24m[36me[24m[36mt[39m install ufw[17D[4P[13C    [15D[4m[37mu[4m[37mf[4m[37mw[24m[39m status     [10D[24m[36ma[24m[36mp[24m[36mt[39m install ufw[?1l>[?2004l
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  ufw
+0 upgraded, 1 newly installed, 0 to remove and 442 not upgraded.
+Need to get 169 kB of archives.
+After this operation, 861 kB of additional disk space will be used.
+[33m0% [Working][0m            Ign:1 http://http.kali.org/kali kali-rolling/main amd64 ufw all 0.36.1-4
+[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m            Ign:1 http://http.kali.org/kali kali-rolling/main amd64 ufw all 0.36.1-4
+[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m            Ign:1 http://http.kali.org/kali kali-rolling/main amd64 ufw all 0.36.1-4
+[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m            Err:1 http://http.kali.org/kali kali-rolling/main amd64 ufw all 0.36.1-4
+  Temporary failure resolving 'http.kali.org'
+[33m0% [Working][0m            [1;31mE: [0mFailed to fetch http://http.kali.org/kali/pool/main/u/ufw/ufw_0.36.1-4_all.deb  Temporary failure resolving 'http.kali.org'[0m
+[1;31mE: [0mUnable to fetch some archives, maybe run apt-get update or try with --fix-missing?[0m
+                                                                                                         ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[37mp[24m[39m[4m[37mp[24m[39m[38;2;153;153;153mwd[39m[4m[37mp[4m[37mi[24m[39m[39m [38;2;153;153;153mng 192.108.56.101[39m[17D[4m[37mp[4m[37mi[4m[37mn[24m[39m[24m[36mp[24m[36mi[24m[36mn[36mg[39m[39m [39mh[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13Dttp.kali.org[?1l>[?2004l
+ping: http.kali.org: Temporary failure in name resolution
+                                                                                                         ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mping[39m http.kali.org[18D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [36ma[36mp[36mt[39m install ufw[13D[36mt[36m-[36mg[36me[36mt[39m update [14D[4m[37ma[4m[37mt[4m[37mp[4m[37m-[4m[37mg[4m[37me[4m[37mt[24m[39m[7C[14D[24m[36ma[24m[36mp[24m[36mt[24m[36m-[24m[36mg[24m[36me[24m[36mt[39m install ufw[17D[4P[13C    [15D[4m[37mu[4m[37mf[4m[37mw[24m[39m status     [10D[24m[36ma[24m[36mp[24m[36mt[39m install ufw[20D[4m[37m$[24m[39m[24m[39m [24m[39ms[24m[39mud[39mo[39m [39mapt install ufw[22D[24m[36mg[36mi[36mt[39m clone https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git[?1l>[?2004l
+Cloning into 'labrabota1-13a-alekseykrazhev'...
+fatal: unable to access 'https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git/': Could not resolve host: github.com
+                                                                                                         ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mgit[39m clone https://github.com/pmvs2022/labrabota1-13a-alekseykrazhev.git[71D[36mp[36mi[36mn[36mg[39m http.kali.org                                                     [53D[18D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [36ma[36mp[36mt[39m install ufw[?1l>[?2004l
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  ufw
+0 upgraded, 1 newly installed, 0 to remove and 442 not upgraded.
+Need to get 169 kB of archives.
+After this operation, 861 kB of additional disk space will be used.
+[33m0% [Working][0m            Ign:1 http://http.kali.org/kali kali-rolling/main amd64 ufw all 0.36.1-4
+[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m            Ign:1 http://http.kali.org/kali kali-rolling/main amd64 ufw all 0.36.1-4
+[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m            Ign:1 http://http.kali.org/kali kali-rolling/main amd64 ufw all 0.36.1-4
+[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m            Err:1 http://http.kali.org/kali kali-rolling/main amd64 ufw all 0.36.1-4
+  Temporary failure resolving 'http.kali.org'
+[33m0% [Working][0m            [1;31mE: [0mFailed to fetch http://http.kali.org/kali/pool/main/u/ufw/ufw_0.36.1-4_all.deb  Temporary failure resolving 'http.kali.org'[0m
+[1;31mE: [0mUnable to fetch some archives, maybe run apt-get update or try with --fix-missing?[0m
+                                                                                                         ]0;krazhevskiy13@kali: ~/krazhevskiy
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~/krazhevskiy[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[37ms[24m[39m[4m[37ms[24m[39m[38;2;153;153;153mudo apt install ufw[39m[19D[24m[36ms[36mu[39m[4m[37ms[4m[37mu[4m[37md[24m[39m[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[39m [4m[37ma[24m[39m[4m[37ma[4m[37mp[24m[39m[24m[36ma[24m[36mp[36mt[39m[39m [39mu[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10Dpdate[?1l>[?2004l
+[33m0% [Working][0m            Ign:1 http://http.kali.org/kali kali-rolling InRelease
+[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m            Ign:1 http://http.kali.org/kali kali-rolling InRelease
+[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m            Ign:1 ht

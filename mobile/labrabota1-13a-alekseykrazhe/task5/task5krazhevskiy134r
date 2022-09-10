@@ -1,0 +1,58 @@
+Script started on 2022-09-05 16:23:50+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="107" LINES="35"]
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m mkdir one
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cd onr[Ke
+[?2004l[?2004h]0;pi@raspberry: ~/one[01;32mpi@raspberry[00m:[01;34m~/one $[00m mkdir two
+[?2004l[?2004h]0;pi@raspberry: ~/one[01;32mpi@raspberry[00m:[01;34m~/one $[00m mkdir three
+[?2004l[?2004h]0;pi@raspberry: ~/one[01;32mpi@raspberry[00m:[01;34m~/one $[00m ls
+[?2004l[0m[01;34mthree[0m  [01;34mtwo[0m
+[?2004h]0;pi@raspberry: ~/one[01;32mpi@raspberry[00m:[01;34m~/one $[00m cd two
+[?2004l[?2004h]0;pi@raspberry: ~/one/two[01;32mpi@raspberry[00m:[01;34m~/one/two $[00m touch file1.txt
+[?2004l[?2004h]0;pi@raspberry: ~/one/two[01;32mpi@raspberry[00m:[01;34m~/one/two $[00m cd ..
+[?2004l[?2004h]0;pi@raspberry: ~/one[01;32mpi@raspberry[00m:[01;34m~/one $[00m cd three
+[?2004l[?2004h]0;pi@raspberry: ~/one/three[01;32mpi@raspberry[00m:[01;34m~/one/three $[00m mkdir four
+[?2004l[?2004h]0;pi@raspberry: ~/one/three[01;32mpi@raspberry[00m:[01;34m~/one/three $[00m mkf[Kdir five
+[?2004l[?2004h]0;pi@raspberry: ~/one/three[01;32mpi@raspberry[00m:[01;34m~/one/three $[00m cd four
+[?2004l[?2004h]0;pi@raspberry: ~/one/three/four[01;32mpi@raspberry[00m:[01;34m~/one/three/four $[00m touch file2.txt
+[?2004l[?2004h]0;pi@raspberry: ~/one/three/four[01;32mpi@raspberry[00m:[01;34m~/one/three/four $[00m touch file3.txt
+[?2004l[?2004h]0;pi@raspberry: ~/one/three/four[01;32mpi@raspberry[00m:[01;34m~/one/three/four $[00m cd ..
+[?2004l[?2004h]0;pi@raspberry: ~/one/three[01;32mpi@raspberry[00m:[01;34m~/one/three $[00m cd five
+[?2004l[?2004h]0;pi@raspberry: ~/one/three/five[01;32mpi@raspberry[00m:[01;34m~/one/three/five $[00m touch file [K4.txt
+[?2004l[?2004h]0;pi@raspberry: ~/one/three/five[01;32mpi@raspberry[00m:[01;34m~/one/three/five $[00m cd ..
+[?2004l[?2004h]0;pi@raspberry: ~/one/three[01;32mpi@raspberry[00m:[01;34m~/one/three $[00m cd ..
+[?2004l[?2004h]0;pi@raspberry: ~/one[01;32mpi@raspberry[00m:[01;34m~/one $[00m ls
+[?2004l[0m[01;34mthree[0m  [01;34mtwo[0m
+[?2004h]0;pi@raspberry: ~/one[01;32mpi@raspberry[00m:[01;34m~/one $[00m ln -s two/file1[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd three
+[?2004l[?2004h]0;pi@raspberry: ~/one/three[01;32mpi@raspberry[00m:[01;34m~/one/three $[00m cd four
+[?2004l[?2004h]0;pi@raspberry: ~/one/three/four[01;32mpi@raspberry[00m:[01;34m~/one/three/four $[00m rm file3.txt[C[1P.txt2.txt
+[?2004l[?2004h]0;pi@raspberry: ~/one/three/four[01;32mpi@raspberry[00m:[01;34m~/one/three/four $[00m cd ..
+[?2004l[?2004h]0;pi@raspberry: ~/one/three[01;32mpi@raspberry[00m:[01;34m~/one/three $[00m cd ..
+[?2004l[?2004h]0;pi@raspberry: ~/one[01;32mpi@raspberry[00m:[01;34m~/one $[00m ln -s c[Ksecond/file1.txt
+[?2004l[?2004h]0;pi@raspberry: ~/one[01;32mpi@raspberry[00m:[01;34m~/one $[00m rm file1.txt
+[?2004l[?2004h]0;pi@raspberry: ~/one[01;32mpi@raspberry[00m:[01;34m~/one $[00m rm file1.txtln -s second/file1.txt three/fout[Kr/file2.txt
+[?2004l[?2004h]0;pi@raspberry: ~/one[01;32mpi@raspberry[00m:[01;34m~/one $[00m ln three/four/file3.txt second
+[?2004l[?2004h]0;pi@raspberry: ~/one[01;32mpi@raspberry[00m:[01;34m~/one $[00m rm second
+[?2004l[?2004h]0;pi@raspberry: ~/one[01;32mpi@raspberry[00m:[01;34m~/one $[00m rm second[21@ln three/four/file3.txt[C[C[C[C[C[C[C[K[K[K[K[K[Ktwo/
+[?2004l[?2004h]0;pi@raspberry: ~/one[01;32mpi@raspberry[00m:[01;34m~/one $[00m ln three/four/file3.txt three/five/
+[?2004l[?2004h]0;pi@raspberry: ~/one[01;32mpi@raspberry[00m:[01;34m~/one $[00m ls -ls
+[?2004ltotal 8
+4 drwxr-xr-x 4 pi pi 4096 Sep  5 16:27 [0m[01;34mthree[0m
+4 drwxr-xr-x 2 pi pi 4096 Sep  5 16:32 [01;34mtwo[0m
+[?2004h]0;pi@raspberry: ~/one[01;32mpi@raspberry[00m:[01;34m~/one $[00m ls -ls[C[Ka
+[?2004ltotal 16
+drwxr-xr-x  4 pi pi 4096 Sep  5 16:32 [0m[01;34m.[0m
+drwxr-xr-x 18 pi pi 4096 Sep  5 16:25 [01;34m..[0m
+drwxr-xr-x  4 pi pi 4096 Sep  5 16:27 [01;34mthree[0m
+drwxr-xr-x  2 pi pi 4096 Sep  5 16:32 [01;34mtwo[0m
+[?2004h]0;pi@raspberry: ~/one[01;32mpi@raspberry[00m:[01;34m~/one $[00m unlink three/five/file3.txt
+[?2004l[?2004h]0;pi@raspberry: ~/one[01;32mpi@raspberry[00m:[01;34m~/one $[00m unlink three/five/file3.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K/four/file3.txt
+[?2004l[?2004h]0;pi@raspberry: ~/one[01;32mpi@raspberry[00m:[01;34m~/one $[00m unlink three/four/file3.txt[1P.txt2.txt
+[?2004l[?2004h]0;pi@raspberry: ~/one[01;32mpi@raspberry[00m:[01;34m~/one $[00m ls -la
+[?2004ltotal 16
+drwxr-xr-x  4 pi pi 4096 Sep  5 16:32 [0m[01;34m.[0m
+drwxr-xr-x 18 pi pi 4096 Sep  5 16:25 [01;34m..[0m
+drwxr-xr-x  4 pi pi 4096 Sep  5 16:27 [01;34mthree[0m
+drwxr-xr-x  2 pi pi 4096 Sep  5 16:32 [01;34mtwo[0m
+[?2004h]0;pi@raspberry: ~/one[01;32mpi@raspberry[00m:[01;34m~/one $[00m exit
+[?2004lexit
+
+Script done on 2022-09-05 16:36:32+01:00 [COMMAND_EXIT_CODE="0"]

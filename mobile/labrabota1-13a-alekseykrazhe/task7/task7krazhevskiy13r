@@ -1,0 +1,9 @@
+Script started on 2022-09-07 19:58:16+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ps -a > ps.log
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ps -a > ps.log[C[1P[1@e
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ps -e > ps.log[1P[1@x
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ps -x > ps.log[1@a
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m exit
+[?2004lexit
+
+Script done on 2022-09-07 19:59:18+01:00 [COMMAND_EXIT_CODE="0"]

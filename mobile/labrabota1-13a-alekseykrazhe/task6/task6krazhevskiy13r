@@ -1,0 +1,82 @@
+Script started on 2022-09-05 19:46:51+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="117" LINES="34"]
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ls
+[?2004l[0m[01;34mBookshelf[0m  [01;34mDownloads[0m    [01;34mone[0m       task3krazhevskiy13r   [01;34mTemplates[0m                timelog6krazhevskiy13r
+[01;34mDesktop[0m    [01;34mkrazhevskiy[0m  [01;34mPictures[0m  task5krazhevskiy134r  textfile.txt             [01;34mVideos[0m
+[01;34mDocuments[0m  [01;34mMusic[0m        [01;34mPublic[0m    task6krazhevskiy13r   timelog5krazhevskiy134r
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sudo grop[Kip[K[Kupadd student13r
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m groups
+[?2004lpi adm dialout cdrom sudo audio video plugdev games users input render netdev lpadmin gpio i2c spi
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m gru[Koups student [K13t[Kr
+[?2004lgroups: ‘student13r’: no such user
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m groups student13r[K[K[K[K[K[K[K[K[K[Kpi
+[?2004lpi : pi adm dialout cdrom sudo audio video plugdev games users input render netdev spi i2c gpio lpadmin
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sudo usermod -a -G stiu[K[Kudent [K13r pi
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m groups pi
+[?2004lpi : pi adm dialout cdrom sudo audio video plugdev games users input render netdev spi i2c gpio lpadmin student13r
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m 
+::1             ff02::2         ip6-allrouters  ip6-loopback    raspberrypi     
+ff02::1         ip6-allnodes    ip6-localhost   localhost       
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m s chmod g+x ~/
+[?2004lbash: s: command not found
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m s chmod g+x ~/[C[1P[1P
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m touch copy
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m chmod g+rw ~/copy
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sudo useradd student13r -g student13r
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sudp[Ko passwrd student13r
+[?2004lsudo: passwrd: command not found
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sudo passwrd student13r[1P
+[?2004lNew password: 
+Retype new password: 
+passwd: password updated successfully
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m chmod g+rw ~/krazhevskiy[K[K[K[K[K[K[K[K[K[K[Kpi
+[?2004lchmod: cannot access '/home/pi/pi': No such file or directory
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m chmod g+rw ~/pi[K[Kkrazhevskiy
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m touch krazhevskiy/somefile.txt
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m chmod g+rw ~/krazhevskiy/somefile.txt
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ssh student13r@192.168.56.102
+[?2004lssh: connect to host 192.168.56.102 port 22: Connection refused
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ssh student13r@192.168.56.102[K1
+[?2004lThe authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:SrgxQG1f3sDrtj83Oex+mCIdihGOPl1fkianeQ9dUIU.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '192.168.56.101' (ECDSA) to the list of known hosts.
+student13r@192.168.56.101's password: 
+Linux raspberry 5.10.0-15-686 #1 SMP Debian 5.10.120-1 (2022-06-09) i686
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Could not chdir to home directory /home/student13r: No such file or directory
+
+SSH is enabled and the default password for the 'pi' user has not been changed.
+This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
+
+[?2004hstudent13r@raspberry:/$ ls
+[?2004lbin   dev  home        initrd.img.old  lib64   lost+found  mnt	proc  run   srv  tmp  var      vmlinuz.old
+boot  etc  initrd.img  lib	       libx32  media	   opt	root  sbin  sys  usr  vmlinuz
+[?2004hstudent13r@raspberry:/$ cd home
+[?2004l[?2004hstudent13r@raspberry:/home$ ls
+[?2004lpi
+[?2004hstudent13r@raspberry:/home$ cd pi
+[?2004l[?2004hstudent13r@raspberry:/home/pi$ ls
+[?2004lBookshelf  Documents	Music	  Public		task6krazhevskiy13r  timelog5krazhevskiy134r
+copy	   Downloads	one	  task3krazhevskiy13r	Templates	     timelog6krazhevskiy13r
+Desktop    krazhevskiy	Pictures  task5krazhevskiy134r	textfile.txt	     Videos
+[?2004hstudent13r@raspberry:/home/pi$ cd krazhevskiy/
+[?2004l[?2004hstudent13r@raspberry:/home/pi/krazhevskiy$ ls
+[?2004lsomefile.txt
+[?2004hstudent13r@raspberry:/home/pi/krazhevskiy$ vim[K somefile.txt
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;34r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[34;1H"somefile.txt" [readonly] 0 lines, 0 bytes[2;1H[94m~                                                                                                                    [3;1H~                                                                                                                    [4;1H~                                                                                                                    [5;1H~                                                                                                                    [6;1H~                                                                                                                    [7;1H~                                                                                                                    [8;1H~                                                                                                                    [9;1H~                                                                                                                    [10;1H~                                                                                                                    [11;1H~                                                                                                                    [12;1H~                                                                                                                    [13;1H~                                                                                                                    [14;1H~                                                                                                                    [15;1H~                                                                                                                    [16;1H~                                                                                                                    [17;1H~                                                                                                                    [18;1H~                                                                                                                    [19;1H~                                                                                                                    [20;1H~                                                                                                                    [21;1H~                                                                                                                    [22;1H~                                                                                                                    [23;1H~                                                                                                                    [24;1H~                                                                                                                    [25;1H~                                                                                                                    [26;1H~                                                                                                                    [27;1H~                                                                                                                    [28;1H~                                                                                                                    [29;1H~                                                                                                                    [30;1H~                                                                                                                    [31;1H~                                                                                                                    [32;1H~                                                                                                                    [33;1H~                                                                                                                    [1;1H[?25h[?2004l[>4;m[?25l[m[34;1H[31mW10: Warning: Changing a readonly file[m[34;39H[K[1;1H[?25h[?2004h[>4;2m[?25l[34;1H[K[34;1H:[?25hq[?25l[?2004l[>4;m[34;1H[K[34;1H[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004hstudent13r@raspberry:/home/pi/krazhevskiy$ ex[K[Ke[Kscr[Kp[K[K[Kscp [K[K[K[Kchmod ~/[C ~/g ~/+ ~/r ~/
+[?2004lchmod: cannot access '/home/student13r/': No such file or directory
+[?2004hstudent13r@raspberry:/home/pi/krazhevskiy$ cd ..
+[?2004l[?2004hstudent13r@raspberry:/home/pi$ exit
+[?2004llogout
+Connection to 192.168.56.101 closed.
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m chmod g+r ~/
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m exit
+[?2004lexit
+
+Script done on 2022-09-05 19:56:53+01:00 [COMMAND_EXIT_CODE="0"]
