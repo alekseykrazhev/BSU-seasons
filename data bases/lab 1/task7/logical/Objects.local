@@ -1,0 +1,5 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="B4E6EAD0-002F-D15D-4605-00EF203C95BA" name="EMPLOYEE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="265707E5-1FD9-4A44-703F-7DA233E2B54E" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="5884D76E-93F6-62AF-53A8-C461F566C33D" name="Relation_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="265707E5-1FD9-4A44-703F-7DA233E2B54E" propertySourceId="B4E6EAD0-002F-D15D-4605-00EF203C95BA" propertyTargetId="B4E6EAD0-002F-D15D-4605-00EF203C95BA"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DDABCCF0-C83C-793D-0FD2-754576753AC3" name="SUITE">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:55:00 UTC</createdTime>
+<ownerDesignName>task6</ownerDesignName>
+<engineerTo>
+<item key="CD1D31BB-4D7F-569D-33F9-79F801B8DB7F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonym>st</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="number" id="E674A701-520D-A046-BBAA-C36AF905AF4A">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:57:15 UTC</createdTime>
+<ownerDesignName>task6</ownerDesignName>
+<engineerTo>
+<item key="CD1D31BB-4D7F-569D-33F9-79F801B8DB7F" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tenant" id="E1DD7CFF-A6A2-67E3-45E2-AE784BFB6513">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:57:26 UTC</createdTime>
+<ownerDesignName>task6</ownerDesignName>
+<engineerTo>
+<item key="CD1D31BB-4D7F-569D-33F9-79F801B8DB7F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="number1" id="3E13F83E-7018-3075-578C-6487ED6D7F81">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:58:44 UTC</createdTime>
+<generatorID>AB1478F1-5621-57F3-42E4-B2C6B51F8090</generatorID>
+<ownerDesignName>task6</ownerDesignName>
+<engineerTo>
+<item key="CD1D31BB-4D7F-569D-33F9-79F801B8DB7F" value="true"/>
+</engineerTo>
+<referedAttribute>9BD0FA58-CE05-4841-8AD8-60A6F7E430C0</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="98A74066-1B1D-03BB-DC0B-7D5A41244452">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:58:55 UTC</createdTime>
+<generatorID>AB1478F1-5621-57F3-42E4-B2C6B51F8090</generatorID>
+<ownerDesignName>task6</ownerDesignName>
+<engineerTo>
+<item key="CD1D31BB-4D7F-569D-33F9-79F801B8DB7F" value="true"/>
+</engineerTo>
+<referedAttribute>15B90DCF-ACA0-2BE1-78DD-FED49A506D22</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5D4F848B-A44D-4BBE-5F3C-04E5B5C38DA6" name="SUITE PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:57:21 UTC</createdTime>
+<ownerDesignName>task6</ownerDesignName>
+<engineerTo>
+<item key="CD1D31BB-4D7F-569D-33F9-79F801B8DB7F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E674A701-520D-A046-BBAA-C36AF905AF4A</attributeRef>
+<attributeRef>3E13F83E-7018-3075-578C-6487ED6D7F81</attributeRef>
+<attributeRef>98A74066-1B1D-03BB-DC0B-7D5A41244452</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

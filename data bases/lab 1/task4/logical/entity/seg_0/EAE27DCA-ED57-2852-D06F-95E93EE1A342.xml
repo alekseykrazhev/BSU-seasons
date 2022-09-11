@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EAE27DCA-ED57-2852-D06F-95E93EE1A342" name="In House Trainer">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:41:11 UTC</createdTime>
+<ownerDesignName>task4</ownerDesignName>
+<engineerTo>
+<item key="25C7708E-3B25-583E-E44A-581D247CC0A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonym>iht</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="28B4FA90-A172-00D9-CC90-0A05A3043E25">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:43:22 UTC</createdTime>
+<ownerDesignName>task4</ownerDesignName>
+<engineerTo>
+<item key="25C7708E-3B25-583E-E44A-581D247CC0A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first name" id="0D1FC45D-A82D-7C09-AF26-8C0005A40975">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:43:30 UTC</createdTime>
+<ownerDesignName>task4</ownerDesignName>
+<engineerTo>
+<item key="25C7708E-3B25-583E-E44A-581D247CC0A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last name" id="EE506CBC-9673-38A9-A0C6-E8261CBAD8A2">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:43:39 UTC</createdTime>
+<ownerDesignName>task4</ownerDesignName>
+<engineerTo>
+<item key="25C7708E-3B25-583E-E44A-581D247CC0A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4E1BEEFD-84B8-C6F8-024E-E29C8101C36D" name="In House Trainer PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:43:26 UTC</createdTime>
+<ownerDesignName>task4</ownerDesignName>
+<engineerTo>
+<item key="25C7708E-3B25-583E-E44A-581D247CC0A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>28B4FA90-A172-00D9-CC90-0A05A3043E25</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -36,26 +36,25 @@ public class Controller {
         circles.add(new Circle(new RationalFraction(0, 1), new RationalFraction(0, 5), new RationalFraction(5, 3)));
         circles.add(new Circle(new RationalFraction(0, 0), new RationalFraction(0, 3), new RationalFraction(-5, 3)));
 
-        for (Circle circle: circles
-        ) {
+        for (Circle circle: circles) {
             circlePerimeters.add(circle.GetLength());
             circleSquares.add(circle.GetSquare());
         }
 
 
-        StringBuilder outputString = new StringBuilder(String.format("Max - %.2f and min - %.2f perimeters\n",
+        StringBuilder outputString = new StringBuilder(String.format("\nMax - %.2f and min - %.2f (circle length)\n",
                 Collections.max(circlePerimeters), Collections.min(circlePerimeters)));
-        outputString.append(String.format("Max - %.2f and min - %.2f square\n",
+        outputString.append(String.format("Max - %.2f and min - %.2f (circle square)\n\n",
                 Collections.max(circleSquares), Collections.min(circleSquares)));
 
         for (int i=0; i+1<circles.size(); i++){
-            outputString.append(String.format("Group %d is: ", i)).append(circles.get(i).toString()).append(circles.get(i+1).toString());
+            outputString.append(String.format("Group %d is: \n", i)).append(circles.get(i).toString()).append(circles.get(i+1).toString());
             for (int j = i+1; j < circles.size(); j++){
                 if(circles.get(i).IsOnTheSameLine(circles.get(i+1), circles.get(j))){
                     outputString.append(circles.get(j).toString());
                 }
             }
-            outputString.append("\n\n\n");
+            outputString.append("\n________________________________________\n");
         }
         return outputString.toString();
     }

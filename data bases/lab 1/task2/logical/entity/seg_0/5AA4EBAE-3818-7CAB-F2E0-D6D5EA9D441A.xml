@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5AA4EBAE-3818-7CAB-F2E0-D6D5EA9D441A" name="Employee">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:31:41 UTC</createdTime>
+<ownerDesignName>task2</ownerDesignName>
+<engineerTo>
+<item key="75095A60-7B94-82D5-8290-CD1F56E3E75D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="68CB5EE0-368B-EDEE-F127-77612D66A845">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:32:16 UTC</createdTime>
+<ownerDesignName>task2</ownerDesignName>
+<engineerTo>
+<item key="75095A60-7B94-82D5-8290-CD1F56E3E75D" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="First Name" id="A2B7BC89-35E2-4369-6D32-13D8907DCD75">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:32:50 UTC</createdTime>
+<ownerDesignName>task2</ownerDesignName>
+<engineerTo>
+<item key="75095A60-7B94-82D5-8290-CD1F56E3E75D" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Last Name" id="457C54E5-F1DB-68B4-3BD9-E43FC3E32DA6">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:33:37 UTC</createdTime>
+<ownerDesignName>task2</ownerDesignName>
+<engineerTo>
+<item key="75095A60-7B94-82D5-8290-CD1F56E3E75D" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hire Date" id="E73DE8C3-9776-F115-59D7-25E7921ACEAB">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:34:01 UTC</createdTime>
+<ownerDesignName>task2</ownerDesignName>
+<engineerTo>
+<item key="75095A60-7B94-82D5-8290-CD1F56E3E75D" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>DOM3000001</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Salary" id="D315193D-50EC-3DE4-932F-CFB3FE5250EA">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:34:18 UTC</createdTime>
+<ownerDesignName>task2</ownerDesignName>
+<engineerTo>
+<item key="75095A60-7B94-82D5-8290-CD1F56E3E75D" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>DOM10002</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Commision" id="443747F4-141D-1760-E6DD-1EDDB748BDDA">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:34:40 UTC</createdTime>
+<ownerDesignName>task2</ownerDesignName>
+<engineerTo>
+<item key="75095A60-7B94-82D5-8290-CD1F56E3E75D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Job ID" id="4B02A3B0-CAE0-9000-8E67-D9239E537402">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:36:54 UTC</createdTime>
+<generatorID>BA99E016-DA2C-524A-F8FD-D20D128ADC2E</generatorID>
+<ownerDesignName>task2</ownerDesignName>
+<engineerTo>
+<item key="75095A60-7B94-82D5-8290-CD1F56E3E75D" value="true"/>
+</engineerTo>
+<referedAttribute>000B5399-5F48-30C6-D418-BACC0E5E667D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="5BFFF066-D0FA-4524-7AEC-25C5FBDA26BC">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:37:11 UTC</createdTime>
+<generatorID>89481B2E-0BB0-138E-E75D-ADC2156374F8</generatorID>
+<ownerDesignName>task2</ownerDesignName>
+<engineerTo>
+<item key="75095A60-7B94-82D5-8290-CD1F56E3E75D" value="true"/>
+</engineerTo>
+<referedAttribute>C67AD225-A577-29D5-A100-233E11B1B146</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A5A6635C-156E-22CD-4D74-39558F2E53AF" name="Employee PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:32:44 UTC</createdTime>
+<ownerDesignName>task2</ownerDesignName>
+<engineerTo>
+<item key="75095A60-7B94-82D5-8290-CD1F56E3E75D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>68CB5EE0-368B-EDEE-F127-77612D66A845</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

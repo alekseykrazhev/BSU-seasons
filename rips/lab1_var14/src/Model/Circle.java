@@ -154,7 +154,7 @@ public class Circle {
     @Override
     public String toString()
     {
-        return String.format("X = %s\nY = %s\nradius = %s\nlength = %.2f\nsquare = %.2f\n",
+        return String.format("Circle: {\nX = %s\nY = %s\nradius = %s\nlength = %.2f\nsquare = %.2f }\n",
                 x.toString(),
                 y.toString(),
                 radius.toString(),

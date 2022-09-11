@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6C105FC9-D672-6AC4-C6F1-E761EA23DA31" name="Event">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:48:52 UTC</createdTime>
+<ownerDesignName>task5</ownerDesignName>
+<engineerTo>
+<item key="DDD52A4E-37A1-89B0-313B-CAA11D53444A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonym>evn</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="CC880462-8741-46BE-1F1E-F1343F22E2CE">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:49:09 UTC</createdTime>
+<ownerDesignName>task5</ownerDesignName>
+<engineerTo>
+<item key="DDD52A4E-37A1-89B0-313B-CAA11D53444A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cost" id="5835CA67-407B-575F-ED1E-B112C2DC83C9">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:49:19 UTC</createdTime>
+<ownerDesignName>task5</ownerDesignName>
+<engineerTo>
+<item key="DDD52A4E-37A1-89B0-313B-CAA11D53444A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>DOM10002</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="B92EBEF2-F7AC-0974-A092-390D64701728">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:49:28 UTC</createdTime>
+<ownerDesignName>task5</ownerDesignName>
+<engineerTo>
+<item key="DDD52A4E-37A1-89B0-313B-CAA11D53444A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="D1DBA4A4-4638-DB1B-AB0D-E3FD88B35776">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:49:35 UTC</createdTime>
+<ownerDesignName>task5</ownerDesignName>
+<engineerTo>
+<item key="DDD52A4E-37A1-89B0-313B-CAA11D53444A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>DOM3000001</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="E02579A7-1149-023A-499A-DA7D3EFDB8B0">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:49:43 UTC</createdTime>
+<ownerDesignName>task5</ownerDesignName>
+<engineerTo>
+<item key="DDD52A4E-37A1-89B0-313B-CAA11D53444A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="B76D5CBF-1A07-1BB2-6F52-ED5870A77062">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:52:40 UTC</createdTime>
+<generatorID>614C8227-9822-8DA1-EC56-1C287AF95444</generatorID>
+<ownerDesignName>task5</ownerDesignName>
+<engineerTo>
+<item key="DDD52A4E-37A1-89B0-313B-CAA11D53444A" value="true"/>
+</engineerTo>
+<referedAttribute>0BED43E2-74E4-FAF7-3BB5-1BEFFF4605D9</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="88040F83-3E02-7FFA-8FD0-32E3576B285F" name="Event PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:49:13 UTC</createdTime>
+<ownerDesignName>task5</ownerDesignName>
+<engineerTo>
+<item key="DDD52A4E-37A1-89B0-313B-CAA11D53444A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CC880462-8741-46BE-1F1E-F1343F22E2CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

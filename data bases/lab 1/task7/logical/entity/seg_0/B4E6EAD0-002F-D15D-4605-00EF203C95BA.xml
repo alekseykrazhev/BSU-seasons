@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B4E6EAD0-002F-D15D-4605-00EF203C95BA" name="EMPLOYEE">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:59:42 UTC</createdTime>
+<ownerDesignName>task7</ownerDesignName>
+<engineerTo>
+<item key="6416F0BF-DE8C-4C93-4F1E-A5BB3323870A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonym>empl</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="badge number" id="75C9534A-0EA2-789F-E327-CB05A9B34503">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 19:01:00 UTC</createdTime>
+<ownerDesignName>task7</ownerDesignName>
+<engineerTo>
+<item key="6416F0BF-DE8C-4C93-4F1E-A5BB3323870A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first name" id="1BBDF0E6-9163-6136-EF32-B24B8EBCFBF0">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 19:01:18 UTC</createdTime>
+<ownerDesignName>task7</ownerDesignName>
+<engineerTo>
+<item key="6416F0BF-DE8C-4C93-4F1E-A5BB3323870A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="job" id="8FCD8C21-3A21-BA20-80EE-093469BED916">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 19:01:28 UTC</createdTime>
+<ownerDesignName>task7</ownerDesignName>
+<engineerTo>
+<item key="6416F0BF-DE8C-4C93-4F1E-A5BB3323870A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salary" id="BF2067C3-BE0E-CA13-C274-059B161C9FC0">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 19:01:37 UTC</createdTime>
+<ownerDesignName>task7</ownerDesignName>
+<engineerTo>
+<item key="6416F0BF-DE8C-4C93-4F1E-A5BB3323870A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>DOM10002</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="budget" id="F4A3220E-59A4-D14E-B06F-6154BA0C9DBC">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 19:01:51 UTC</createdTime>
+<ownerDesignName>task7</ownerDesignName>
+<engineerTo>
+<item key="6416F0BF-DE8C-4C93-4F1E-A5BB3323870A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bonus plan" id="59DB215D-5249-6CC8-6264-96E9ADC92DE0">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 19:02:05 UTC</createdTime>
+<ownerDesignName>task7</ownerDesignName>
+<engineerTo>
+<item key="6416F0BF-DE8C-4C93-4F1E-A5BB3323870A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="car plan" id="22B5E776-81E3-D6E0-751A-F8FF3136111A">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 19:02:15 UTC</createdTime>
+<ownerDesignName>task7</ownerDesignName>
+<engineerTo>
+<item key="6416F0BF-DE8C-4C93-4F1E-A5BB3323870A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="badge number1" id="84D77B37-0722-1B7E-BC00-377AD8E388EF">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 19:02:45 UTC</createdTime>
+<generatorID>5884D76E-93F6-62AF-53A8-C461F566C33D</generatorID>
+<ownerDesignName>task7</ownerDesignName>
+<engineerTo>
+<item key="6416F0BF-DE8C-4C93-4F1E-A5BB3323870A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>75C9534A-0EA2-789F-E327-CB05A9B34503</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3E643867-981A-3B3E-1402-1AB9A379BFA1" name="EMPLOYEE PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 19:01:07 UTC</createdTime>
+<ownerDesignName>task7</ownerDesignName>
+<engineerTo>
+<item key="6416F0BF-DE8C-4C93-4F1E-A5BB3323870A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>75C9534A-0EA2-789F-E327-CB05A9B34503</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

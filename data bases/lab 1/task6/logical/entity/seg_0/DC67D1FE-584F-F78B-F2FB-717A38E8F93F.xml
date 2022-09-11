@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DC67D1FE-584F-F78B-F2FB-717A38E8F93F" name="BUILDING">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:55:28 UTC</createdTime>
+<ownerDesignName>task6</ownerDesignName>
+<engineerTo>
+<item key="CD1D31BB-4D7F-569D-33F9-79F801B8DB7F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonym>bld</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="9F12B104-FD3A-005A-79E0-1D63885E1949">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:58:50 UTC</createdTime>
+<ownerDesignName>task6</ownerDesignName>
+<engineerTo>
+<item key="CD1D31BB-4D7F-569D-33F9-79F801B8DB7F" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="AF56AB73-523D-633D-0056-DA7DA67EEF7F">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:58:57 UTC</createdTime>
+<ownerDesignName>task6</ownerDesignName>
+<engineerTo>
+<item key="CD1D31BB-4D7F-569D-33F9-79F801B8DB7F" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3E81FB8E-78B7-AC37-0E5F-1F85E04648EF" name="BUILDING PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:58:54 UTC</createdTime>
+<ownerDesignName>task6</ownerDesignName>
+<engineerTo>
+<item key="CD1D31BB-4D7F-569D-33F9-79F801B8DB7F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9F12B104-FD3A-005A-79E0-1D63885E1949</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

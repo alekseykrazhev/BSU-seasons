@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E38735D1-AEDE-3D3A-E650-9FCCF23B9769" name="Training Event">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:40:52 UTC</createdTime>
+<ownerDesignName>task4</ownerDesignName>
+<engineerTo>
+<item key="25C7708E-3B25-583E-E44A-581D247CC0A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonym>trev</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="C58C1A55-CAD9-856A-59FA-DDE535AD839E">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:42:43 UTC</createdTime>
+<ownerDesignName>task4</ownerDesignName>
+<engineerTo>
+<item key="25C7708E-3B25-583E-E44A-581D247CC0A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="8B639461-2976-461F-C1C7-C1F874C18970">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:42:56 UTC</createdTime>
+<ownerDesignName>task4</ownerDesignName>
+<engineerTo>
+<item key="25C7708E-3B25-583E-E44A-581D247CC0A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>DOM3000001</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="A0152018-8545-B171-3437-3324D864721E">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:43:08 UTC</createdTime>
+<ownerDesignName>task4</ownerDesignName>
+<engineerTo>
+<item key="25C7708E-3B25-583E-E44A-581D247CC0A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="797BCF5F-B876-7609-8405-E084BA86FC7C">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:44:52 UTC</createdTime>
+<generatorID>AADF9EBC-5B82-2625-0AC9-487F95547922</generatorID>
+<ownerDesignName>task4</ownerDesignName>
+<engineerTo>
+<item key="25C7708E-3B25-583E-E44A-581D247CC0A9" value="true"/>
+</engineerTo>
+<referedAttribute>FCFEB502-9465-6E16-A9EE-96E8D3FD004A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="0FC5DA0A-5A8F-3167-6F2B-6EB05172E2B7">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:44:59 UTC</createdTime>
+<generatorID>7CE74C0B-EC35-0C0C-7EFF-366FD0D44933</generatorID>
+<ownerDesignName>task4</ownerDesignName>
+<engineerTo>
+<item key="25C7708E-3B25-583E-E44A-581D247CC0A9" value="true"/>
+</engineerTo>
+<referedAttribute>28B4FA90-A172-00D9-CC90-0A05A3043E25</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8AAE34AB-2B6F-D58C-419A-64A0DF28C758" name="Training Event PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:42:52 UTC</createdTime>
+<ownerDesignName>task4</ownerDesignName>
+<engineerTo>
+<item key="25C7708E-3B25-583E-E44A-581D247CC0A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C58C1A55-CAD9-856A-59FA-DDE535AD839E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

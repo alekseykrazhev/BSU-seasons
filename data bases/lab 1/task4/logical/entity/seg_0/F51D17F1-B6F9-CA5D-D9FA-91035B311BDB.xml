@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F51D17F1-B6F9-CA5D-D9FA-91035B311BDB" name="Training Company">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:42:15 UTC</createdTime>
+<ownerDesignName>task4</ownerDesignName>
+<engineerTo>
+<item key="25C7708E-3B25-583E-E44A-581D247CC0A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonym>trcom</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="FCFEB502-9465-6E16-A9EE-96E8D3FD004A">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:43:53 UTC</createdTime>
+<ownerDesignName>task4</ownerDesignName>
+<engineerTo>
+<item key="25C7708E-3B25-583E-E44A-581D247CC0A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="A33E5821-103D-CE42-9434-5D112D70255D">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:44:02 UTC</createdTime>
+<ownerDesignName>task4</ownerDesignName>
+<engineerTo>
+<item key="25C7708E-3B25-583E-E44A-581D247CC0A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="CA2DC5EF-AD01-B9B1-9057-608892763D62">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:44:16 UTC</createdTime>
+<ownerDesignName>task4</ownerDesignName>
+<engineerTo>
+<item key="25C7708E-3B25-583E-E44A-581D247CC0A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="speciality" id="5DEC459D-18E6-DC73-6151-47DF7D865BAF">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:44:26 UTC</createdTime>
+<ownerDesignName>task4</ownerDesignName>
+<engineerTo>
+<item key="25C7708E-3B25-583E-E44A-581D247CC0A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contact name" id="80DE358D-5C69-44F2-21B2-32D2932207FA">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:44:38 UTC</createdTime>
+<ownerDesignName>task4</ownerDesignName>
+<engineerTo>
+<item key="25C7708E-3B25-583E-E44A-581D247CC0A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B9D37471-E542-47A3-0C78-EBF952F2DC93" name="Training Company PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-10 18:43:57 UTC</createdTime>
+<ownerDesignName>task4</ownerDesignName>
+<engineerTo>
+<item key="25C7708E-3B25-583E-E44A-581D247CC0A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FCFEB502-9465-6E16-A9EE-96E8D3FD004A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
