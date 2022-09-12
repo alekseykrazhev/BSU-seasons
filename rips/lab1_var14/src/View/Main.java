@@ -11,6 +11,11 @@ import Controller.Controller;
 public class Main {
 
     /**
+     * Default constructor
+     */
+    public Main() {}
+
+    /**
      * Main class's main method
      * @param args - command line parameters
      */

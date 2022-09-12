@@ -16,13 +16,18 @@ import java.util.List;
 public class Controller {
 
     /**
+     * Default constructor
+     */
+    public Controller() {}
+
+    /**
      * Method that demonstrates work with Circle and Rational Fraction classes
      * @return output string (result)
      */
     public static String TestApplication()
     {
         List<Circle> circles = new ArrayList<>();
-        List<Double> circlePerimeters = new ArrayList<>();
+        List<Double> circleLengths = new ArrayList<>();
         List<Double> circleSquares = new ArrayList<>();
 
         circles.add(new Circle(new RationalFraction(4, 5), new RationalFraction(7, 3), new RationalFraction(4, 1)));
@@ -37,13 +42,12 @@ public class Controller {
         circles.add(new Circle(new RationalFraction(0, 0), new RationalFraction(0, 3), new RationalFraction(-5, 3)));
 
         for (Circle circle: circles) {
-            circlePerimeters.add(circle.GetLength());
+            circleLengths.add(circle.GetLength());
             circleSquares.add(circle.GetSquare());
         }
 
-
         StringBuilder outputString = new StringBuilder(String.format("\nMax - %.2f and min - %.2f (circle length)\n",
-                Collections.max(circlePerimeters), Collections.min(circlePerimeters)));
+                Collections.max(circleLengths), Collections.min(circleLengths)));
         outputString.append(String.format("Max - %.2f and min - %.2f (circle square)\n\n",
                 Collections.max(circleSquares), Collections.min(circleSquares)));
 

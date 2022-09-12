@@ -52,6 +52,10 @@ public class RationalFraction {
         this.y = 1;
     }
 
+    /**
+     * Method to get fraction in double number
+     * @return double fraction
+     */
     public double toDouble() {
         return this.x / this.y;
     }
