@@ -8,6 +8,8 @@
 </engineerTo>
 <targetTransferable>false</targetTransferable>
 <identifying>false</identifying>
+<nameOnSource>issued</nameOnSource>
+<nameOnTarget>issued to</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

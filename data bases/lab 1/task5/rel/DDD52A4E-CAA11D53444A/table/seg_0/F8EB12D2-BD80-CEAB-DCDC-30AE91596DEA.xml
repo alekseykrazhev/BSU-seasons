@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8EB12D2-BD80-CEAB-DCDC-30AE91596DEA" name="Venue">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:37:47 UTC</createdTime>
+<generatorID>71C111C6-1E57-2BF8-A639-A22A09E8598C</generatorID>
+<ownerDesignName>task5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F720E026-122D-32E3-1F10-4DB65D5F8FF9">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:37:47 UTC</createdTime>
+<generatorID>0BED43E2-74E4-FAF7-3BB5-1BEFFF4605D9</generatorID>
+<ownerDesignName>task5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address1" id="552C9933-BFEE-2ED2-ACAE-DCE9AE7ED2A3">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:37:47 UTC</createdTime>
+<generatorID>7FCDF4CD-6541-2CAD-7FBF-0596620A511D</generatorID>
+<ownerDesignName>task5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comments" id="731ED7AA-5375-9EC0-154F-1C65BCAA711B">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:37:47 UTC</createdTime>
+<generatorID>BB42921E-73CD-D9B9-5B8E-8A44794450BB</generatorID>
+<ownerDesignName>task5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="98A822E4-19B7-3DF3-A4FA-3125AC094BA3" name="Venue_PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:37:47 UTC</createdTime>
+<generatorID>C84855E3-7B0E-7D57-3276-CD5C1E1BF047</generatorID>
+<ownerDesignName>task5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F720E026-122D-32E3-1F10-4DB65D5F8FF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

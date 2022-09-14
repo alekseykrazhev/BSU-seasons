@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C97CC57-ACE3-5B43-7A30-BE6ECEF67896" name="Training_Company">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:37:08 UTC</createdTime>
+<generatorID>F51D17F1-B6F9-CA5D-D9FA-91035B311BDB</generatorID>
+<ownerDesignName>task4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="2ADD6A62-C968-B66E-0616-C1A0956ACEC2">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:37:08 UTC</createdTime>
+<generatorID>FCFEB502-9465-6E16-A9EE-96E8D3FD004A</generatorID>
+<ownerDesignName>task4</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="50A75AF6-E270-6756-50BB-8C7912626CA5">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:37:08 UTC</createdTime>
+<generatorID>A33E5821-103D-CE42-9434-5D112D70255D</generatorID>
+<ownerDesignName>task4</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="5306EBA1-C2AA-5954-86FB-DCE998258E0A">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:37:08 UTC</createdTime>
+<generatorID>CA2DC5EF-AD01-B9B1-9057-608892763D62</generatorID>
+<ownerDesignName>task4</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="speciality" id="3D779509-7F40-F828-C3EA-7323CAE98694">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:37:08 UTC</createdTime>
+<generatorID>5DEC459D-18E6-DC73-6151-47DF7D865BAF</generatorID>
+<ownerDesignName>task4</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contact_name" id="465E47ED-92F0-174B-F7D5-24D4636AD6D9">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:37:08 UTC</createdTime>
+<generatorID>80DE358D-5C69-44F2-21B2-32D2932207FA</generatorID>
+<ownerDesignName>task4</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B7E2A95-84CB-C875-6BEC-07E700B5EE12" name="Training_Company_PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:37:08 UTC</createdTime>
+<generatorID>B9D37471-E542-47A3-0C78-EBF952F2DC93</generatorID>
+<ownerDesignName>task4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2ADD6A62-C968-B66E-0616-C1A0956ACEC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

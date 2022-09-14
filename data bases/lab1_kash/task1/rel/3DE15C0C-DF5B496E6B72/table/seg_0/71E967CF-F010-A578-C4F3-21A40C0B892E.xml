@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71E967CF-F010-A578-C4F3-21A40C0B892E" name="Pacients">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:30:12 UTC</createdTime>
+<generatorID>548F3F1C-1EDA-0B19-5D34-800F7C24C002</generatorID>
+<ownerDesignName>task1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pacients" id="99C695F6-1DB3-ED97-EE0A-FE079B8357DC">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:30:12 UTC</createdTime>
+<generatorID>1E5ED9F5-060B-A6A7-7F8D-22B11E9F4036</generatorID>
+<ownerDesignName>task1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="B0755F6B-9C5B-0A6C-90D4-78CE4432F70D">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:30:12 UTC</createdTime>
+<generatorID>A9AB0A6E-85F6-4C0E-681F-FA2B06698865</generatorID>
+<ownerDesignName>task1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM2025675</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="1E97DCEB-6819-2982-5F62-C9A8A6E0A20A">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:30:12 UTC</createdTime>
+<generatorID>3D1BC603-A278-4317-DAA1-64B1BFAD8EB5</generatorID>
+<ownerDesignName>task1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM2025675</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birthday" id="D3911D69-C35B-D28C-7F06-B0FDA2F320A7">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:30:12 UTC</createdTime>
+<generatorID>8074DAD3-73ED-066D-D32B-4A7A998277B9</generatorID>
+<ownerDesignName>task1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>DOM3000001</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="A3A56E81-6438-7820-F486-C24E6381AF9D">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:30:13 UTC</createdTime>
+<generatorID>38740DD2-C61D-CBDA-786C-65E6D4AFC949</generatorID>
+<ownerDesignName>task1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM2025675</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E832F167-9AB4-03A8-2E98-F6E392661FEB" name="Pacients_PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:30:13 UTC</createdTime>
+<generatorID>68223624-D01B-4254-2DC8-BBC6217EDC88</generatorID>
+<ownerDesignName>task1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99C695F6-1DB3-ED97-EE0A-FE079B8357DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

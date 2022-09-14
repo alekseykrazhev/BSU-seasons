@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD7E535A-B62E-B980-77C9-4B9FCC77D1C0" name="Employee">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:35:34 UTC</createdTime>
+<generatorID>5AA4EBAE-3818-7CAB-F2E0-D6D5EA9D441A</generatorID>
+<ownerDesignName>task2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="B92144CA-CAF5-1ED2-D282-4D80C5F6784D">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:35:34 UTC</createdTime>
+<generatorID>68CB5EE0-368B-EDEE-F127-77612D66A845</generatorID>
+<ownerDesignName>task2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_Name" id="1658F2CC-5500-454E-6277-8EFF62DD0F62">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:35:34 UTC</createdTime>
+<generatorID>A2B7BC89-35E2-4369-6D32-13D8907DCD75</generatorID>
+<ownerDesignName>task2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_Name" id="60B8CE5E-7FC5-2EAD-FC30-A07102F584F2">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:35:34 UTC</createdTime>
+<generatorID>457C54E5-F1DB-68B4-3BD9-E43FC3E32DA6</generatorID>
+<ownerDesignName>task2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hire_Date" id="52F77FE0-37CA-4BC3-D268-6E3F75C1B2D2">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:35:34 UTC</createdTime>
+<generatorID>E73DE8C3-9776-F115-59D7-25E7921ACEAB</generatorID>
+<ownerDesignName>task2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>DOM3000001</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Salary" id="5502E76A-EABE-CE8C-9E62-35029455A20D">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:35:34 UTC</createdTime>
+<generatorID>D315193D-50EC-3DE4-932F-CFB3FE5250EA</generatorID>
+<ownerDesignName>task2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>DOM10002</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Commision" id="57519FD7-FD0C-31B6-14C0-CB25F68C78A4">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:35:34 UTC</createdTime>
+<generatorID>443747F4-141D-1760-E6DD-1EDDB748BDDA</generatorID>
+<ownerDesignName>task2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Job_Job_ID" id="779D2A65-26DC-E35E-291E-0F018292DF78">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:35:34 UTC</createdTime>
+<generatorID>4B02A3B0-CAE0-9000-8E67-D9239E537402</generatorID>
+<ownerDesignName>task2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A31B36A8-A307-E18E-322A-36C1EAF38761" referredColumn="2ACDC62C-C390-6379-F760-64DD958F0947"/>
+</associations>
+</Column>
+<Column name="Department_ID" id="24377F67-70A5-1E63-CEC2-EA845CA1B1DB">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:35:34 UTC</createdTime>
+<generatorID>5BFFF066-D0FA-4524-7AEC-25C5FBDA26BC</generatorID>
+<ownerDesignName>task2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F404E12-E1BD-9472-0046-2CBC3F365E67" referredColumn="0F0D5999-F04E-E204-C10C-B6A37D60DDC4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1088810-26EA-B50A-A16F-BFCD18F257BB" name="Employee_PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:35:34 UTC</createdTime>
+<generatorID>A5A6635C-156E-22CD-4D74-39558F2E53AF</generatorID>
+<ownerDesignName>task2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B92144CA-CAF5-1ED2-D282-4D80C5F6784D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C6B3596-00CD-4B49-A703-6E935E9C0781" name="Employee_Job_FK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:35:34 UTC</createdTime>
+<generatorID>BA99E016-DA2C-524A-F8FD-D20D128ADC2E</generatorID>
+<ownerDesignName>task2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="779D2A65-26DC-E35E-291E-0F018292DF78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB627A60-5D91-233C-43C9-401B133EEC9E" name="Employee_Department_FK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:35:34 UTC</createdTime>
+<generatorID>89481B2E-0BB0-138E-E75D-ADC2156374F8</generatorID>
+<ownerDesignName>task2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24377F67-70A5-1E63-CEC2-EA845CA1B1DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

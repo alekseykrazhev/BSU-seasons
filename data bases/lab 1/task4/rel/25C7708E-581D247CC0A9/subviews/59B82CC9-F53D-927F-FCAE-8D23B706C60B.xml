@@ -13,4 +13,42 @@
 <diagramColor>-1</diagramColor>
 <display>false</display>
 <notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="3C97CC57-ACE3-5B43-7A30-BE6ECEF67896" otype="Table" vid="48A61EE7-0887-F739-EE48-FFEBFE7D20CD">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="629" y="341" width="241" height="125"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="67882955-BBB1-7955-C305-3210A95506EA" otype="Table" vid="E308A9F1-8DDE-5EAA-669F-922BA6379EB2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="192" y="185" width="201" height="251"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="E6009B50-7EFA-0764-C2CB-8F1EA0273118" otype="Table" vid="204C8A14-E1C7-7729-ECCF-3CF6B313B5D6">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="629" y="181" width="242" height="91"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="D1D51B88-5AC9-F0B5-1D06-683C7EB359B2" otype="FKIndexAssociation" vid_source="204C8A14-E1C7-7729-ECCF-3CF6B313B5D6" vid_target="E308A9F1-8DDE-5EAA-669F-922BA6379EB2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="629" y="228"/>
+<point x="393" y="228"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="F5A0EB14-F979-F7BC-FA1A-415BDCFAE256" otype="FKIndexAssociation" vid_source="48A61EE7-0887-F739-EE48-FFEBFE7D20CD" vid_target="E308A9F1-8DDE-5EAA-669F-922BA6379EB2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="629" y="388"/>
+<point x="393" y="388"/>
+</points>
+</Connector>
+</connectors>
+<arcs>
+<Arc class="oracle.dbtools.crest.swingui.relational.TVFKArc" oid="50C27DED-9546-56B0-D473-8228670C3BF0" otype="FKArc" vid="411D6775-BEA9-29AD-7D54-012B424CC433">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="172" y="165" width="241" height="291"/>
+</Arc>
+</arcs>
 </Diagram>

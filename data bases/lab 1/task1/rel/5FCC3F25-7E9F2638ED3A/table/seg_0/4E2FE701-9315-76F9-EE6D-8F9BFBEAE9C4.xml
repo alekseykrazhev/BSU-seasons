@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E2FE701-9315-76F9-EE6D-8F9BFBEAE9C4" name="Employee">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:33:18 UTC</createdTime>
+<generatorID>48A838BB-678A-5C11-4A18-97E4B4350D2C</generatorID>
+<ownerDesignName>task1</ownerDesignName>
+<abbreviation>empl</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Department_Department_ID" id="CD8F9114-ED4D-849A-0B37-55B95EF0A764">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:33:18 UTC</createdTime>
+<ownerDesignName>task1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="791FF6F0-767C-D135-EF6B-DCE346E6B7E8" referredColumn="F5847549-AA47-CB1B-E33D-B466622DA014"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="792AA6DE-395E-074A-E25D-062D6E4A4D65" name="Employee_Department_FK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:33:18 UTC</createdTime>
+<generatorID>5282B98F-945D-ED46-8705-E73EA9E28F1F</generatorID>
+<ownerDesignName>task1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD8F9114-ED4D-849A-0B37-55B95EF0A764"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

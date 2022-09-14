@@ -7,6 +7,8 @@
 <item key="5FCC3F25-64E9-3249-29E9-7E9F2638ED3A" value="true"/>
 </engineerTo>
 <identifying>false</identifying>
+<nameOnSource>learns from</nameOnSource>
+<nameOnTarget>educates</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>

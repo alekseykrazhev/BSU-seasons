@@ -6,7 +6,7 @@
 <autoRoute>false</autoRoute>
 <boxInbox>true</boxInbox>
 <showLegend>false</showLegend>
-<showLabels>false</showLabels>
+<showLabels>true</showLabels>
 <showRelAttributes>false</showRelAttributes>
 <gridEnabled>false</gridEnabled>
 <showGrid>false</showGrid>

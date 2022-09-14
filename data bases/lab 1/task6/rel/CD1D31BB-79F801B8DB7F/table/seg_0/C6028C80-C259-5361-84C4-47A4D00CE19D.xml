@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6028C80-C259-5361-84C4-47A4D00CE19D" name="ROOM">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:38:54 UTC</createdTime>
+<generatorID>FBF68C35-4BF6-B7F4-9963-23C03B1E455C</generatorID>
+<ownerDesignName>task6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="number" id="543F08A7-2D79-398D-031E-B64FA1091DBD">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:38:54 UTC</createdTime>
+<generatorID>6256CADD-0413-D305-BC5F-6A377808AAA1</generatorID>
+<ownerDesignName>task6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUITE_number" id="28A8CA7A-6E3F-19CA-33AD-77F79133A66A">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:38:54 UTC</createdTime>
+<generatorID>271EF741-EE88-226C-CC1A-985BF23FA077</generatorID>
+<ownerDesignName>task6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D9D34CB-BB94-7586-2CE1-7C80FFFDB14E" referredColumn="E325A000-D01F-A6AC-7D7B-0533583B2B50"/>
+</associations>
+</Column>
+<Column name="SUITE_FLOOR_number" id="815F29DF-7591-0FDC-4D25-8177CA9F7233">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:38:54 UTC</createdTime>
+<generatorID>C742BAE8-ADF0-5AF5-DD06-B4F9CD7B6016</generatorID>
+<ownerDesignName>task6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D9D34CB-BB94-7586-2CE1-7C80FFFDB14E" referredColumn="2A32904E-1761-6EC2-77BA-4F742C5C3CC6"/>
+</associations>
+</Column>
+<Column name="SUITE_FLOOR_BUILDING_id" id="F94B595F-54E2-9559-D5FE-497F6C5151D3">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:38:54 UTC</createdTime>
+<generatorID>F08FDE0E-369D-3925-9864-74844F3C0B37</generatorID>
+<ownerDesignName>task6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D9D34CB-BB94-7586-2CE1-7C80FFFDB14E" referredColumn="3592EEBE-6DAC-0D7D-6AB7-70C57AAF037E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5786C1DC-AB4D-753C-7AC4-BBBDA5E73C59" name="ROOM_PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:38:54 UTC</createdTime>
+<generatorID>E9CD22BD-4735-2CCE-EF73-03D7B407B3E5</generatorID>
+<ownerDesignName>task6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="543F08A7-2D79-398D-031E-B64FA1091DBD"/>
+<colUsage columnID="28A8CA7A-6E3F-19CA-33AD-77F79133A66A"/>
+<colUsage columnID="815F29DF-7591-0FDC-4D25-8177CA9F7233"/>
+<colUsage columnID="F94B595F-54E2-9559-D5FE-497F6C5151D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F24FF5B-E75B-9B19-CE28-CA6D85DF900B" name="ROOM_SUITE_FK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:38:54 UTC</createdTime>
+<generatorID>4E517177-70CB-E3FE-BD58-CDDADBC6BDE7</generatorID>
+<ownerDesignName>task6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28A8CA7A-6E3F-19CA-33AD-77F79133A66A"/>
+<colUsage columnID="815F29DF-7591-0FDC-4D25-8177CA9F7233"/>
+<colUsage columnID="F94B595F-54E2-9559-D5FE-497F6C5151D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

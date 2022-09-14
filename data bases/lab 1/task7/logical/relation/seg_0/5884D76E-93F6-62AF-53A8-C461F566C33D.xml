@@ -8,6 +8,8 @@
 </engineerTo>
 <targetPk>3E643867-981A-3B3E-1402-1AB9A379BFA1</targetPk>
 <identifying>false</identifying>
+<nameOnSource>the manager of</nameOnSource>
+<nameOnTarget>managed by</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

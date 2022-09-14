@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8AC4980B-5B89-AB0A-FBFD-D4853D8A98E7" name="Doctors">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:30:12 UTC</createdTime>
+<generatorID>A17C1F42-0CB3-96BA-2372-07EBA7F3C183</generatorID>
+<ownerDesignName>task1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="BFB96DDC-6933-9951-3054-77846F5078C9">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:30:12 UTC</createdTime>
+<generatorID>AC3B624A-8436-C96D-C3A6-8B3E1253FD91</generatorID>
+<ownerDesignName>task1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="AD40EF18-4E0B-7B69-4BB7-8021FDF54AB2">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:30:12 UTC</createdTime>
+<generatorID>D0C1308B-5F2A-0CCD-EFC6-211791BEAC47</generatorID>
+<ownerDesignName>task1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="75014F6D-3BBE-E473-F4B1-0571EAD066FA">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:30:12 UTC</createdTime>
+<generatorID>3FAB2C33-C983-272D-6743-1F8763A2896C</generatorID>
+<ownerDesignName>task1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birthday" id="E10CF4D7-1422-3B67-D049-3B649AE8BE90">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:30:12 UTC</createdTime>
+<generatorID>D696324D-A802-3DC2-0261-77326B22BFD9</generatorID>
+<ownerDesignName>task1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>DOM3000001</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="2AA3DFC3-E266-5B7C-97F9-A932888FAFED">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:30:12 UTC</createdTime>
+<generatorID>3B614480-67F3-1D5C-C4F3-3C664893E706</generatorID>
+<ownerDesignName>task1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM2025675</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_speciality" id="EA8E864F-19F7-BEFF-3E84-A8C2AFBB3A79">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:30:12 UTC</createdTime>
+<generatorID>DC3CCFCA-583B-43C8-8982-208B6D8E6729</generatorID>
+<ownerDesignName>task1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Speciality_id_spec" id="961F14D0-0806-F732-128B-64E98008A9DB">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:30:12 UTC</createdTime>
+<generatorID>0950879D-B22C-69FB-D173-535AC685CD25</generatorID>
+<ownerDesignName>task1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08913E8F-8A13-500C-4F78-093D897DB954" referredColumn="770A89DC-83C1-FED3-6E06-A0604A6234B2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26879FAF-8455-EB6C-695C-3A218C4C7599" name="Doctors_PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:30:12 UTC</createdTime>
+<generatorID>5C072AC2-0973-F126-15DF-4067ECCF0C8E</generatorID>
+<ownerDesignName>task1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFB96DDC-6933-9951-3054-77846F5078C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26255794-E73A-239C-A197-9BE0FE92E993" name="Doctors_Speciality_FK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:30:13 UTC</createdTime>
+<generatorID>3157ADEF-B018-3899-774F-F3C24F6314BD</generatorID>
+<ownerDesignName>task1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="961F14D0-0806-F732-128B-64E98008A9DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

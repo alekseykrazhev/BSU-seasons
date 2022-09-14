@@ -8,6 +8,8 @@
 </engineerTo>
 <sourcePk>8655257E-C388-8865-A5C5-C6999E6A9D10</sourcePk>
 <identifying>false</identifying>
+<nameOnSource>works in</nameOnSource>
+<nameOnTarget>responsible for</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

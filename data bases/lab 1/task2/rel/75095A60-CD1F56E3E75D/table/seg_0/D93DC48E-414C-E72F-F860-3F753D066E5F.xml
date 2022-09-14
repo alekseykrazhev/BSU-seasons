@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D93DC48E-414C-E72F-F860-3F753D066E5F" name="Job">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:35:34 UTC</createdTime>
+<generatorID>10A3208F-5095-B6F2-BD13-D30160587630</generatorID>
+<ownerDesignName>task2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Job_ID" id="2ACDC62C-C390-6379-F760-64DD958F0947">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:35:34 UTC</createdTime>
+<generatorID>000B5399-5F48-30C6-D418-BACC0E5E667D</generatorID>
+<ownerDesignName>task2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Title" id="24897780-B781-FEAB-E0C4-9DD8A39306EA">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:35:34 UTC</createdTime>
+<generatorID>2821523C-AEE7-7E34-87EA-BEF1AC673C53</generatorID>
+<ownerDesignName>task2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Max_Salary" id="DC11C5F8-298B-3281-8336-C06BC7A2A75C">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:35:34 UTC</createdTime>
+<generatorID>6583B36C-A04B-B494-AD83-D12A71210D81</generatorID>
+<ownerDesignName>task2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>DOM10002</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Min_Salary" id="40C728A9-5A6B-14FE-6695-9994C00A05F8">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:35:34 UTC</createdTime>
+<generatorID>5F89DE63-8FE0-5D79-BCA3-4B5745A12E1C</generatorID>
+<ownerDesignName>task2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>DOM10002</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87941A4C-F6E4-B420-55BC-1D7EB592A6B2" name="Job_PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:35:34 UTC</createdTime>
+<generatorID>7FDCC449-457E-2A01-7738-5770BE264D65</generatorID>
+<ownerDesignName>task2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2ACDC62C-C390-6379-F760-64DD958F0947"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

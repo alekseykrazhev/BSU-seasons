@@ -6,7 +6,7 @@
 <autoRoute>false</autoRoute>
 <boxInbox>true</boxInbox>
 <showLegend>false</showLegend>
-<showLabels>false</showLabels>
+<showLabels>true</showLabels>
 <showRelAttributes>false</showRelAttributes>
 <gridEnabled>false</gridEnabled>
 <showGrid>false</showGrid>
@@ -23,6 +23,26 @@
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="5884D76E-93F6-62AF-53A8-C461F566C33D" otype="Relation" vid_source="86ACD9D0-DCD2-8A57-A807-E43BF7C5D240" vid_target="86ACD9D0-DCD2-8A57-A807-E43BF7C5D240">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
+<sourceLabel class="oracle.dbtools.crest.model.design.Label">
+<site>0</site>
+<labelBounds x="637" y="368" width="86" height="20"/>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Text</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+</sourceLabel>
+<targetLabel class="oracle.dbtools.crest.model.design.Label">
+<site>2</site>
+<labelBounds x="588" y="454" width="71" height="20"/>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Text</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+</targetLabel>
 <points>
 <point x="651" y="326"/>
 <point x="676" y="326"/>

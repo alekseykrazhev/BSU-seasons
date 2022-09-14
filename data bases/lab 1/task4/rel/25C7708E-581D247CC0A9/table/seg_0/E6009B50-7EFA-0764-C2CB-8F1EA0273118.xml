@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6009B50-7EFA-0764-C2CB-8F1EA0273118" name="In_House_Trainer">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:37:08 UTC</createdTime>
+<generatorID>EAE27DCA-ED57-2852-D06F-95E93EE1A342</generatorID>
+<ownerDesignName>task4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A2D58E38-B32F-69BC-3F36-D7E513CEC9C0">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:37:08 UTC</createdTime>
+<generatorID>28B4FA90-A172-00D9-CC90-0A05A3043E25</generatorID>
+<ownerDesignName>task4</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="CF5F6C8A-44BD-5917-8FC5-71129B78A95E">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:37:08 UTC</createdTime>
+<generatorID>0D1FC45D-A82D-7C09-AF26-8C0005A40975</generatorID>
+<ownerDesignName>task4</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="250066D2-8CD5-32A9-63B2-0AF015429DD1">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:37:08 UTC</createdTime>
+<generatorID>EE506CBC-9673-38A9-A0C6-E8261CBAD8A2</generatorID>
+<ownerDesignName>task4</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F526843-90BD-B5C0-4BEA-64882067F49B" name="In_House_Trainer_PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:37:08 UTC</createdTime>
+<generatorID>4E1BEEFD-84B8-C6F8-024E-E29C8101C36D</generatorID>
+<ownerDesignName>task4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2D58E38-B32F-69BC-3F36-D7E513CEC9C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

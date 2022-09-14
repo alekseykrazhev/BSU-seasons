@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49CF9B17-D036-A1B3-5F20-335FF1B2D6AC" name="FLOOR">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:38:54 UTC</createdTime>
+<generatorID>22761587-A96C-0DBB-3DEA-393F79E9B28F</generatorID>
+<ownerDesignName>task6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="number" id="ABAF5D21-8DA5-D3F4-0C5B-A20A4A1E2CBB">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:38:54 UTC</createdTime>
+<generatorID>9BD0FA58-CE05-4841-8AD8-60A6F7E430C0</generatorID>
+<ownerDesignName>task6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUILDING_id" id="DC2B00F9-EF35-3679-745D-9F6162E644D5">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:38:54 UTC</createdTime>
+<generatorID>15B90DCF-ACA0-2BE1-78DD-FED49A506D22</generatorID>
+<ownerDesignName>task6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A96B32FA-773D-1516-7124-99CFF4B6F76C" referredColumn="CD17230C-EBE6-9D7F-0810-1C16FA77D9E8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D53F3ED0-ED16-62CE-0780-7386C4B69CA6" name="FLOOR_PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:38:54 UTC</createdTime>
+<generatorID>C2B370D6-F9B4-46A8-C495-59394E7F401D</generatorID>
+<ownerDesignName>task6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABAF5D21-8DA5-D3F4-0C5B-A20A4A1E2CBB"/>
+<colUsage columnID="DC2B00F9-EF35-3679-745D-9F6162E644D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D8AB0B7-D1CF-DC98-7A8D-E2D6578BC065" name="FLOOR_BUILDING_FK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:38:54 UTC</createdTime>
+<generatorID>3F3C12AA-69C0-2380-CC4F-FC21B734D8DE</generatorID>
+<ownerDesignName>task6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC2B00F9-EF35-3679-745D-9F6162E644D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

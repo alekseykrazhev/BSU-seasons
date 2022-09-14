@@ -9,6 +9,8 @@
 <sourcePk>B9D37471-E542-47A3-0C78-EBF952F2DC93</sourcePk>
 <arc>B66EBCEE-8B68-EBC0-C44C-D08EBDFB3A02</arc>
 <identifying>false</identifying>
+<nameOnSource>host</nameOnSource>
+<nameOnTarget>hosted by</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

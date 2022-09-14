@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4096572-F375-7976-354F-74A0563F07FA" name="Event">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:37:47 UTC</createdTime>
+<generatorID>6C105FC9-D672-6AC4-C6F1-E761EA23DA31</generatorID>
+<ownerDesignName>task5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E6EFE97A-579A-1751-702E-8B5CF2302A76">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:37:47 UTC</createdTime>
+<generatorID>CC880462-8741-46BE-1F1E-F1343F22E2CE</generatorID>
+<ownerDesignName>task5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cost" id="68AC1A9F-5981-9830-BF80-D3C5EF9110C0">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:37:47 UTC</createdTime>
+<generatorID>5835CA67-407B-575F-ED1E-B112C2DC83C9</generatorID>
+<ownerDesignName>task5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>DOM10002</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="F006C17F-0BC6-09C6-62AF-E07AA4C9403C">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:37:47 UTC</createdTime>
+<generatorID>B92EBEF2-F7AC-0974-A092-390D64701728</generatorID>
+<ownerDesignName>task5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="B14F2B76-D91F-676C-3548-7674FBB586C3">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:37:47 UTC</createdTime>
+<generatorID>D1DBA4A4-4638-DB1B-AB0D-E3FD88B35776</generatorID>
+<ownerDesignName>task5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>DOM3000001</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="10D51755-7EF5-9A14-E534-3C28F22FF6E5">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:37:47 UTC</createdTime>
+<generatorID>E02579A7-1149-023A-499A-DA7D3EFDB8B0</generatorID>
+<ownerDesignName>task5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Venue_id" id="2F0A4937-7D1D-E9B1-497E-5430BB71A773">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:37:47 UTC</createdTime>
+<generatorID>B76D5CBF-1A07-1BB2-6F52-ED5870A77062</generatorID>
+<ownerDesignName>task5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE95F565-F259-902E-C1B4-EC665BFB83EA" referredColumn="F720E026-122D-32E3-1F10-4DB65D5F8FF9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="855080B7-14E2-8A7E-DA41-190D55AC820F" name="Event_PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:37:47 UTC</createdTime>
+<generatorID>88040F83-3E02-7FFA-8FD0-32E3576B285F</generatorID>
+<ownerDesignName>task5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6EFE97A-579A-1751-702E-8B5CF2302A76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="792DADAC-2575-B9AB-3D81-3326821CEC6B" name="Event_Venue_FK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:37:47 UTC</createdTime>
+<generatorID>614C8227-9822-8DA1-EC56-1C287AF95444</generatorID>
+<ownerDesignName>task5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F0A4937-7D1D-E9B1-497E-5430BB71A773"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

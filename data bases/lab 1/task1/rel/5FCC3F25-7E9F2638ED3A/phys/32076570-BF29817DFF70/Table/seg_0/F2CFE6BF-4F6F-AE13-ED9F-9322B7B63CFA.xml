@@ -1,0 +1,26 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Department" directorySegmentName="seg_0" id="F2CFE6BF-4F6F-AE13-ED9F-9322B7B63CFA">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:33:18 UTC</createdTime>
+<ownerDesignName>task1</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Department_ID" id="F5847549-AA47-CB1B-E33D-B466622DA014">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:33:18 UTC</createdTime>
+<ownerDesignName>task1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Department_PK" id="DF46B80C-4DF9-66EF-BB8B-BB865CB9CF43">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:33:18 UTC</createdTime>
+<ownerDesignName>task1</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

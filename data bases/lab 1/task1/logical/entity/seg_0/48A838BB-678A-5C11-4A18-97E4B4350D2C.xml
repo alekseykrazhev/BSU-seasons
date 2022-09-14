@@ -14,5 +14,6 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>empl</shortName>
 <synonym>empl</synonym>
 </Entity>

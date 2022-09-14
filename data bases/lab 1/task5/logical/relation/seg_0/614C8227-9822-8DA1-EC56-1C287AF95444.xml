@@ -8,6 +8,8 @@
 </engineerTo>
 <sourcePk>C84855E3-7B0E-7D57-3276-CD5C1E1BF047</sourcePk>
 <identifying>false</identifying>
+<nameOnSource>the venue for</nameOnSource>
+<nameOnTarget>held at</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

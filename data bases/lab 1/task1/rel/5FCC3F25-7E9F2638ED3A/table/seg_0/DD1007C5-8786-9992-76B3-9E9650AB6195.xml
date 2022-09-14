@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD1007C5-8786-9992-76B3-9E9650AB6195" name="Relation_4">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:33:18 UTC</createdTime>
+<ownerDesignName>task1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Student_Student_ID" id="4B272404-C86F-B8DD-EB48-0AEAF98E6ABB">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:33:18 UTC</createdTime>
+<ownerDesignName>task1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D183642-5E22-66B5-BA32-38C2D6B7FCE8" referredColumn="D1C958C7-AD4A-8C49-91A9-3DB5D91F218E"/>
+</associations>
+</Column>
+<Column name="Teacher_Teacher_ID" id="D044DFE5-7260-CF00-A9B0-1F81A4A1240F">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:33:18 UTC</createdTime>
+<ownerDesignName>task1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08E1FEBC-34B1-B7E8-DE11-ACC711AEEF11" referredColumn="66B21010-A74D-0CDD-0F8B-167E17B7EAAF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9AFB4378-ED13-5880-CC3A-5C4C661A5AFB" name="Relation_4_PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:33:18 UTC</createdTime>
+<ownerDesignName>task1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B272404-C86F-B8DD-EB48-0AEAF98E6ABB"/>
+<colUsage columnID="D044DFE5-7260-CF00-A9B0-1F81A4A1240F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="781345B2-1FE4-699E-3F0E-562C764BB77F" name="FK_ASS_2">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:33:18 UTC</createdTime>
+<generatorID>DC3DB577-D2CF-2034-DEC2-E23B8618DFE7</generatorID>
+<ownerDesignName>task1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B272404-C86F-B8DD-EB48-0AEAF98E6ABB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2272C23C-1EDA-82B8-E581-4BCA9A68838A" name="FK_ASS_3">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-14 09:33:18 UTC</createdTime>
+<generatorID>DC3DB577-D2CF-2034-DEC2-E23B8618DFE7</generatorID>
+<ownerDesignName>task1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D044DFE5-7260-CF00-A9B0-1F81A4A1240F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

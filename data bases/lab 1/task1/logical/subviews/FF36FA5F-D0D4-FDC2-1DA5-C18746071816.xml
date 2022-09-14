@@ -65,6 +65,26 @@
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="DC3DB577-D2CF-2034-DEC2-E23B8618DFE7" otype="Relation" vid_source="DB17849B-99F2-A883-6E0D-B5ED078B76F3" vid_target="CDBBD048-59D5-7B8B-BE32-5B35B12AD9E0">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
+<sourceLabel class="oracle.dbtools.crest.model.design.Label">
+<site>0</site>
+<labelBounds x="516" y="480" width="66" height="20"/>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Text</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+</sourceLabel>
+<targetLabel class="oracle.dbtools.crest.model.design.Label">
+<site>2</site>
+<labelBounds x="715" y="480" width="54" height="20"/>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Text</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+</targetLabel>
 <points>
 <point x="434" y="477"/>
 <point x="809" y="477"/>

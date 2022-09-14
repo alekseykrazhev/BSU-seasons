@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4311B27E-B573-8681-AC96-80A061D43FB5" name="Speciality">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:30:13 UTC</createdTime>
+<generatorID>0EF0D17B-F5FF-8D2D-8610-4F41F748C6EE</generatorID>
+<ownerDesignName>task1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_spec" id="770A89DC-83C1-FED3-6E06-A0604A6234B2">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:30:13 UTC</createdTime>
+<generatorID>CE28681F-086A-9E8E-66C4-0B3A2ACAF81A</generatorID>
+<ownerDesignName>task1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="speciality" id="0CB1CBA2-6B72-3A2F-585B-07E70D27DE54">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:30:13 UTC</createdTime>
+<generatorID>F1D4088F-9775-EDA1-43C6-2FCBB512D12E</generatorID>
+<ownerDesignName>task1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51A0BBFF-5E88-BB71-99E1-2B0E628080DA" name="Speciality_PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:30:13 UTC</createdTime>
+<generatorID>E9C68B69-3680-1C9D-181B-7CA6B8B03237</generatorID>
+<ownerDesignName>task1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="770A89DC-83C1-FED3-6E06-A0604A6234B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

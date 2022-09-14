@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A17C1F42-0CB3-96BA-2372-07EBA7F3C183" name="Doctors">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:17:25 UTC</createdTime>
+<ownerDesignName>task1</ownerDesignName>
+<engineerTo>
+<item key="3DE15C0C-49DA-1D7A-ACFD-DF5B496E6B72" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="AC3B624A-8436-C96D-C3A6-8B3E1253FD91">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:17:40 UTC</createdTime>
+<ownerDesignName>task1</ownerDesignName>
+<engineerTo>
+<item key="3DE15C0C-49DA-1D7A-ACFD-DF5B496E6B72" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="D0C1308B-5F2A-0CCD-EFC6-211791BEAC47">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:17:57 UTC</createdTime>
+<ownerDesignName>task1</ownerDesignName>
+<engineerTo>
+<item key="3DE15C0C-49DA-1D7A-ACFD-DF5B496E6B72" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="3FAB2C33-C983-272D-6743-1F8763A2896C">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:18:10 UTC</createdTime>
+<ownerDesignName>task1</ownerDesignName>
+<engineerTo>
+<item key="3DE15C0C-49DA-1D7A-ACFD-DF5B496E6B72" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="birthday" id="D696324D-A802-3DC2-0261-77326B22BFD9">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:18:29 UTC</createdTime>
+<ownerDesignName>task1</ownerDesignName>
+<engineerTo>
+<item key="3DE15C0C-49DA-1D7A-ACFD-DF5B496E6B72" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>DOM3000001</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gender" id="3B614480-67F3-1D5C-C4F3-3C664893E706">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:18:45 UTC</createdTime>
+<ownerDesignName>task1</ownerDesignName>
+<engineerTo>
+<item key="3DE15C0C-49DA-1D7A-ACFD-DF5B496E6B72" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM2025675</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_speciality" id="DC3CCFCA-583B-43C8-8982-208B6D8E6729">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:19:53 UTC</createdTime>
+<ownerDesignName>task1</ownerDesignName>
+<engineerTo>
+<item key="3DE15C0C-49DA-1D7A-ACFD-DF5B496E6B72" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_spec" id="0950879D-B22C-69FB-D173-535AC685CD25">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:27:14 UTC</createdTime>
+<generatorID>3157ADEF-B018-3899-774F-F3C24F6314BD</generatorID>
+<ownerDesignName>task1</ownerDesignName>
+<engineerTo>
+<item key="3DE15C0C-49DA-1D7A-ACFD-DF5B496E6B72" value="true"/>
+</engineerTo>
+<referedAttribute>CE28681F-086A-9E8E-66C4-0B3A2ACAF81A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5C072AC2-0973-F126-15DF-4067ECCF0C8E" name="Doctors PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-13 13:17:47 UTC</createdTime>
+<ownerDesignName>task1</ownerDesignName>
+<engineerTo>
+<item key="3DE15C0C-49DA-1D7A-ACFD-DF5B496E6B72" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AC3B624A-8436-C96D-C3A6-8B3E1253FD91</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
