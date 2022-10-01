@@ -1,0 +1,8 @@
+amanda
+galeon
+metacity
+mozilla
+postgresql
+procinfo
+rpmfind
+squid

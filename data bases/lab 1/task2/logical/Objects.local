@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.design.logical.LogicalDesign>
-   <object objectType="Entity" objectID="31BE26F9-09A7-1316-7877-8954D2C82E30" name="Department" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="2C0CA7BD-D112-DC0E-337B-87E914341533" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Entity" objectID="5AA4EBAE-3818-7CAB-F2E0-D6D5EA9D441A" name="Employee" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="2C0CA7BD-D112-DC0E-337B-87E914341533" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Entity" objectID="10A3208F-5095-B6F2-BD13-D30160587630" name="Job" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="2C0CA7BD-D112-DC0E-337B-87E914341533" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Relation" objectID="BA99E016-DA2C-524A-F8FD-D20D128ADC2E" name="Relation_4" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="2C0CA7BD-D112-DC0E-337B-87E914341533" propertySourceId="10A3208F-5095-B6F2-BD13-D30160587630" propertyTargetId="5AA4EBAE-3818-7CAB-F2E0-D6D5EA9D441A"/>
-   <object objectType="Relation" objectID="89481B2E-0BB0-138E-E75D-ADC2156374F8" name="Relation_5" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="2C0CA7BD-D112-DC0E-337B-87E914341533" propertySourceId="31BE26F9-09A7-1316-7877-8954D2C82E30" propertyTargetId="5AA4EBAE-3818-7CAB-F2E0-D6D5EA9D441A"/>
-</oracle.dbtools.crest.model.design.logical.LogicalDesign>

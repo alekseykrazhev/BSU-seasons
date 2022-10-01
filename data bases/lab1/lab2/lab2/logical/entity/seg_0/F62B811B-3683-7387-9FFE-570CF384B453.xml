@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F62B811B-3683-7387-9FFE-570CF384B453" name="Participant">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-26 18:03:43 UTC</createdTime>
+<ownerDesignName>lab2</ownerDesignName>
+<engineerTo>
+<item key="EE01C26A-7236-774D-8051-B7C471F19045" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="C2FA6B4A-6441-21AA-277D-C2816A042A03">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-26 18:36:33 UTC</createdTime>
+<ownerDesignName>lab2</ownerDesignName>
+<engineerTo>
+<item key="EE01C26A-7236-774D-8051-B7C471F19045" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="293A7F25-61F4-3F01-8672-94603DE397B8">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-26 18:36:41 UTC</createdTime>
+<ownerDesignName>lab2</ownerDesignName>
+<engineerTo>
+<item key="EE01C26A-7236-774D-8051-B7C471F19045" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM2025675</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="BDB6BDA6-1AA7-652B-9012-4A6226A0C393">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-26 18:42:14 UTC</createdTime>
+<generatorID>B6FEE59E-6855-2A28-59B7-DFB7BA0E5B11</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<engineerTo>
+<item key="EE01C26A-7236-774D-8051-B7C471F19045" value="true"/>
+</engineerTo>
+<referedAttribute>4C277FBA-A7F8-D8EC-C18E-24851243675E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_org" id="EFB4D28E-1D5A-1503-1BD6-01B6DDEAFB22">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-26 18:51:05 UTC</createdTime>
+<ownerDesignName>lab2</ownerDesignName>
+<engineerTo>
+<item key="EE01C26A-7236-774D-8051-B7C471F19045" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E5B9C115-3C9A-437E-B420-C5A2F3D2145C" name="Participants PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-26 18:36:37 UTC</createdTime>
+<ownerDesignName>lab2</ownerDesignName>
+<engineerTo>
+<item key="EE01C26A-7236-774D-8051-B7C471F19045" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C2FA6B4A-6441-21AA-277D-C2816A042A03</attributeRef>
+<attributeRef>BDB6BDA6-1AA7-652B-9012-4A6226A0C393</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

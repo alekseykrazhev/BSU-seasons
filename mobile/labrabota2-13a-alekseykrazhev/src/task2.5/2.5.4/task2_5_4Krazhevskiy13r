@@ -1,0 +1,205 @@
+Script started on 2022-09-26 11:19:04+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m vi script/[K.sh
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"script.sh" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[m[24;1H[K[24;1H:[?25hwq[?25l[?2004l[>4;m"script.sh" [New File] 0 lines, 0 bytes written
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cm[Khmod u+x script.sh 
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script.sh newfile 777
+[?2004l./script.sh: line 8: syntax error: unexpected end of file
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script.sh newfile 777
+[?2004laccess set successfully!
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script.sh newfile 777[C[C[K[K[K000
+[?2004laccess set successfully!
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script.sh newfile 000
+[?2004laccess set successfully!
+./script.sh: line 10: unmask: command not found
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m unms[Kaks[K[Ksk
+[?2004lbash: unmask: command not found
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m unmask./script.sh newfile 000
+[?2004laccess set successfully!
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script.sh newfile 000
+[?2004laccess set successfully!
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script.sh newfile 000
+[?2004laccess set successfully!
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script.sh newfile 000[C[1P[1P[1P[1@s[1@e[1@c[1@o[1@n[1@d
+[?2004laccess set successfully!
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script.sh secondfile 000[C[C[1P[1P[1P[1P[1P[1P[1@t[1@h[1@i[1@r[1@d[1@0[1P[C[C[C[C[C[C[C[C[K[K[K777
+[?2004laccess set successfully!
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m vi script.sh 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"script.sh" 10 lines, 134 bytes[1;1H#!/bin/bash
+
+touch $1
+if umask $2; then
+echo "access set successfully!"
+else
+echo "$1: error changing eccess: $2"
+exit 1
+fi
+umask 123
+[94m~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[K[24;1H:[?25hwq[?25l[?2004l[>4;m"script.sh" 10 lines, 134 bytes written
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m vi script.sh ./script.sh thirdfile 777
+[?2004l./script.sh: line 5: syntax error near unexpected token `else'
+./script.sh: line 5: `else'
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script.sh thirdfile 777
+[?2004l./script.sh: line 5: syntax error near unexpected token `else'
+./script.sh: line 5: `else'
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script.sh thirdfile 777
+[?2004laccess set successfully!
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script.sh thirdfile 777[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pvi script.sh ./script.sh thirdfile 777[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pvi script.sh 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"script.sh" 9 lines, 137 bytes[1;1H#!/bin/bash
+
+if (umask $2 | touch $1) then
+echo "access set successfully!"
+else
+echo "$1: error changing eccess: $2"
+exit 1
+fi
+umask 123
+[94m~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[K[24;1H:[?25hwq[?25l[?2004l[>4;m"script.sh" 9 lines, 137 bytes written
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m s[Kssh krazhevskiy13@192.168.4[K56.12[K2[K02
+[?2004lkrazhevskiy13@192.168.56.102's password: 
+Linux kali 5.18.0-kali5-amd64 #1 SMP PREEMPT_DYNAMIC Debian 5.18.5-1kali6 (2022-07-07) x86_64
+
+The programs included with the Kali GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Kali GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Sep 26 03:57:11 2022 from 192.168.56.101
+                                                                                ]0;krazhevskiy13@kali: ~[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[37ms[24m[39m[4m[37ms[24m[39m[38;2;153;153;153mudo service ssh start[39m[21D[4m[37ms[4m[37mc[24m[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [20D[38;2;153;153;153mript -ttimelog7krazhevskiy13u task7krazhevskiy13u[39m[49D[4m[37ms[4m[37mc[4m[37mr[24m[39m[4m[37mr[4m[37me[24m[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [47D[4m[37me[4m[37me[24m[39m[24m[36ms[24m[36mc[24m[36mr[24m[36me[24m[36me[36mn[39m[?1l>[?2004l
+[!p[?3;4l[4l>[?1049h[22;0;0t[4l[?1h=[0m(B[1;24r[H[2J[H[2J[H[2J
+GNU Screen version 4.09.00 (GNU) 30-Jan-22
+
+Copyright (c) 2018-2020 Alexander Naumov, Amadeusz Slawinski
+Copyright (c) 2015-2017 Juergen Weigert, Alexander Naumov, Amadeusz Slawinski
+Copyright (c) 2010-2014 Juergen Weigert, Sadrul Habib Chowdhury
+Copyright (c) 2008-2009 Juergen Weigert, Michael Schroeder, Micah Cowan,
+Sadrul Habib Chowdhury
+Copyright (c) 1993-2007 Juergen Weigert, Michael Schroeder
+Copyright (c) 1987 Oliver Laumann
+
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation; either version 3, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+this program (see the file COPYING); if not, see[30D
+
+[Press Space for next page; Return to end.]
+[H[2Jhttps://www.gnu.org/licenses/, or contact Free Software Foundation, Inc., 51
+Franklin Street, Fifth Floor, Boston, MA  02111-1301  USA.
+
+Send bugreports, fixes, enhancements, t-shirts, money, beer & pizza to
+screen-devel@gnu.org
+
+
+Capabilities:
++copy +remote-detach +power-detach +multi-attach +multi-user +font +color-256
++utf8 +rxvt +builtin-telnet[23;25H[Press Space or Return to end.]
+[H[2J[32m┌──([1m[34mkrazhevskiy13㉿kali[0m[32m)-[[1m[39m~[0m[32m]
+└─[1m[34m$[C[0mexitmcd temp[8D[1m[36mfunction[0m mcd[1m[34m([0m[1m[34m)[0m [1m[34m{[0m [36mmkdir[39m $1 [1m[34m&&[0m [36mcd[39m $1[1m[34m;[0m [1m[34m}[0m[37D[1m[36m./script[0m12.s[1m[34mh[0m[1m[34m [0m1[1m[34m [0m2[36m 3 4 [39mds l[1m[34mk [0m5[36m d[39mfv    [33D[1m[36mchmod u+[0mx sc[1m[34mr[0m[1m[34mi[0mp[1m[34mt[0m1[36m2.sh[39m            [12D[21D[36mv[39m[36mi[39m[36mm[39m script12.sh      [15D[36m./s[39mcript11.sh arg1 2 decimal[14D              [15D[13D[36mchmod[39m u+x script11.sh[21D[36mvim s[39m[6P[10C      [15D[36m./scr[39mipt10.sh  [13D[36mvim[39m script10.sh[15D[36m./s[39m[P[P[10C  [13D[36mvim[39m script11.sh[15D[36mchmod[39m u+x script11.sh[21D[36m./scr[39mipt11.sh        [8D arg1 2 decimal[28D[36mvim[39m script12.sh             [13D[15D[36mchm[39mod u+x script12.sh[21D[36m./s[39m[8P[10C 1 2 3 4 ds lk 5 dfv[33D[1m[36mfunction[0m mcd[1m[34m([0m[1m[34m)[0m [1m[34m{[0m [36mmkdir[39m $1 [1m[34m&&[0m [36mcd[39m $1[1m[34m;[0m [1m[34m}[0m[37D[1m[36mmcd temp[0m                             [29D[8D[1m[36mexit[0m        [36ml[39m[36ml[39m[2ms[36mls[39m
+[0m[1m[34mDesktop[0m    [1m[34mDownloads[0m    [1m[34mlab1[0m   [1m[34mPictures[0m  [1m[34mTemplates[0m
+[1m[34mDocuments[0m  [1m[34mkrazhevskiy[0m  [1m[34mMusic[0m  [1m[34mPublic[0m    [1m[34mVideos[0m
+                                                                                
+[J[32m┌──([1m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[39m~[0m[32m]
+└─[1m[34m$[0m[34m[39m [K[4m[37mi[24m[39m[4m[37mi[24m[39m[2mfconfig[1m[36mif[0m      [1m[31m[[0m ! [32m-[39m[32m-z[39m [33m"[39m[33m"$[39m[1m[35m$S[0m[1m[35mST[0m[1m[35mTY[0m[33m"[39m [14D[1m[34m[[0m[13C[1m[34m][0m[1m[34m;[0m [4m[37mt[24m[39m[4m[37mth[24m[39m[4m[37mhe[24m[39m[1m[36mthen[0m [4m[37me[24m[39m[4m[37mec[24m[39m[4m[37mch[24m[39m[4m[37mha[24m[39m[4m[37mh[24m[39m [36mecho[39m [33m'[39m[33m'S[39m[33mSc[39m[33mcr[39m[33mre[39m[33mee[39m[33men[39m[33mn [39m[33m s[39m[33mse[39m[33mes[39m[33mss[39m[33msi[39m[33mio[39m[33mon[39m[33mn'[39m[1m[34m;[0m [4m[37mf[24m[39m[1m[36mfi[0m
+Screen session
+                                                                                
+[J[32m┌──([1m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[39m~[0m[32m]
+└─[1m[34m$[0m[34m[39m [K[36m.[39m[36m.[39m[2m/script12.sh 1 2 3 4 ds lk 5 dfv[32D[1m./[0m[4m[37m.[24m[39m[4m[37m/s[24m[39m[4m[37msc[24m[39m[4m[37mcr[24m[39m[4m[37mri[24m[39m[4m[37mip[24m[39m[4m[37mpt[24m[39m[4m[37mt/[24m[39m                        [24D[4m[37mt[24m[39m [2m12.sh 1 2 3 4 ds lk 5 dfv[25D[4m[37mt.[24m[0m[2m[37m[39m                        [24D[4m[37m.s[24m[0m[2m[37m[39m[4m[37msh[24m[0m[2m[37m[39m
+zsh: no such file or directory: ./script.sh
+                                                                                
+[0m[J[32m┌──([1m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[39m~[0m[32m]
+└─[1m[34m$[0m[34m[39m [K[4m[37ms[24m[39m[4m[37ms[24m[39m[2mudo service ssh start[21D[4m[37msc[24m[0m[2m[37m[39m                    [20Dript -ttimelog7krazhevskiy13u task7krazhevskiy13u[49D[4m[37mscr[24m[0m[2m[37m[39m[4m[37mre[24m[0m[2m[37m[39m                                               [47D[4m[37mee[24m[0m[2m[37m[39m[36mscreen[39m [32m-[39m[32m-l[39m[32mls[39m
+There is a screen on:
+[8C41735.pts-0.kali[8C(09/26/2022 06:37:57 AM)[8C(Attached)
+1 Socket in /run/screen/S-krazhevskiy13.
+                                                                                
+[0m[J[32m┌──([1m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[39m~[0m[32m]
+└─[1m[34m$[0m[34m[39m [K[4m[37ms[24m[39m[4m[37ms[24m[39m[2mcreen -ls[9D[4m[37msc[24m[0m[2m[37m[39m[36mscp[39m        pi@192.168.56.101:~/timelog7krazhevskiy13r krazhevskiy13@192.168.56.102:/home/krazhevskiy13/krazhevskiy/labrabota1-13a-alekseykrazhev[0m[K[2m[A[54D [0m[K[2m
+[0m[K[2m[A[8C ra  pi@192.168.56.101:~/timelog7krazhevskiy13r krazhevskiy13@192.168.56.102:/home/krazhevskiy13/krazhevskiy/labrabota1-13a-alekseykrazhev[0m[K[2m[A[53D[0m[K[2m
+[0m[K[2m[A[7C pi@192.168.56.101:~/timelog7krazhevskiy13r krazhevskiy13@192.168.56.102:/home/krazhevskiy13/krazhevskiy/labrabota1-13a-alekseykrazhev[0m[K[2m[A[54D pi@192.168.56.101~[0m[K[2m
+[0m[K[2m[A[26C/:~/~/timelog7krazhevskiy13r krazhevskiy13@192.168.56.102:/home/krazhevskiy13/krazhevskiy/labrabota1-13a-alekseykrazhev[0m[K[2m[A[35D~/s[0m[K[2m
+[0m[K[2m[A[29Ccript.sh [1m~[0m[1m~/[0m
+pi@192.168.56.101's password: 
+script.sh                                       0%    0     0.0KB/s   --:-- ETAscript.sh                                     100%  137    50.7KB/s   00:00    
+                                                                                
+[K[32m┌──([1m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[39m~[0m[32m][39m
+[32m└─[1m[34m$[0m[34m[39m [K[36mscp[39m pi@192.168.56.101:~/script.sh [1m~/[0m[34D[36mreen[39m [32m-ls[39m                          [26D[10D[36m./script.sh[39m
+touch: missing file operand
+Try 'touch --help' for more information.
+: error changing eccess: 
+                                                                                
+[K[32m┌──([1m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[39m~[0m[32m][39m
+[32m└─[1m[34m$[0m[34m[39m [K[4m[37mv[24m[39m[4m[37mv[24m[39m[2mim script12.sh[14D[36mvi[39m[36mvim[39m [1ms[0m[1msc[0m[1mcr[0m[1mri[0m[1mip[0m[1mpt[0m[1mt.[0m    [1m.s[0m[1msh[0m
+[?1000h[H[H[2J[?25l[23B"script.sh" 9L, 137B[2;1H▽  
+zz           [H[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h]11;?[34m#!/bin/bash[39m
+[K
+[38;5;130mif [39m[35m([39m[38;5;130mumask[39m [35m$2[39m [38;5;130m|[39m touch [35m$1)[39m [38;5;130mthen[39m[K
+[38;5;130mecho[39m[31m [39m[38;5;130m"[39m[31maccess set successfully![39m[38;5;130m"
+else
+echo[39m[31m [39m[38;5;130m"[39m[35m$1[39m[31m: error changing eccess: [39m[35m$2[39m[38;5;130m"
+exit[39m [31m1[39m
+[38;5;130mfi
+umask[39m [31m123[39m
+[34m[94m~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               [39m[24;63H1,1[11CAll[H[?12l[?25h[H[2J[?25l[36m[96m#!/bin/bash[39m
+
+[33m[93mif [39m[38;5;81m([39m[33m[93mumask[39m [38;5;81m$2[39m [33m[93m|[39m touch [38;5;81m$1)[39m [33m[93mthen
+echo[39m[35m[95m [39m[33m[93m"[39m[35m[95maccess set successfully![39m[33m[93m"
+else
+echo[39m[35m[95m [39m[33m[93m"[39m[38;5;81m$1[39m[35m[95m: error changing eccess: [39m[38;5;81m$2[39m[33m[93m"
+exit[39m [35m[95m1[39m
+[33m[93mfi
+umask[39m [35m[95m123[39m
+[34m[94m~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               [39m[24;63H1,1[11CAll"script.sh" 9L, 137B[H[?12l[?25h[?25l[24;53H^[[H[24;53H  [H[24;53H^[[H[?5h[?5l[24;53H  [H[?12l[?25h[?25l[24;53H^[[H[24;53H  [H[24;53H^[[H[24;53H  [H[?12l[?25h[?25l[24;53H:[H[23B[K:[?12l[?25hwq[?25l[?1006l[?1002l"script.sh" 9L, 137B written
+[?12l[?25h                                                                                
+[K[32m┌──([1m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[39m~[0m[32m][39m
+[32m└─[1m[34m$[0m[34m[39m [K[36mvim[39m [1mscript.sh[0m[13D[36m./sc[39m[36mr[39m[36mi[39m[36mp[39m[36mt[39m[36m.[39m[36ms[39m[36mh[39m  [C file 000
+access set successfully!
+                                                                                
+[K[32m┌──([1m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[39m~[0m[32m][39m
+[32m└─[1m[34m$[0m[34m[39m [K[36m./script.sh[39m file 000[20D[36mvim script.[39msh       [13D[36m./script.sh[39m  [11D[36mscp pi@192.[39m168.56.101:~/script.sh ~/[34D[36mreen -ls[39m                          [26D[10D[36m./script.sh[39m[11D[36mif [ ! -z "[39m$STY" ]; then echo 'Screen session'; fi[50D[36mls[39m                                                [48D[36mexit[39m[36mmcd [39mtemp[8D[36mfunc[39mtion mcd() { mkdir $1 && cd $1; }[37D[4m[37m./script12.sh[24m[39m 1 2 3 4 ds lk 5 dfv    [33D[4m[37mfunction mcd([24m[39m) { mkdir $1 && cd $1; }[37D[4m[37mmcd temp[24m[39m                             [29D[8D[36mexit[39m    [36mls[39m  [36mif [[39m ! -z "$STY" ]; then echo 'Screen session'; fi[50D[36m./script.sh[39m                                       [39D[11D[36mscreen -ls[39m [8D[36mp pi@192.[39m168.56.101:~/script.sh ~/[36D[36m./script.sh[39m                         [25D[11D[36mvim script.[39msh[13D[36m./script.sh[39m file 000[20D                    [20D./script.sh file 000[20Dvim script.sh       [13D[36m./script.sh[39m  [11D[36mscp pi@192.[39m168.56.101:~/script.sh ~/[34D[36mreen -ls[39m                          [26D[10D[36m./script.sh[39m[11D[36mif [ ! -z "[39m$STY" ]; then echo 'Screen session'; fi[50D[36mls[39m                                                [48D[36mexit[39m[36mmcd [39mtemp[8D[36mfunc[39mtion mcd() { mkdir $1 && cd $1; }[37D[4m[37m./script12.sh[24m[39m 1 2 3 4 ds lk 5 dfv    [33D[4m[37mchmod u+x scr[24m[39mipt12.sh            [12D[21D[4m[37mvim script12.[24m[39msh      [15D[4m[37m./script11.sh[24m[39m arg1 2 decimal[14D              [15D[13D[4m[37mchmod u+x scr[24m[39mipt11.sh[21D[36mvim[39m script11.sh      [15D[36m./s[39mcript10.sh  [13D[36mvim[39m script10.sh[15D[4m[37m./script10.sh[24m[39m  [13D[4m[37mchmod u+x scr[24m[39mipt10.sh[21D[4m[37mvim script10.[24m[39msh      [15D[4m[37m./script9.sh[24m[39m   [12D[4m[37mchmod u+x sc[24m[39mript9.sh[20D[4m[37mvim script9.[24m[39msh      [14D[4m[37m./script8.sh[24m[39m  [12D[4m[37mvim script8.[24m[39msh[14D[4m[37m./script8.sh[24m[39m  [12D[36mchmod[39m u+x script8.sh[20D[36mvim s[39m[6P[9C      7.sh[14D[36mbash[39m script7.sh[15D[36mvim [39m[P[10C 8.sh[14D[36mchmod[39m u+x script8.sh[20D[36m./scr[39mipt8.sh        [8D[12D[36mvim s[39mcript8.sh[14D[4m[37m./script8.sh[24m[39m  [12D[4m[37mvim script9.[24m[39msh[14D[4m[37mchmod u+x sc[24m[39mript9.sh[20D[4m[37m./script9.sh[24m[39m        [8D[12D[4m[37mvim script10[24m[39m.sh[15D[4m[37mchmod u+x sc[24m[39mript10.sh[21D[4m[37m./script10.sh[24m[39m        [8D[13D[4m[37mvim script10.[24m[39msh[15D[4m[37m./script10.sh[24m[39m  [13D[36mvim[39m script11.sh[15D[36mchm[39mod u+x script11.sh[21D[36m./s[39m[8P[10C        [8D[13D[4m[37m./script11.sh[24m[39m arg1 2 decimal[28D[4m[37mvim script12.[24m[39msh             [13D[15D[4m[37mchmod u+x scr[24m[39mipt12.sh[21D[4m[37m./script12.sh[24m[39m 1 2 3 4 ds lk 5 dfv[33D[4m[37mfunction mcd([24m[39m) { mkdir $1 && cd $1; }[37D[4m[37mmcd temp[24m[39m                             [29D[8D[36mexit[39m    [36mls[39m  [36mif [[39m ! -z "$STY" ]; then echo 'Screen session'; fi[50D[36m./script.sh[39m                                       [39D[11D[36mscreen -ls[39m [8D[36mp pi@192.[39m168.56.101:~/script.sh ~/[36D[36m./script.sh[39m                         [25D[11D[36mvim script.[39msh[13D[36m./script.sh[39m file 000[20D                    [20D[36m./script.sh[39m [1mfile[0m 000[20D[36mvim[39m [1mscript.sh[0m       [13D[36m./sc[39m[36mr[39m[36mi[39m[36mp[39m[36mt[39m[36m.[39m[36ms[39m[36mh[39m  [11D[36mscp[39m pi@192.168.56.101:~/script.sh [1m~/[0m[34D[36mreen[39m [32m-ls[39m                          [26D[10D[36m./script.sh[39m[11D[1m[36mif[0m [1m[34m[[0m ! [32m-z[39m [33m"[1m[35m$STY[0m[33m"[39m [1m[34m][0m[1m[34m;[0m [1m[36mthen[0m [36mecho[39m [33m'Screen session'[39m[1m[34m;[0m [1m[36mfi[0m
+Screen session
+                                                                                
+[K[32m┌──([1m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[39m~[0m[32m][39m
+[32m└─[1m[34m$[0m[34m[39m [K[4m[37me[24m[39m[4m[37me[24m[39m[2mxit[36mex[39m[4m[37mexi[24m[0m[2m[37m[39m[36mexit[39m[0m
+[?1l>]11;[24;1H
+[?1049l[23;0;0t[screen is terminating]
+                                                                                ]0;krazhevskiy13@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[37me[24m[39m[4m[37me[24m[39m[38;2;153;153;153mxit[39m[24m[36me[36mx[39m[4m[37me[4m[37mx[4m[37mi[24m[39m[24m[36me[24m[36mx[24m[36mi[36mt[39m[?1l>[?2004l
+Connection to 192.168.56.102 closed.
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m exit
+[?2004lexit
+
+Script done on 2022-09-26 11:48:17+01:00 [COMMAND_EXIT_CODE="0"]

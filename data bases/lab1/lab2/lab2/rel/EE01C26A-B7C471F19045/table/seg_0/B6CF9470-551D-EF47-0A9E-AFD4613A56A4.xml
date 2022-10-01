@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6CF9470-551D-EF47-0A9E-AFD4613A56A4" name="Place">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-26 18:53:21 UTC</createdTime>
+<generatorID>3342E2B2-2370-6A94-0C0B-4B6183912422</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Event_id" id="3F7307A7-98D0-5AA3-AF1E-76EF85EC2A7C">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-26 18:53:21 UTC</createdTime>
+<generatorID>0C89E11D-A730-1C5B-0599-E851F2B5B35F</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7B39F0A-6164-1505-D298-44901DE9C8F1" referredColumn="DC16E360-8B26-F3E4-EAD9-C754093D8AA2"/>
+</associations>
+</Column>
+<Column name="name" id="F52B80B0-75EC-ED5F-49AC-FA3D455E90B9">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-26 18:53:21 UTC</createdTime>
+<generatorID>0EEFAD77-D1F5-A254-C4D4-C1359B4EA675</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM2025675</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="D21123BE-7FC2-85E9-D488-B28C5F2DC7B8">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-26 18:53:21 UTC</createdTime>
+<generatorID>76F207B1-13AE-7CA9-BB43-241EC186B9BD</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Event_id1" id="9BA9D1CE-D79E-95CD-0D3A-84A206F62227">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-27 14:53:51 UTC</createdTime>
+<generatorID>3000586E-55DB-A916-5D21-F2149D107D45</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BA2354A-326D-731A-39DF-A1DF2A662187" referredColumn="DC16E360-8B26-F3E4-EAD9-C754093D8AA2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B67C024-544F-09C6-48E3-F40C154EBDDA" name="Place_PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-26 18:53:21 UTC</createdTime>
+<generatorID>420B6004-CEC3-8FEA-54DB-4D4A2F3E5F31</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="839DB56F-C130-DB07-48FC-41D29F19E493" name="Place__IDX">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-27 14:53:51 UTC</createdTime>
+<ownerDesignName>lab2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FDCBFF7E-8246-D64B-5DDD-21027F37E199</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="9BA9D1CE-D79E-95CD-0D3A-84A206F62227"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0ECC787-DCA3-5B01-2F00-59E2A0EABCFA" name="Place_Event_FK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-26 18:53:21 UTC</createdTime>
+<generatorID>77BEEA31-8771-9FA0-D617-0B5B848D5F7D</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F7307A7-98D0-5AA3-AF1E-76EF85EC2A7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E60E058C-5253-E45E-BE1D-4D5FF8FB6ABF" name="Place_Event_FKv1">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-27 14:53:51 UTC</createdTime>
+<generatorID>FDCBFF7E-8246-D64B-5DDD-21027F37E199</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BA9D1CE-D79E-95CD-0D3A-84A206F62227"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

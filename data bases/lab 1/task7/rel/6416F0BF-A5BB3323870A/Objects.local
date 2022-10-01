@@ -1,5 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.design.relational.RelationalDesign>
-   <object objectType="Table" objectID="C9B093D7-839A-DC02-C372-D426BAF33CD4" name="EMPLOYEE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="6416F0BF-DE8C-4C93-4F1E-A5BB3323870A" propertySourceId="" propertyTargetId=""/>
-   <object objectType="FKIndexAssociation" objectID="EC1879CD-BC0A-A7B6-26BE-1034CD924185" name="EMPLOYEE_EMPLOYEE_FK" seqName="seg_0" containerID="C9B093D7-839A-DC02-C372-D426BAF33CD4" refContainerID="C9B093D7-839A-DC02-C372-D426BAF33CD4" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="6416F0BF-DE8C-4C93-4F1E-A5BB3323870A" propertySourceId="C9B093D7-839A-DC02-C372-D426BAF33CD4" propertyTargetId="C9B093D7-839A-DC02-C372-D426BAF33CD4"/>
-</oracle.dbtools.crest.model.design.relational.RelationalDesign>

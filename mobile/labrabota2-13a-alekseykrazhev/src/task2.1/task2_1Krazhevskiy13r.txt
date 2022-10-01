@@ -1,0 +1,192 @@
+Script started on 2022-09-25 20:06:37+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;pi@raspberry: ~/Desktop[01;32mpi@raspberry[00m:[01;34m~/Desktop $[00m vi packages1.txtls[Kcd Desktop[6Pexitcd Desktopls[Kvi packages1.txt
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H[97m[41mE325: ATTENTION[m
+Found a swap file by the name ".packages1.txt.swp"
+[10Cowned by: pi   dated: Sun Sep 25 20:01:02 2022
+[9Cfile name: ~pi/Desktop/packages1.txt
+[10Cmodified: YES
+[9Cuser name: pi   host name: raspberry
+[8Cprocess ID: 1685
+While opening file "packages1.txt"
+[13Cdated: Sun Sep 25 20:03:43 2022
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r packages1.txt"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".packages1.txt.swp"
+    to avoid this message.
+
+"packages1.txt"[23;1H"packages1.txt" 8 lines, 65 bytes[24;1H[K[24;1H[32mPress ENTER or type command to continue[?25h[27m[23m[29m[m[H[2J[?25l[1;1Hamanda
+galeon
+metacity
+mozilla
+postgresql
+procinfo
+rpmfind
+squid
+[94m~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[24;1H[m:[?25hwq[?25l[?2004l[>4;m"packages1.txt" 8 lines, 65 bytes written
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;pi@raspberry: ~/Desktop[01;32mpi@raspberry[00m:[01;34m~/Desktop $[00m vi packages1.txtls[Kcd Desktop[6Pexitcd Desktopls[Kvi packages1.txt[Kvi packages1.txt[C[1P.txt2.txt
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"packages2.txt" 6 lines, 56 bytes[1;1Hanaconda
+openssh
+gnome-core
+samba
+sendmail
+xscreensaver
+[94m~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[K[24;1H:[?25hwq[?25l[?2004l[>4;m"packages2.txt" 6 lines, 56 bytes written
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;pi@raspberry: ~/Desktop[01;32mpi@raspberry[00m:[01;34m~/Desktop $[00m cat packages1.txt
+[?2004lamanda
+galeon
+metacity
+mozilla
+postgresql
+procinfo
+rpmfind
+squid
+[?2004h]0;pi@raspberry: ~/Desktop[01;32mpi@raspberry[00m:[01;34m~/Desktop $[00m ct[Kat
+[?2004lsome text
+some text
+[?2004h]0;pi@raspberry: ~/Desktop[01;32mpi@raspberry[00m:[01;34m~/Desktop $[00m tr 'aep[Kou' 'AEOU'IOU'[1@i[C[C[C[C[C[C[C[C[C[C[C
+[?2004ltext^[   t
+tExt
+[?2004h]0;pi@raspberry: ~/Desktop[01;32mpi@raspberry[00m:[01;34m~/Desktop $[00m cat packages.[K1.txt > packages1.catfile
+[?2004l[?2004h]0;pi@raspberry: ~/Desktop[01;32mpi@raspberry[00m:[01;34m~/Desktop $[00m cat packages1.catfile 
+[?2004lamanda
+galeon
+metacity
+mozilla
+postgresql
+procinfo
+rpmfind
+squid
+[?2004h]0;pi@raspberry: ~/Desktop[01;32mpi@raspberry[00m:[01;34m~/Desktop $[00m diff packages1.txt packages1.catfile 
+[?2004l[?2004h]0;pi@raspberry: ~/Desktop[01;32mpi@raspberry[00m:[01;34m~/Desktop $[00m ls -l packages1*
+[?2004l-rw-r--r-- 1 pi pi 65 Sep 25 20:08 packages1.catfile
+-rw-r--r-- 1 pi pi 65 Sep 25 20:06 packages1.txt
+[?2004h]0;pi@raspberry: ~/Desktop[01;32mpi@raspberry[00m:[01;34m~/Desktop $[00m cat packages2.txt >> packages1.catfile
+[?2004l[?2004h]0;pi@raspberry: ~/Desktop[01;32mpi@raspberry[00m:[01;34m~/Desktop $[00m cat packages1.catfile 
+[?2004lamanda
+galeon
+metacity
+mozilla
+postgresql
+procinfo
+rpmfind
+squid
+anaconda
+openssh
+gnome-core
+samba
+sendmail
+xscreensaver
+[?2004h]0;pi@raspberry: ~/Desktop[01;32mpi@raspberry[00m:[01;34m~/Desktop $[00m s[Kssh krazhevskiy13@192.168.56.102
+[?2004lkrazhevskiy13@192.168.56.102's password: 
+Linux kali 5.18.0-kali5-amd64 #1 SMP PREEMPT_DYNAMIC Debian 5.18.5-1kali6 (2022-07-07) x86_64
+
+The programs included with the Kali GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Kali GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed Sep  7 15:02:27 2022 from 192.168.56.103
+                                                                                ]0;krazhevskiy13@kali: ~[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[37mc[24m[39m[4m[37mc[24m[39m[38;2;153;153;153mat filecopy[39m[11D[4m[37mc[4m[37ma[24m[39m[24m[36mc[24m[36ma[36mt[39m[39m [1m[34m>[0m[39m[39m [39m [39m [39m [39m [39m [39m  [1mt[0m[1mt[1my[0m[1my[1mp[0m[1mp[1me[0m[0mt[0my[0mp[0medin.txt[?1l>[?2004l
+some tec xr t
+                                                                                ]0;krazhevskiy13@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36ml[39m[36ml[39m[38;2;153;153;153ms[39m[36ml[36ms[39m [38;2;153;153;153m-la[39m[32m-[39m[32m-[32ml[39m[39m [38;2;153;153;153mthird/file3[39m[11D[39m[1mt[0m[1mt[39m[1my[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [9D[1my[1mp[0m[1mp[1me[0m[1me[1md[0m[1md[1mi[0m[1mi[1mn[0m[1mn[1m.[0m[1m.[1mt[0m[1mt[1mx[0m[1mx[1mt[0m[?1l>[?2004l
+-rw-r--r-- 1 krazhevskiy13 krazhevskiy13 10 Sep 25 15:20 typedin.txt
+                                                                                ]0;krazhevskiy13@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[37mc[24m[39m[4m[37mc[24m[39m[38;2;153;153;153mat > typedin.txt[39m[16D[4m[37mc[4m[37ma[24m[39m[24m[36mc[24m[36ma[36mt[39m[39m [39m[1mt[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12D[1mt[1my[0m[1my[1mp[0m[1mp[1me[0m[1me[1md[0m[1md[1mi[0m[1mi[1mn[0m[1mn[1m.[0m[1m.[1mt[0m[1mt[1mx[0m[1mx[1mt[0m[?1l>[?2004l
+some text
+                                                                                ]0;krazhevskiy13@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1mt[0m[1mt[0m[38;2;153;153;153mop[39m[0m[36mt[36mr[39m[39m  [33m'[39m[33m'[33ma[39m[33ma[33me[39m[33me[33mi[39m[33mi[33mo[39m[33mo[33mu[39m[33mu[33m'[39m [33m'[39m[33m'[33mA[39m[33mA[33mE[39m[33mE[33mI[39m[33mI[33mO[39m[33mO[33mU[39m[33mU[33m'[39m [1m[34m>[0m[39m [1mt[0m[0mtrfile.txt[?1l>[?2004l
+text to insert
+some text
+^B                                                                                  ]0;krazhevskiy13@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36ml[39m[36ml[39m[38;2;153;153;153ms -l typedin.txt[39m[16D[36ml[36ms[39m[39m [32m-[39m[32m-[32ml[39m[39m [39m[1mt[0m[1mt[39m[1mr[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [9D[1mr[1mf[0m[1mf[1mi[0m[1mi[1ml[0m[1ml[1me[0m[1me[1m.[0m[1m.[1mt[0m[1mt[1mx[0m[1mx[1mt[0m[?1l>[?2004l
+-rw-r--r-- 1 krazhevskiy13 krazhevskiy13 25 Sep 25 15:22 trfile.txt
+                                                                                ]0;krazhevskiy13@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mls[39m [32m-l[39m [1mtrfile.txt[0m[1C[32m-[39m[P[11C [12D[P[11C [12D[P[10C [12D[36ml[39m[P[11C [12D[P[11C [12D[4m[37mc[24m[39m[0m [1mt[1mr[1mf[1mi[1ml[1me[1m.[1mt[1mx[1mt[0m[11D[4m[37mc[4m[37ma[24m[39m[0m [1mt[1mr[1mf[1mi[1ml[1me[1m.[1mt[1mx[1mt[0m[11D[24m[36mc[24m[36ma[36mt[39m[0m [1mt[1mr[1mf[1mi[1ml[1me[1m.[1mt[1mx[1mt[0m[11D[?1l>[?2004l
+tExt tO InsErt
+sOmE tExt
+                                                                                ]0;krazhevskiy13@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[37mc[24m[39m[4m[37mc[24m[39m[38;2;153;153;153mat trfile.txt[39m[13D[4m[37mc[4m[37ma[24m[39m[24m[36mc[24m[36ma[36mt[39m[39m [39m[1mp[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [9D[0mpackages1.txt[?1l>[?2004l
+cat: packages1.txt: No such file or directory
+                                                                                ]0;krazhevskiy13@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mcat[39m packages1.txt[1m[34m<[0m[39mpackages1.txt[13D packages1.txt[13D[?1l>[?2004l
+zsh: no such file or directory: packages1.txt
+                                                                                ]0;krazhevskiy13@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[37mv[24m[39m[4m[37mv[24m[39m[38;2;153;153;153mim file.txt[39m[11D[24m[36mv[36mi[39m[36mv[36mi[36mm[39m[39m [39m[1mp[0m[39m [39m [39m [39m [39m [39m [39m [0mpackages1.txt[?1l>[?2004l
+[?1000h[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"packages1.txt" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002hP$q q\[?12$p[?25l[24;53H:[1;1H[24;54H0[1;1H[24;55H0[1;1H[24;56H0[1;1H[24;57H0[1;1H[24;58H/[1;1H[24;59H0[1;1H[24;60H0[1;1H[24;61H0[1;1H[24;62H0[1;1H[24;53H          [1;1H[27m[23m[29m[m[H[2J[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll"packages1.txt" [New][1;1H[?25h[?25l[24;53Hi[1;1H[24;53H [1;1H[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?25h[?25la[24;63H1,2[1;2H[?25h[?25lm[24;65H3[1;3H[?25h[?25la[24;65H4[1;4H[?25h[?25ln[24;65H5[1;5H[?25h[?25ld[24;65H6[1;6H[?25h[?25la[24;65H7[1;7H[?25h[?25l[2;1H[K[24;63H2,1[2;1H[?25h[?25lg[24;65H2[2;2H[?25h[?25la[24;65H3[2;3H[?25h[?25ll[24;65H4[2;4H[?25h[?25lo[24;65H5[2;5H[?25h[?25l[2;4H[K[24;65H4[2;4H[?25h[?25le[24;65H5[2;5H[?25h[?25lo[24;65H6[2;6H[?25h[?25ln[24;65H7[2;7H[?25h[?25l[3;1H[K[24;63H3,1[3;1H[?25h[?25lm[24;65H2[3;2H[?25h[?25le[24;65H3[3;3H[?25h[?25lt[24;65H4[3;4H[?25h[?25la[24;65H5[3;5H[?25h[?25lc[24;65H6[3;6H[?25h[?25li[24;65H7[3;7H[?25h[?25lt[24;65H8[3;8H[?25h[?25ly[24;65H9[3;9H[?25h[?25l[4;1H[K[24;63H4,1[4;1H[?25h[?25lm[24;65H2[4;2H[?25h[?25lo[24;65H3[4;3H[?25h[?25lz[24;65H4[4;4H[?25h[?25li[24;65H5[4;5H[?25h[?25ll[24;65H6[4;6H[?25h[?25ll[24;65H7[4;7H[?25h[?25la[24;65H8[4;8H[?25h[?25l[5;1H[K[24;63H5,1[5;1H[?25h[?25lp[24;65H2[5;2H[?25h[?25lo[24;65H3[5;3H[?25h[?25ls[24;65H4[5;4H[?25h[?25lt[24;65H5[5;5H[?25h[?25lg[24;65H6[5;6H[?25h[?25lr[24;65H7[5;7H[?25h[?25le[24;65H8[5;8H[?25h[?25ls[24;65H9[5;9H[?25h[?25lq[24;65H10[5;10H[?25h[?25ll[24;66H1[5;11H[?25h[?25l[6;1H[K[24;63H6,1 [6;1H[?25h[?25lp[24;65H2[6;2H[?25h[?25lr[24;65H3[6;3H[?25h[?25lo[24;65H4[6;4H[?25h[?25lc[24;65H5[6;5H[?25h[?25li[24;65H6[6;6H[?25h[?25ln[24;65H7[6;7H[?25h[?25lf[24;65H8[6;8H[?25h[?25lo[24;65H9[6;9H[?25h[?25l[7;1H[K[24;63H7,1[7;1H[?25h[?25lr[24;65H2[7;2H[?25h[?25lp[24;65H3[7;3H[?25h[?25l,[24;65H4[7;4H[?25h[?25l[7;3H[K[24;65H3[7;3H[?25h[?25lm[24;65H4[7;4H[?25h[?25lf[24;65H5[7;5H[?25h[?25li[24;65H6[7;6H[?25h[?25ln[24;65H7[7;7H[?25h[?25ld[24;65H8[7;8H[?25h[?25l[8;1H[K[24;63H8,1[8;1H[?25h[?25lsq[24;65H3[8;3H[?25h[?25lu[24;65H4[8;4H[?25h[?25li[24;65H5[8;5H[?25h[?25ld[24;65H6[8;6H[?25h[24;1H[K[8;5H[?25l[24;53H^[[8;5H[24;53H  [8;6H[24;63H8,5[11CAll[8;5H[?25h[?25l[24;53H:[8;5H[24;53H[K[24;1H:[?25hwq[?25l[?1006l[?1002l[?2004l[>4;m"packages1.txt" [New] 8L, 65B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t                                                                                ]0;krazhevskiy13@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mvim[39m [1mpackages1.txt[0m[17D[36mc[36ma[36mt[39m [1m[34m<[0m[39m[0m [1mp[1ma[1mc[1mk[1ma[1mg[1me[1ms[1m1[1m.[1mt[1mxt[0m[15D[P[P[13C  [?1l>[?2004l
+amanda
+galeon
+metacity
+mozilla
+postgresql
+procinfo
+rpmfind
+squid
+                                                                                ]0;krazhevskiy13@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mcat[39m [1mpackages1.txt[0m[17D[36mv[36mi[36mm[39m[14C[17D[36mc[36ma[36mt[39m [1m[34m<[0m[39m[0m [1mp[1ma[1mc[1mk[1ma[1mg[1me[1ms[1m1[1m.[1mt[1mxt[0m[?1l>[?2004l
+amanda
+galeon
+metacity
+mozilla
+postgresql
+procinfo
+rpmfind
+squid
+                                                                                ]0;krazhevskiy13@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1mt[0m[1mt[0m[38;2;153;153;153mr 'aeiou' 'AEIOU' > trfile.txt[39m[30D[0m[36mt[36mr[39m[39m [33m'[33ma[33me[33mi[33mo[33mu[33m'[39m[39m [33m'[33mA[33mE[33mI[33mO[33mU[33m'[39m[39m [1m[34m>[0m[39m[39m [39m[1mt[39m[1mr[39m[1mf[39m[1mi[39m[1ml[39m[1me[39m[1m.[39m[1mt[39m[1mx[39m[1mt[0m[1mx[0m[0m [38;2;153;153;153mt[39m[1mt[0m[0m [39m [38;2;153;153;153mxt[39m[1m.[0m[0m [39m [39m [38;2;153;153;153mtxt[39m[1me[0m[0m [39m [39m [39m [38;2;153;153;153m.txt[39m[1ml[0m[0m [39m [39m [39m [39m [38;2;153;153;153me.txt[39m[1mi[0m[0m [39m [39m [39m [39m [39m [38;2;153;153;153mle.txt[39m[1mf[0m[0m [39m [39m [39m [39m [39m [39m [38;2;153;153;153mile.txt[39m[1mr[0m[0m [39m [39m [39m [39m [39m [39m [39m [8D[38;2;153;153;153mfile.txt[39m[8D[1mt[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [9D[38;2;153;153;153mrfile.txt[39m[9D[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[38;2;153;153;153mtrfile.txt[39m[10D[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[38;2;153;153;153m trfile.txt[39m[11D[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12D[38;2;153;153;153m> trfile.txt[39m[12D[1m[34m<[0m[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D [1mp[0m[1mp[1ma[0m[1ma[1mc[0m[1mc[1mk[0m[1mk[1ma[0m[1ma[1mg[0m[1mg[1me[0m[1me[1ms[0m[1ms[1m1[0m[1m1[1m.[0m[1m.[1mt[0m[1mt[1mx[0m[1mx[1mt[0m[?1l>[?2004l
+AmAndA
+gAlEOn
+mEtAcIty
+mOzIllA
+pOstgrEsql
+prOcInfO
+rpmfInd
+sqUId
+                                                                                ]0;krazhevskiy13@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mtr[39m [33m'aeiou'[39m [33m'AEIOU'[39m [1m[34m<[0m[39m [1mpackages1.txt[0m [1m[34m>[0m[39m [1mp[0m[1mp[1ma[0m[1ma[1mc[0m[1mc[1mk[0m[1mk[1ma[0m[1ma[1mg[0m[1mg[1me[0m[1me[1ms[0m[8D[0mp[0ma[0mc[0mk[0ma[0mg[0me[0ms.[9D[1mp[1ma[1mc[1mk[1ma[1mg[1me[1ms[0m [1ms[1m1[0m[1m1[1m.[0m[1m.[1mt[0m[11D[0mp[0ma[0mc[0mk[0ma[0mg[0me[0ms[0m1[0m.[0mtrfile.txt[?1l>[?2004l
+                                                                                ]0;krazhevskiy13@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36ml[39m[36ml[39m[38;2;153;153;153ms -l trfile.txt[39m[15D[36ml[36ms[39m[39m [32m-[39m[32m-[32ml[39m[39m [39m[1mp[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [9D[1mp[1ma[0m[1ma[1mc[0m[1mc[1mk[0m[1mk[1ma[0m[1ma[1mg[0m[1mg[1me[0m[1me[1ms[0m[1ms[1m1[0m[1m1[1m.[0m[1m.[1mt[0m[1mt[1mx[0m[1mx[1mt[0m [1mp[0m[1mp[1ma[0m[1ma[1mc[0m[1mc[1mk[0m[1mk[1ma[0m[1ma[1mg[0m[1mg[1me[0m[1me[1ms[0m[1ms[1m1[0m[1m1[1m.[0m[1m.[1mt[0m[1mt[1mr[0m[1mr[1mf[0m[1mf[1mi[0m[1mi[1ml[0m[1ml[1me[0m[1me[1m.[0m[1m.[1mt[0m[1mt[1mx[0m[1mx[1mt[0m[?1l>[?2004l
+-rw-r--r-- 1 krazhevskiy13 krazhevskiy13 65 Sep 25 15:28 packages1.trfile.txt
+-rw-r--r-- 1 krazhevskiy13 krazhevskiy13 65 Sep 25 15:26 packages1.txt
+                                                                                ]0;krazhevskiy13@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[37mc[24m[39m[4m[37mc[24m[39m[38;2;153;153;153mat < packages1.txt[39m[18D[4m[37mc[4m[37ma[24m[39m[24m[36mc[24m[36ma[36mt[39m[39m [39m[1mp[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14D[38;2;153;153;153mackages1.txt[39m[12D[1mp[39m[1ma[0m[1ma[39m[1mc[0m[1mc[39m[1mk[0m[1mk[39m[1ma[0m[1ma[39m[1mg[0m[1mg[39m[1me[0m[1me[39m[1ms[0m[1ms[39m[1m1[0m[1m1[39m[1m.[0m[1m.[39m[1mt[0m[1mt[39m[1mr[0m[39m [1mr[1mf[0m[1mf[1mi[0m[1mi[1ml[0m[1ml[1me[0m[1me[1m.[0m[1m.[1mt[0m[1mt[1mx[0m[1mx[1mt[0m[?1l>[?2004l
+AmAndA
+gAlEOn
+mEtAcIty
+mOzIllA
+pOstgrEsql
+prOcInfO
+rpmfInd
+sqUId
+                                                                                ]0;krazhevskiy13@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[37me[24m[39m[4m[37me[24m[39m[38;2;153;153;153mxit[39m[24m[36me[36mx[39m[4m[37me[4m[37mx[4m[37mi[24m[39m[24m[36me[24m[36mx[24m[36mi[36mt[39m[?1l>[?2004l
+Connection to 192.168.56.102 closed.
+[?2004h]0;pi@raspberry: ~/Desktop[01;32mpi@raspberry[00m:[01;34m~/Desktop $[00m exit
+[?2004lexit
+
+Script done on 2022-09-25 20:30:16+01:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,6 @@
+anaconda
+openssh
+gnome-core
+samba
+sendmail
+xscreensaver

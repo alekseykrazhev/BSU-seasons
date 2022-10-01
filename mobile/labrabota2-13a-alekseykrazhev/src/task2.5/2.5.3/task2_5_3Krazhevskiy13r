@@ -1,0 +1,157 @@
+Script started on 2022-09-26 10:51:36+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m vim file.txt
+[?2004lbash: vim: command not found
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m vim file.txt[C[C[1P file.txt
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"file.txt" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[K[24;1H:[?25hwq[?25l[?2004l[>4;m"file.txt" [New File] 0 lines, 0 bytes written
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cat file.txt
+[?2004lFirst line.
+Yesterday line.
+line Yesterday.
+TODAY line.
+line TODAY.
+line yesterday.
+Today line.
+yesterday line.
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed '/^TODAY/' file.txt
+[?2004lsed: -e expression #1, char 8: missing command
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed '/^TODAY/' file.txt[1@ [1@p
+[?2004lFirst line.
+Yesterday line.
+line Yesterday.
+TODAY line.
+TODAY line.
+line TODAY.
+line yesterday.
+Today line.
+yesterday line.
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed '/^TODAY/ p' file.txt[1P[1P[1P[1P[1P[1P[1@F[1@i[1@r[1@s[1@t
+[?2004lFirst line.
+First line.
+Yesterday line.
+line Yesterday.
+TODAY line.
+line TODAY.
+line yesterday.
+Today line.
+yesterday line.
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed '/First/ p' file.txt[K[K[K[K
+[?2004lFirst line.
+First line.
+Yesterday line.
+line Yesterday.
+TODAY line.
+line TODAY.
+line yesterday.
+Today line.
+yesterday line.
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed '/First/ p' file[C[C[C[C[1@-[1@n[1@ 
+[?2004lFirst line.
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed -n '/First/ p' file[1P[1P[1P[1P[1P[1@^[1@T[1@O[1@D[1@A[1@Y
+[?2004lTODAY line.
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed -n '/^TODAY/ p' file[1@[[C[C[C[C[C[1@,[1@Y[1@e[1@s[1@t[1@e[1@r[1@d[1@a[1@y[1@]
+[?2004lYesterday line.
+TODAY line.
+Today line.
+yesterday line.
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed -n '/^[TODAY,Yesterday]/ p' file[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@T[1@O[1@D[1@A[1@Y[1@\[1@|[1@Y[1@e[1@s[1@t[1@e[1@r[1@d[1@a[1@y
+[?2004lYesterday line.
+line Yesterday.
+TODAY line.
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed -n '/^TODAY\|Yesterday/ p' file[1@^
+[?2004lYesterday line.
+TODAY line.
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed -n '/^TODAY\|^Yesterday/ p' file[C[1@!
+[?2004lsed: -e expression #1, char 2: unknown command: `/'
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed -n '!/^TODAY\|^Yesterday/ p' file[C[1P[C[1@!
+[?2004lYesterday line.
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed -n '/!^TODAY\|^Yesterday/ p' file[1@!
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed -n '/!^TODAY\|!^Yesterday/ p' file[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@![C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@/[1P[1@\[1@|[1@$
+[?2004lsed: -e expression #1, char 26: unterminated address regex
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed -n '/!^TODAY\|!^Yesterday\|$ p' file[1@0
+[?2004lsed: -e expression #1, char 27: unterminated address regex
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed -n '/!^TODAY\|!^Yesterday\|$0 p' file[1P[1P
+[?2004lsed: -e expression #1, char 25: unterminated address regex
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed -n '/!^TODAY\|!^Yesterday\|$p' file[2@0 [C[C[C[C[C[C[C[2P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksed -n '/!^TODAY\|!^Yesterday\|$p' file[2@0 [C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[2P/[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@![C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[1@![1P[C[C[C[C[C[C[1@!
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed -n '/^TODAY!\|^Yesterday!/ p' file[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@!^TODAY\|!^Yesterday\|$[C[C[C[C[C[C[C[2@0 [C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[2P/[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C!/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@^[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lYesterday line.
+TODAY line.
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed -n '/^TODAY\|^Yesterday/ p' file[1@ [1@|[1@ [1@p
+[?2004lsed: -e expression #1, char 24: extra characters after command
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed -n '/^TODAY\|^Yesterday/ p | p' file[C[1P[1P[1P[1P[1P[1@\[1@|[1@t[1@h[1@i[1@s[1P[1P[1P[1P[1@l[1@i[1@n[1@e[1@/
+[?2004lFirst line.
+Yesterday line.
+line Yesterday.
+TODAY line.
+line TODAY.
+line yesterday.
+Today line.
+yesterday line.
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed -n '/^TODAY\|^Yesterday\|line/ p' file[1P[1P[1P[1P[1P[1@/
+[?2004lFirst line.
+Yesterday line.
+line Yesterday.
+TODAY line.
+line TODAY.
+line yesterday.
+Today line.
+yesterday line.
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed -n '/^TODAY\|^Yesterday\|/ p' file[C[C[C[1@![C[C[C[C[C[C[C[C[C[C[C[C[1@!
+[?2004lFirst line.
+Yesterday line.
+line Yesterday.
+TODAY line.
+line TODAY.
+line yesterday.
+Today line.
+yesterday line.
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed -n '/^TODAY!\|^Yesterday!\|/ p' file[1P[1@![1P[1@!
+[?2004lFirst line.
+Yesterday line.
+line Yesterday.
+TODAY line.
+line TODAY.
+line yesterday.
+Today line.
+yesterday line.
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed -n '/^!TODAY\|^!Yesterday\|/ p' file[1P[1P[1P[1@/
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed -n '/^!TODAY\|^!Yesterday/ p' file[1P[1@/[1P[1@\[1@|[1@/
+[?2004lFirst line.
+Yesterday line.
+line Yesterday.
+TODAY line.
+line TODAY.
+line yesterday.
+Today line.
+yesterday line.
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed -n '/^!TODAY\|^!Yesterday\|/ p' file[1P[1@![1P[1@![1P[C[1@!
+[?2004lFirst line.
+Yesterday line.
+line Yesterday.
+TODAY line.
+line TODAY.
+line yesterday.
+Today line.
+yesterday line.
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed -n '/!^TODAY\|!^Yesterday\|/ p' file[C[1P[1P[1P[1@/
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed -n '/!^TODAY\|!^Yesterday/ p' file[1P[1P[1P
+[?2004lFirst line.
+Yesterday line.
+line Yesterday.
+TODAY line.
+line TODAY.
+line yesterday.
+Today line.
+yesterday line.
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed '/!^TODAY\|!^Yesterday/ p' file[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@-n [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C\[K
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed -n '/!^TODAY\|!^Yesterday/ p' file[1P[1@d[1P[1P
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sed -n '/^TODAY\|^Yesterday/ d' file[1P[1P[1P
+[?2004lFirst line.
+line Yesterday.
+line TODAY.
+line yesterday.
+Today line.
+yesterday line.
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m exit
+[?2004lexit
+
+Script done on 2022-09-26 11:17:35+01:00 [COMMAND_EXIT_CODE="0"]

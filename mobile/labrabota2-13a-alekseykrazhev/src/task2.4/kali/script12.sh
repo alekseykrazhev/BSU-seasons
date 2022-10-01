@@ -1,0 +1,10 @@
+#!/bin/bash
+
+numargs=$#
+
+for ((i=1; i <=
+numargs ; i++))
+do
+	echo "$1"
+	shift
+done

@@ -1,0 +1,39 @@
+Script started on 2022-09-26 10:20:59+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ls
+[?2004l[0m[01;34mBookshelf[0m  [01;34mDownloads[0m    [01;34mPictures[0m                 [01;34mTemplates[0m
+[01;34mDesktop[0m    [01;34mkrazhevskiy[0m  [01;34mPublic[0m                   timelog2_5_1Krazhevskiy13r
+[01;34mDocuments[0m  [01;34mMusic[0m        task2_5_1Krazhevskiy13r  [01;34mVideos[0m
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ls -a > file_list.txt[C[1@ [C[1@s[1P[1@-[1@s[C[1@ [1@-[1@l
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cat file_list.txt 
+[?2004ltotal 96
+4 drwxr-xr-x 17 pi   pi   4096 Sep 26 10:26 .
+4 drwxr-xr-x  3 root root 4096 Sep  3 16:29 ..
+4 -rw-------  1 pi   pi   3795 Sep 26 09:53 .bash_history
+4 -rw-r--r--  1 pi   pi    220 Jul  1 10:32 .bash_logout
+4 -rw-r--r--  1 pi   pi   3523 Jul  1 10:32 .bashrc
+4 drwxr-xr-x  2 pi   pi   4096 Sep  3 16:17 Bookshelf
+4 drwxr-xr-x  8 pi   pi   4096 Sep  3 16:30 .cache
+4 drwx------ 14 pi   pi   4096 Sep 25 22:36 .config
+4 drwxr-xr-x  3 pi   pi   4096 Sep 25 21:40 Desktop
+4 drwxr-xr-x  2 pi   pi   4096 Sep  3 16:29 Documents
+4 drwxr-xr-x  2 pi   pi   4096 Sep  3 16:29 Downloads
+0 -rw-r--r--  1 pi   pi      0 Sep 26 10:26 file_list.txt
+4 drwxrwxr-x  2 pi   pi   4096 Sep  5 19:53 krazhevskiy
+4 drwxr-xr-x  3 pi   pi   4096 Sep  3 16:17 .local
+4 drwxr-xr-x  2 pi   pi   4096 Sep  3 16:29 Music
+4 drwxr-xr-x  2 pi   pi   4096 Sep  3 16:29 Pictures
+4 drwx------  3 pi   pi   4096 Sep  3 16:29 .pki
+4 -rw-r--r--  1 pi   pi    807 Jul  1 10:32 .profile
+4 drwxr-xr-x  2 pi   pi   4096 Sep  3 16:29 Public
+4 drwx------  2 pi   pi   4096 Sep  4 19:10 .ssh
+0 -rw-r--r--  1 pi   pi      0 Sep 26 10:20 task2_5_1Krazhevskiy13r
+4 drwxr-xr-x  2 pi   pi   4096 Sep  3 16:29 Templates
+0 -rw-r--r--  1 pi   pi      0 Sep 26 10:20 timelog2_5_1Krazhevskiy13r
+4 drwxr-xr-x  2 pi   pi   4096 Sep  3 16:29 Videos
+4 -rw-------  1 pi   pi     54 Sep 26 08:55 .Xauthority
+4 -rw-------  1 pi   pi   2977 Sep 26 08:55 .xsession-errors
+4 -rw-------  1 pi   pi   2977 Sep 25 19:58 .xsession-errors.old
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m exit
+[?2004lexit
+
+Script done on 2022-09-26 10:26:50+01:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,1776 @@
+Script started on 2022-09-26 12:46:55+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m vi scirpt5.sh
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"scirpt5.sh" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[K[24;1H:[?25hwq[?25l[?2004l[>4;m"scirpt5.sh" [New File] 0 lines, 0 bytes written
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m rm scirpt5.sh 
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m vi script.[K5.sh
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"script5.sh" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[K[24;1H:[?25hwq[?25l[?2004l[>4;m"script5.sh" [New File] 0 lines, 0 bytes written
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m chmod u+x script5.sh 
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script5.sh 1000 1510 /usr
+[?2004l./script5.sh: line 6: syntax error near unexpected token `('
+./script5.sh: line 6: `if $1 < (ls -l "$i") < $2'
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script5.sh 1000 1510 /usr
+[?2004lfind: ‘/run/exim4’: Permission denied
+find: ‘/run/lightdm’: Permission denied
+find: ‘/run/udisks2’: Permission denied
+find: ‘/run/alsa’: Permission denied
+find: ‘/run/cups/certs’: Permission denied
+find: ‘/run/user/1000/systemd/inaccessible/dir’: Permission denied
+find: ‘/run/sudo’: Permission denied
+find: ‘/run/cryptsetup’: Permission denied
+find: ‘/run/lvm’: Permission denied
+find: ‘/run/systemd/unit-root’: Permission denied
+find: ‘/run/systemd/inaccessible/dir’: Permission denied
+find: ‘/run/lock/lvm’: Permission denied
+find: ‘/run/initramfs’: Permission denied
+find: ‘/lost+found’: Permission denied
+find: ‘/etc/cups/ssl’: Permission denied
+find: ‘/etc/polkit-1/localauthority’: Permission denied
+find: ‘/etc/ssl/private’: Permission denied
+find: ‘/tmp/systemd-private-83597e0a0ed54241a89ac0f65c600431-ModemManager.service-8oKGnj’: Permission denied
+find: ‘/tmp/systemd-private-83597e0a0ed54241a89ac0f65c600431-systemd-timesyncd.service-2iax7g’: Permission denied
+find: ‘/tmp/systemd-private-83597e0a0ed54241a89ac0f65c600431-systemd-logind.service-PboCNg’: Permission denied
+find: ‘/sys/kernel/tracing’: Permission denied
+find: ‘/sys/kernel/debug’: Permission denied
+find: ‘/sys/fs/pstore’: Permission denied
+find: ‘/sys/fs/bpf’: Permission denied
+find: ‘/var/lib/lightdm’: Permission denied
+find: ‘/var/lib/private’: Permission denied
+find: ‘/var/lib/polkit-1’: Permission denied
+find: ‘/var/lib/apt/lists/partial’: Permission denied
+find: ‘/var/lib/udisks2’: Permission denied
+find: ‘/var/log/lightdm’: Permission denied
+find: ‘/var/log/private’: Permission denied
+find: ‘/var/tmp/systemd-private-83597e0a0ed54241a89ac0f65c600431-systemd-timesyncd.service-w0TYQh’: Permission denied
+find: ‘/var/tmp/systemd-private-83597e0a0ed54241a89ac0f65c600431-systemd-logind.service-JhaiTg’: Permission denied
+find: ‘/var/tmp/systemd-private-83597e0a0ed54241a89ac0f65c600431-ModemManager.service-LlFGCh’: Permission denied
+find: ‘/var/cache/apparmor/c08a2770.0’: Permission denied
+find: ‘/var/cache/cups’: Permission denied
+find: ‘/var/cache/lightdm’: Permission denied
+find: ‘/var/cache/private’: Permission denied
+find: ‘/var/cache/apt/archives/partial’: Permission denied
+find: ‘/var/cache/ldconfig’: Permission denied
+find: ‘/var/spool/cron/crontabs’: Permission denied
+find: ‘/var/spool/cups’: Permission denied
+find: ‘/var/spool/rsyslog’: Permission denied
+find: ‘/var/spool/exim4’: Permission denied
+find: ‘/root’: Permission denied
+find: ‘/proc/tty/driver’: Permission denied
+find: ‘/proc/1/task/1/fd’: Permission denied
+find: ‘/proc/1/task/1/fdinfo’: Permission denied
+find: ‘/proc/1/task/1/ns’: Permission denied
+find: ‘/proc/1/fd’: Permission denied
+find: ‘/proc/1/map_files’: Permission denied
+find: ‘/proc/1/fdinfo’: Permission denied
+find: ‘/proc/1/ns’: Permission denied
+find: ‘/proc/2/task/2/fd’: Permission denied
+find: ‘/proc/2/task/2/fdinfo’: Permission denied
+find: ‘/proc/2/task/2/ns’: Permission denied
+find: ‘/proc/2/fd’: Permission denied
+find: ‘/proc/2/map_files’: Permission denied
+find: ‘/proc/2/fdinfo’: Permission denied
+find: ‘/proc/2/ns’: Permission denied
+find: ‘/proc/3/task/3/fd’: Permission denied
+find: ‘/proc/3/task/3/fdinfo’: Permission denied
+find: ‘/proc/3/task/3/ns’: Permission denied
+find: ‘/proc/3/fd’: Permission denied
+find: ‘/proc/3/map_files’: Permission denied
+find: ‘/proc/3/fdinfo’: Permission denied
+find: ‘/proc/3/ns’: Permission denied
+find: ‘/proc/4/task/4/fd’: Permission denied
+find: ‘/proc/4/task/4/fdinfo’: Permission denied
+find: ‘/proc/4/task/4/ns’: Permission denied
+find: ‘/proc/4/fd’: Permission denied
+find: ‘/proc/4/map_files’: Permission denied
+find: ‘/proc/4/fdinfo’: Permission denied
+find: ‘/proc/4/ns’: Permission denied
+find: ‘/proc/6/task/6/fd’: Permission denied
+find: ‘/proc/6/task/6/fdinfo’: Permission denied
+find: ‘/proc/6/task/6/ns’: Permission denied
+find: ‘/proc/6/fd’: Permission denied
+find: ‘/proc/6/map_files’: Permission denied
+find: ‘/proc/6/fdinfo’: Permission denied
+find: ‘/proc/6/ns’: Permission denied
+find: ‘/proc/8/task/8/fd’: Permission denied
+find: ‘/proc/8/task/8/fdinfo’: Permission denied
+find: ‘/proc/8/task/8/ns’: Permission denied
+find: ‘/proc/8/fd’: Permission denied
+find: ‘/proc/8/map_files’: Permission denied
+find: ‘/proc/8/fdinfo’: Permission denied
+find: ‘/proc/8/ns’: Permission denied
+find: ‘/proc/9/task/9/fd’: Permission denied
+find: ‘/proc/9/task/9/fdinfo’: Permission denied
+find: ‘/proc/9/task/9/ns’: Permission denied
+find: ‘/proc/9/fd’: Permission denied
+find: ‘/proc/9/map_files’: Permission denied
+find: ‘/proc/9/fdinfo’: Permission denied
+find: ‘/proc/9/ns’: Permission denied
+find: ‘/proc/10/task/10/fd’: Permission denied
+find: ‘/proc/10/task/10/fdinfo’: Permission denied
+find: ‘/proc/10/task/10/ns’: Permission denied
+find: ‘/proc/10/fd’: Permission denied
+find: ‘/proc/10/map_files’: Permission denied
+find: ‘/proc/10/fdinfo’: Permission denied
+find: ‘/proc/10/ns’: Permission denied
+find: ‘/proc/11/task/11/fd’: Permission denied
+find: ‘/proc/11/task/11/fdinfo’: Permission denied
+find: ‘/proc/11/task/11/ns’: Permission denied
+find: ‘/proc/11/fd’: Permission denied
+find: ‘/proc/11/map_files’: Permission denied
+find: ‘/proc/11/fdinfo’: Permission denied
+find: ‘/proc/11/ns’: Permission denied
+find: ‘/proc/12/task/12/fd’: Permission denied
+find: ‘/proc/12/task/12/fdinfo’: Permission denied
+find: ‘/proc/12/task/12/ns’: Permission denied
+find: ‘/proc/12/fd’: Permission denied
+find: ‘/proc/12/map_files’: Permission denied
+find: ‘/proc/12/fdinfo’: Permission denied
+find: ‘/proc/12/ns’: Permission denied
+find: ‘/proc/13/task/13/fd’: Permission denied
+find: ‘/proc/13/task/13/fdinfo’: Permission denied
+find: ‘/proc/13/task/13/ns’: Permission denied
+find: ‘/proc/13/fd’: Permission denied
+find: ‘/proc/13/map_files’: Permission denied
+find: ‘/proc/13/fdinfo’: Permission denied
+find: ‘/proc/13/ns’: Permission denied
+find: ‘/proc/15/task/15/fd’: Permission denied
+find: ‘/proc/15/task/15/fdinfo’: Permission denied
+find: ‘/proc/15/task/15/ns’: Permission denied
+find: ‘/proc/15/fd’: Permission denied
+find: ‘/proc/15/map_files’: Permission denied
+find: ‘/proc/15/fdinfo’: Permission denied
+find: ‘/proc/15/ns’: Permission denied
+find: ‘/proc/16/task/16/fd’: Permission denied
+find: ‘/proc/16/task/16/fdinfo’: Permission denied
+find: ‘/proc/16/task/16/ns’: Permission denied
+find: ‘/proc/16/fd’: Permission denied
+find: ‘/proc/16/map_files’: Permission denied
+find: ‘/proc/16/fdinfo’: Permission denied
+find: ‘/proc/16/ns’: Permission denied
+find: ‘/proc/17/task/17/fd’: Permission denied
+find: ‘/proc/17/task/17/fdinfo’: Permission denied
+find: ‘/proc/17/task/17/ns’: Permission denied
+find: ‘/proc/17/fd’: Permission denied
+find: ‘/proc/17/map_files’: Permission denied
+find: ‘/proc/17/fdinfo’: Permission denied
+find: ‘/proc/17/ns’: Permission denied
+find: ‘/proc/18/task/18/fd’: Permission denied
+find: ‘/proc/18/task/18/fdinfo’: Permission denied
+find: ‘/proc/18/task/18/ns’: Permission denied
+find: ‘/proc/18/fd’: Permission denied
+find: ‘/proc/18/map_files’: Permission denied
+find: ‘/proc/18/fdinfo’: Permission denied
+find: ‘/proc/18/ns’: Permission denied
+find: ‘/proc/19/task/19/fd’: Permission denied
+find: ‘/proc/19/task/19/fdinfo’: Permission denied
+find: ‘/proc/19/task/19/ns’: Permission denied
+find: ‘/proc/19/fd’: Permission denied
+find: ‘/proc/19/map_files’: Permission denied
+find: ‘/proc/19/fdinfo’: Permission denied
+find: ‘/proc/19/ns’: Permission denied
+find: ‘/proc/20/task/20/fd’: Permission denied
+find: ‘/proc/20/task/20/fdinfo’: Permission denied
+find: ‘/proc/20/task/20/ns’: Permission denied
+find: ‘/proc/20/fd’: Permission denied
+find: ‘/proc/20/map_files’: Permission denied
+find: ‘/proc/20/fdinfo’: Permission denied
+find: ‘/proc/20/ns’: Permission denied
+find: ‘/proc/21/task/21/fd’: Permission denied
+find: ‘/proc/21/task/21/fdinfo’: Permission denied
+find: ‘/proc/21/task/21/ns’: Permission denied
+find: ‘/proc/21/fd’: Permission denied
+find: ‘/proc/21/map_files’: Permission denied
+find: ‘/proc/21/fdinfo’: Permission denied
+find: ‘/proc/21/ns’: Permission denied
+find: ‘/proc/22/task/22/fd’: Permission denied
+find: ‘/proc/22/task/22/fdinfo’: Permission denied
+find: ‘/proc/22/task/22/ns’: Permission denied
+find: ‘/proc/22/fd’: Permission denied
+find: ‘/proc/22/map_files’: Permission denied
+find: ‘/proc/22/fdinfo’: Permission denied
+find: ‘/proc/22/ns’: Permission denied
+find: ‘/proc/23/task/23/fd’: Permission denied
+find: ‘/proc/23/task/23/fdinfo’: Permission denied
+find: ‘/proc/23/task/23/ns’: Permission denied
+find: ‘/proc/23/fd’: Permission denied
+find: ‘/proc/23/map_files’: Permission denied
+find: ‘/proc/23/fdinfo’: Permission denied
+find: ‘/proc/23/ns’: Permission denied
+find: ‘/proc/24/task/24/fd’: Permission denied
+find: ‘/proc/24/task/24/fdinfo’: Permission denied
+find: ‘/proc/24/task/24/ns’: Permission denied
+find: ‘/proc/24/fd’: Permission denied
+find: ‘/proc/24/map_files’: Permission denied
+find: ‘/proc/24/fdinfo’: Permission denied
+find: ‘/proc/24/ns’: Permission denied
+find: ‘/proc/26/task/26/fd’: Permission denied
+find: ‘/proc/26/task/26/fdinfo’: Permission denied
+find: ‘/proc/26/task/26/ns’: Permission denied
+find: ‘/proc/26/fd’: Permission denied
+find: ‘/proc/26/map_files’: Permission denied
+find: ‘/proc/26/fdinfo’: Permission denied
+find: ‘/proc/26/ns’: Permission denied
+find: ‘/proc/43/task/43/fd’: Permission denied
+find: ‘/proc/43/task/43/fdinfo’: Permission denied
+find: ‘/proc/43/task/43/ns’: Permission denied
+find: ‘/proc/43/fd’: Permission denied
+find: ‘/proc/43/map_files’: Permission denied
+find: ‘/proc/43/fdinfo’: Permission denied
+find: ‘/proc/43/ns’: Permission denied
+find: ‘/proc/44/task/44/fd’: Permission denied
+find: ‘/proc/44/task/44/fdinfo’: Permission denied
+find: ‘/proc/44/task/44/ns’: Permission denied
+find: ‘/proc/44/fd’: Permission denied
+find: ‘/proc/44/map_files’: Permission denied
+find: ‘/proc/44/fdinfo’: Permission denied
+find: ‘/proc/44/ns’: Permission denied
+find: ‘/proc/45/task/45/fd’: Permission denied
+find: ‘/proc/45/task/45/fdinfo’: Permission denied
+find: ‘/proc/45/task/45/ns’: Permission denied
+find: ‘/proc/45/fd’: Permission denied
+find: ‘/proc/45/map_files’: Permission denied
+find: ‘/proc/45/fdinfo’: Permission denied
+find: ‘/proc/45/ns’: Permission denied
+find: ‘/proc/46/task/46/fd’: Permission denied
+find: ‘/proc/46/task/46/fdinfo’: Permission denied
+find: ‘/proc/46/task/46/ns’: Permission denied
+find: ‘/proc/46/fd’: Permission denied
+find: ‘/proc/46/map_files’: Permission denied
+find: ‘/proc/46/fdinfo’: Permission denied
+find: ‘/proc/46/ns’: Permission denied
+find: ‘/proc/47/task/47/fd’: Permission denied
+find: ‘/proc/47/task/47/fdinfo’: Permission denied
+find: ‘/proc/47/task/47/ns’: Permission denied
+find: ‘/proc/47/fd’: Permission denied
+find: ‘/proc/47/map_files’: Permission denied
+find: ‘/proc/47/fdinfo’: Permission denied
+find: ‘/proc/47/ns’: Permission denied
+find: ‘/proc/49/task/49/fd’: Permission denied
+find: ‘/proc/49/task/49/fdinfo’: Permission denied
+find: ‘/proc/49/task/49/ns’: Permission denied
+find: ‘/proc/49/fd’: Permission denied
+find: ‘/proc/49/map_files’: Permission denied
+find: ‘/proc/49/fdinfo’: Permission denied
+find: ‘/proc/49/ns’: Permission denied
+find: ‘/proc/50/task/50/fd’: Permission denied
+find: ‘/proc/50/task/50/fdinfo’: Permission denied
+find: ‘/proc/50/task/50/ns’: Permission denied
+find: ‘/proc/50/fd’: Permission denied
+find: ‘/proc/50/map_files’: Permission denied
+find: ‘/proc/50/fdinfo’: Permission denied
+find: ‘/proc/50/ns’: Permission denied
+find: ‘/proc/51/task/51/fd’: Permission denied
+find: ‘/proc/51/task/51/fdinfo’: Permission denied
+find: ‘/proc/51/task/51/ns’: Permission denied
+find: ‘/proc/51/fd’: Permission denied
+find: ‘/proc/51/map_files’: Permission denied
+find: ‘/proc/51/fdinfo’: Permission denied
+find: ‘/proc/51/ns’: Permission denied
+find: ‘/proc/52/task/52/fd’: Permission denied
+find: ‘/proc/52/task/52/fdinfo’: Permission denied
+find: ‘/proc/52/task/52/ns’: Permission denied
+find: ‘/proc/52/fd’: Permission denied
+find: ‘/proc/52/map_files’: Permission denied
+find: ‘/proc/52/fdinfo’: Permission denied
+find: ‘/proc/52/ns’: Permission denied
+find: ‘/proc/53/task/53/fd’: Permission denied
+find: ‘/proc/53/task/53/fdinfo’: Permission denied
+find: ‘/proc/53/task/53/ns’: Permission denied
+find: ‘/proc/53/fd’: Permission denied
+find: ‘/proc/53/map_files’: Permission denied
+find: ‘/proc/53/fdinfo’: Permission denied
+find: ‘/proc/53/ns’: Permission denied
+find: ‘/proc/54/task/54/fd’: Permission denied
+find: ‘/proc/54/task/54/fdinfo’: Permission denied
+find: ‘/proc/54/task/54/ns’: Permission denied
+find: ‘/proc/54/fd’: Permission denied
+find: ‘/proc/54/map_files’: Permission denied
+find: ‘/proc/54/fdinfo’: Permission denied
+find: ‘/proc/54/ns’: Permission denied
+find: ‘/proc/63/task/63/fd’: Permission denied
+find: ‘/proc/63/task/63/fdinfo’: Permission denied
+find: ‘/proc/63/task/63/ns’: Permission denied
+find: ‘/proc/63/fd’: Permission denied
+find: ‘/proc/63/map_files’: Permission denied
+find: ‘/proc/63/fdinfo’: Permission denied
+find: ‘/proc/63/ns’: Permission denied
+find: ‘/proc/66/task/66/fd’: Permission denied
+find: ‘/proc/66/task/66/fdinfo’: Permission denied
+find: ‘/proc/66/task/66/ns’: Permission denied
+find: ‘/proc/66/fd’: Permission denied
+find: ‘/proc/66/map_files’: Permission denied
+find: ‘/proc/66/fdinfo’: Permission denied
+find: ‘/proc/66/ns’: Permission denied
+find: ‘/proc/67/task/67/fd’: Permission denied
+find: ‘/proc/67/task/67/fdinfo’: Permission denied
+find: ‘/proc/67/task/67/ns’: Permission denied
+find: ‘/proc/67/fd’: Permission denied
+find: ‘/proc/67/map_files’: Permission denied
+find: ‘/proc/67/fdinfo’: Permission denied
+find: ‘/proc/67/ns’: Permission denied
+find: ‘/proc/105/task/105/fd’: Permission denied
+find: ‘/proc/105/task/105/fdinfo’: Permission denied
+find: ‘/proc/105/task/105/ns’: Permission denied
+find: ‘/proc/105/fd’: Permission denied
+find: ‘/proc/105/map_files’: Permission denied
+find: ‘/proc/105/fdinfo’: Permission denied
+find: ‘/proc/105/ns’: Permission denied
+find: ‘/proc/110/task/110/fd’: Permission denied
+find: ‘/proc/110/task/110/fdinfo’: Permission denied
+find: ‘/proc/110/task/110/ns’: Permission denied
+find: ‘/proc/110/fd’: Permission denied
+find: ‘/proc/110/map_files’: Permission denied
+find: ‘/proc/110/fdinfo’: Permission denied
+find: ‘/proc/110/ns’: Permission denied
+find: ‘/proc/112/task/112/fd’: Permission denied
+find: ‘/proc/112/task/112/fdinfo’: Permission denied
+find: ‘/proc/112/task/112/ns’: Permission denied
+find: ‘/proc/112/fd’: Permission denied
+find: ‘/proc/112/map_files’: Permission denied
+find: ‘/proc/112/fdinfo’: Permission denied
+find: ‘/proc/112/ns’: Permission denied
+find: ‘/proc/113/task/113/fd’: Permission denied
+find: ‘/proc/113/task/113/fdinfo’: Permission denied
+find: ‘/proc/113/task/113/ns’: Permission denied
+find: ‘/proc/113/fd’: Permission denied
+find: ‘/proc/113/map_files’: Permission denied
+find: ‘/proc/113/fdinfo’: Permission denied
+find: ‘/proc/113/ns’: Permission denied
+find: ‘/proc/114/task/114/fd’: Permission denied
+find: ‘/proc/114/task/114/fdinfo’: Permission denied
+find: ‘/proc/114/task/114/ns’: Permission denied
+find: ‘/proc/114/fd’: Permission denied
+find: ‘/proc/114/map_files’: Permission denied
+find: ‘/proc/114/fdinfo’: Permission denied
+find: ‘/proc/114/ns’: Permission denied
+find: ‘/proc/116/task/116/fd’: Permission denied
+find: ‘/proc/116/task/116/fdinfo’: Permission denied
+find: ‘/proc/116/task/116/ns’: Permission denied
+find: ‘/proc/116/fd’: Permission denied
+find: ‘/proc/116/map_files’: Permission denied
+find: ‘/proc/116/fdinfo’: Permission denied
+find: ‘/proc/116/ns’: Permission denied
+find: ‘/proc/121/task/121/fd’: Permission denied
+find: ‘/proc/121/task/121/fdinfo’: Permission denied
+find: ‘/proc/121/task/121/ns’: Permission denied
+find: ‘/proc/121/fd’: Permission denied
+find: ‘/proc/121/map_files’: Permission denied
+find: ‘/proc/121/fdinfo’: Permission denied
+find: ‘/proc/121/ns’: Permission denied
+find: ‘/proc/122/task/122/fd’: Permission denied
+find: ‘/proc/122/task/122/fdinfo’: Permission denied
+find: ‘/proc/122/task/122/ns’: Permission denied
+find: ‘/proc/122/fd’: Permission denied
+find: ‘/proc/122/map_files’: Permission denied
+find: ‘/proc/122/fdinfo’: Permission denied
+find: ‘/proc/122/ns’: Permission denied
+find: ‘/proc/123/task/123/fd’: Permission denied
+find: ‘/proc/123/task/123/fdinfo’: Permission denied
+find: ‘/proc/123/task/123/ns’: Permission denied
+find: ‘/proc/123/fd’: Permission denied
+find: ‘/proc/123/map_files’: Permission denied
+find: ‘/proc/123/fdinfo’: Permission denied
+find: ‘/proc/123/ns’: Permission denied
+find: ‘/proc/133/task/133/fd’: Permission denied
+find: ‘/proc/133/task/133/fdinfo’: Permission denied
+find: ‘/proc/133/task/133/ns’: Permission denied
+find: ‘/proc/133/fd’: Permission denied
+find: ‘/proc/133/map_files’: Permission denied
+find: ‘/proc/133/fdinfo’: Permission denied
+find: ‘/proc/133/ns’: Permission denied
+find: ‘/proc/134/task/134/fd’: Permission denied
+find: ‘/proc/134/task/134/fdinfo’: Permission denied
+find: ‘/proc/134/task/134/ns’: Permission denied
+find: ‘/proc/134/fd’: Permission denied
+find: ‘/proc/134/map_files’: Permission denied
+find: ‘/proc/134/fdinfo’: Permission denied
+find: ‘/proc/134/ns’: Permission denied
+find: ‘/proc/135/task/135/fd’: Permission denied
+find: ‘/proc/135/task/135/fdinfo’: Permission denied
+find: ‘/proc/135/task/135/ns’: Permission denied
+find: ‘/proc/135/fd’: Permission denied
+find: ‘/proc/135/map_files’: Permission denied
+find: ‘/proc/135/fdinfo’: Permission denied
+find: ‘/proc/135/ns’: Permission denied
+find: ‘/proc/136/task/136/fd’: Permission denied
+find: ‘/proc/136/task/136/fdinfo’: Permission denied
+find: ‘/proc/136/task/136/ns’: Permission denied
+find: ‘/proc/136/fd’: Permission denied
+find: ‘/proc/136/map_files’: Permission denied
+find: ‘/proc/136/fdinfo’: Permission denied
+find: ‘/proc/136/ns’: Permission denied
+find: ‘/proc/137/task/137/fd’: Permission denied
+find: ‘/proc/137/task/137/fdinfo’: Permission denied
+find: ‘/proc/137/task/137/ns’: Permission denied
+find: ‘/proc/137/fd’: Permission denied
+find: ‘/proc/137/map_files’: Permission denied
+find: ‘/proc/137/fdinfo’: Permission denied
+find: ‘/proc/137/ns’: Permission denied
+find: ‘/proc/138/task/138/fd’: Permission denied
+find: ‘/proc/138/task/138/fdinfo’: Permission denied
+find: ‘/proc/138/task/138/ns’: Permission denied
+find: ‘/proc/138/fd’: Permission denied
+find: ‘/proc/138/map_files’: Permission denied
+find: ‘/proc/138/fdinfo’: Permission denied
+find: ‘/proc/138/ns’: Permission denied
+find: ‘/proc/139/task/139/fd’: Permission denied
+find: ‘/proc/139/task/139/fdinfo’: Permission denied
+find: ‘/proc/139/task/139/ns’: Permission denied
+find: ‘/proc/139/fd’: Permission denied
+find: ‘/proc/139/map_files’: Permission denied
+find: ‘/proc/139/fdinfo’: Permission denied
+find: ‘/proc/139/ns’: Permission denied
+find: ‘/proc/140/task/140/fd’: Permission denied
+find: ‘/proc/140/task/140/fdinfo’: Permission denied
+find: ‘/proc/140/task/140/ns’: Permission denied
+find: ‘/proc/140/fd’: Permission denied
+find: ‘/proc/140/map_files’: Permission denied
+find: ‘/proc/140/fdinfo’: Permission denied
+find: ‘/proc/140/ns’: Permission denied
+find: ‘/proc/141/task/141/fd’: Permission denied
+find: ‘/proc/141/task/141/fdinfo’: Permission denied
+find: ‘/proc/141/task/141/ns’: Permission denied
+find: ‘/proc/141/fd’: Permission denied
+find: ‘/proc/141/map_files’: Permission denied
+find: ‘/proc/141/fdinfo’: Permission denied
+find: ‘/proc/141/ns’: Permission denied
+find: ‘/proc/142/task/142/fd’: Permission denied
+find: ‘/proc/142/task/142/fdinfo’: Permission denied
+find: ‘/proc/142/task/142/ns’: Permission denied
+find: ‘/proc/142/fd’: Permission denied
+find: ‘/proc/142/map_files’: Permission denied
+find: ‘/proc/142/fdinfo’: Permission denied
+find: ‘/proc/142/ns’: Permission denied
+find: ‘/proc/154/task/154/fd’: Permission denied
+find: ‘/proc/154/task/154/fdinfo’: Permission denied
+find: ‘/proc/154/task/154/ns’: Permission denied
+find: ‘/proc/154/fd’: Permission denied
+find: ‘/proc/154/map_files’: Permission denied
+find: ‘/proc/154/fdinfo’: Permission denied
+find: ‘/proc/154/ns’: Permission denied
+find: ‘/proc/164/task/164/fd’: Permission denied
+find: ‘/proc/164/task/164/fdinfo’: Permission denied
+find: ‘/proc/164/task/164/ns’: Permission denied
+find: ‘/proc/164/fd’: Permission denied
+find: ‘/proc/164/map_files’: Permission denied
+find: ‘/proc/164/fdinfo’: Permission denied
+find: ‘/proc/164/ns’: Permission denied
+find: ‘/proc/223/task/223/fd’: Permission denied
+find: ‘/proc/223/task/223/fdinfo’: Permission denied
+find: ‘/proc/223/task/223/ns’: Permission denied
+find: ‘/proc/223/fd’: Permission denied
+find: ‘/proc/223/map_files’: Permission denied
+find: ‘/proc/223/fdinfo’: Permission denied
+find: ‘/proc/223/ns’: Permission denied
+find: ‘/proc/224/task/224/fd’: Permission denied
+find: ‘/proc/224/task/224/fdinfo’: Permission denied
+find: ‘/proc/224/task/224/ns’: Permission denied
+find: ‘/proc/224/fd’: Permission denied
+find: ‘/proc/224/map_files’: Permission denied
+find: ‘/proc/224/fdinfo’: Permission denied
+find: ‘/proc/224/ns’: Permission denied
+find: ‘/proc/274/task/274/fd’: Permission denied
+find: ‘/proc/274/task/274/fdinfo’: Permission denied
+find: ‘/proc/274/task/274/ns’: Permission denied
+find: ‘/proc/274/fd’: Permission denied
+find: ‘/proc/274/map_files’: Permission denied
+find: ‘/proc/274/fdinfo’: Permission denied
+find: ‘/proc/274/ns’: Permission denied
+find: ‘/proc/275/task/275/fd’: Permission denied
+find: ‘/proc/275/task/275/fdinfo’: Permission denied
+find: ‘/proc/275/task/275/ns’: Permission denied
+find: ‘/proc/275/fd’: Permission denied
+find: ‘/proc/275/map_files’: Permission denied
+find: ‘/proc/275/fdinfo’: Permission denied
+find: ‘/proc/275/ns’: Permission denied
+find: ‘/proc/279/task/279/fd’: Permission denied
+find: ‘/proc/279/task/279/fdinfo’: Permission denied
+find: ‘/proc/279/task/279/ns’: Permission denied
+find: ‘/proc/279/fd’: Permission denied
+find: ‘/proc/279/map_files’: Permission denied
+find: ‘/proc/279/fdinfo’: Permission denied
+find: ‘/proc/279/ns’: Permission denied
+find: ‘/proc/295/task/295/fd’: Permission denied
+find: ‘/proc/295/task/295/fdinfo’: Permission denied
+find: ‘/proc/295/task/295/ns’: Permission denied
+find: ‘/proc/295/fd’: Permission denied
+find: ‘/proc/295/map_files’: Permission denied
+find: ‘/proc/295/fdinfo’: Permission denied
+find: ‘/proc/295/ns’: Permission denied
+find: ‘/proc/413/task/413/fd’: Permission denied
+find: ‘/proc/413/task/413/fdinfo’: Permission denied
+find: ‘/proc/413/task/413/ns’: Permission denied
+find: ‘/proc/413/fd’: Permission denied
+find: ‘/proc/413/map_files’: Permission denied
+find: ‘/proc/413/fdinfo’: Permission denied
+find: ‘/proc/413/ns’: Permission denied
+find: ‘/proc/414/task/414/fd’: Permission denied
+find: ‘/proc/414/task/414/fdinfo’: Permission denied
+find: ‘/proc/414/task/414/ns’: Permission denied
+find: ‘/proc/414/fd’: Permission denied
+find: ‘/proc/414/map_files’: Permission denied
+find: ‘/proc/414/fdinfo’: Permission denied
+find: ‘/proc/414/ns’: Permission denied
+find: ‘/proc/415/task/415/fd’: Permission denied
+find: ‘/proc/415/task/415/fdinfo’: Permission denied
+find: ‘/proc/415/task/415/ns’: Permission denied
+find: ‘/proc/415/fd’: Permission denied
+find: ‘/proc/415/map_files’: Permission denied
+find: ‘/proc/415/fdinfo’: Permission denied
+find: ‘/proc/415/ns’: Permission denied
+find: ‘/proc/417/task/417/fd’: Permission denied
+find: ‘/proc/417/task/417/fdinfo’: Permission denied
+find: ‘/proc/417/task/417/ns’: Permission denied
+find: ‘/proc/417/fd’: Permission denied
+find: ‘/proc/417/map_files’: Permission denied
+find: ‘/proc/417/fdinfo’: Permission denied
+find: ‘/proc/417/ns’: Permission denied
+find: ‘/proc/426/task/426/fd’: Permission denied
+find: ‘/proc/426/task/426/fdinfo’: Permission denied
+find: ‘/proc/426/task/426/ns’: Permission denied
+find: ‘/proc/426/task/452/fd’: Permission denied
+find: ‘/proc/426/task/452/fdinfo’: Permission denied
+find: ‘/proc/426/task/452/ns’: Permission denied
+find: ‘/proc/426/task/459/fd’: Permission denied
+find: ‘/proc/426/task/459/fdinfo’: Permission denied
+find: ‘/proc/426/task/459/ns’: Permission denied
+find: ‘/proc/426/fd’: Permission denied
+find: ‘/proc/426/map_files’: Permission denied
+find: ‘/proc/426/fdinfo’: Permission denied
+find: ‘/proc/426/ns’: Permission denied
+find: ‘/proc/437/task/437/fd’: Permission denied
+find: ‘/proc/437/task/437/fdinfo’: Permission denied
+find: ‘/proc/437/task/437/ns’: Permission denied
+find: ‘/proc/437/task/465/fd’: Permission denied
+find: ‘/proc/437/task/465/fdinfo’: Permission denied
+find: ‘/proc/437/task/465/ns’: Permission denied
+find: ‘/proc/437/task/466/fd’: Permission denied
+find: ‘/proc/437/task/466/fdinfo’: Permission denied
+find: ‘/proc/437/task/466/ns’: Permission denied
+find: ‘/proc/437/task/470/fd’: Permission denied
+find: ‘/proc/437/task/470/fdinfo’: Permission denied
+find: ‘/proc/437/task/470/ns’: Permission denied
+find: ‘/proc/437/fd’: Permission denied
+find: ‘/proc/437/map_files’: Permission denied
+find: ‘/proc/437/fdinfo’: Permission denied
+find: ‘/proc/437/ns’: Permission denied
+find: ‘/proc/448/task/448/fd’: Permission denied
+find: ‘/proc/448/task/448/fdinfo’: Permission denied
+find: ‘/proc/448/task/448/ns’: Permission denied
+find: ‘/proc/448/fd’: Permission denied
+find: ‘/proc/448/map_files’: Permission denied
+find: ‘/proc/448/fdinfo’: Permission denied
+find: ‘/proc/448/ns’: Permission denied
+find: ‘/proc/461/task/461/fd’: Permission denied
+find: ‘/proc/461/task/461/fdinfo’: Permission denied
+find: ‘/proc/461/task/461/ns’: Permission denied
+find: ‘/proc/461/fd’: Permission denied
+find: ‘/proc/461/map_files’: Permission denied
+find: ‘/proc/461/fdinfo’: Permission denied
+find: ‘/proc/461/ns’: Permission denied
+find: ‘/proc/462/task/462/fd’: Permission denied
+find: ‘/proc/462/task/462/fdinfo’: Permission denied
+find: ‘/proc/462/task/462/ns’: Permission denied
+find: ‘/proc/462/task/482/fd’: Permission denied
+find: ‘/proc/462/task/482/fdinfo’: Permission denied
+find: ‘/proc/462/task/482/ns’: Permission denied
+find: ‘/proc/462/task/485/fd’: Permission denied
+find: ‘/proc/462/task/485/fdinfo’: Permission denied
+find: ‘/proc/462/task/485/ns’: Permission denied
+find: ‘/proc/462/task/511/fd’: Permission denied
+find: ‘/proc/462/task/511/fdinfo’: Permission denied
+find: ‘/proc/462/task/511/ns’: Permission denied
+find: ‘/proc/462/task/554/fd’: Permission denied
+find: ‘/proc/462/task/554/fdinfo’: Permission denied
+find: ‘/proc/462/task/554/ns’: Permission denied
+find: ‘/proc/462/task/1528/fd’: Permission denied
+find: ‘/proc/462/task/1528/fdinfo’: Permission denied
+find: ‘/proc/462/task/1528/ns’: Permission denied
+find: ‘/proc/462/fd’: Permission denied
+find: ‘/proc/462/map_files’: Permission denied
+find: ‘/proc/462/fdinfo’: Permission denied
+find: ‘/proc/462/ns’: Permission denied
+find: ‘/proc/467/task/467/fd’: Permission denied
+find: ‘/proc/467/task/467/fdinfo’: Permission denied
+find: ‘/proc/467/task/467/ns’: Permission denied
+find: ‘/proc/467/fd’: Permission denied
+find: ‘/proc/467/map_files’: Permission denied
+find: ‘/proc/467/fdinfo’: Permission denied
+find: ‘/proc/467/ns’: Permission denied
+find: ‘/proc/525/task/525/fd’: Permission denied
+find: ‘/proc/525/task/525/fdinfo’: Permission denied
+find: ‘/proc/525/task/525/ns’: Permission denied
+find: ‘/proc/525/task/542/fd’: Permission denied
+find: ‘/proc/525/task/542/fdinfo’: Permission denied
+find: ‘/proc/525/task/542/ns’: Permission denied
+find: ‘/proc/525/task/545/fd’: Permission denied
+find: ‘/proc/525/task/545/fdinfo’: Permission denied
+find: ‘/proc/525/task/545/ns’: Permission denied
+find: ‘/proc/525/fd’: Permission denied
+find: ‘/proc/525/map_files’: Permission denied
+find: ‘/proc/525/fdinfo’: Permission denied
+find: ‘/proc/525/ns’: Permission denied
+find: ‘/proc/537/task/537/fd’: Permission denied
+find: ‘/proc/537/task/537/fdinfo’: Permission denied
+find: ‘/proc/537/task/537/ns’: Permission denied
+find: ‘/proc/537/fd’: Permission denied
+find: ‘/proc/537/map_files’: Permission denied
+find: ‘/proc/537/fdinfo’: Permission denied
+find: ‘/proc/537/ns’: Permission denied
+find: ‘/proc/538/task/538/fd’: Permission denied
+find: ‘/proc/538/task/538/fdinfo’: Permission denied
+find: ‘/proc/538/task/538/ns’: Permission denied
+find: ‘/proc/538/fd’: Permission denied
+find: ‘/proc/538/map_files’: Permission denied
+find: ‘/proc/538/fdinfo’: Permission denied
+find: ‘/proc/538/ns’: Permission denied
+find: ‘/proc/546/task/546/fd’: Permission denied
+find: ‘/proc/546/task/546/fdinfo’: Permission denied
+find: ‘/proc/546/task/546/ns’: Permission denied
+find: ‘/proc/546/task/549/fd’: Permission denied
+find: ‘/proc/546/task/549/fdinfo’: Permission denied
+find: ‘/proc/546/task/549/ns’: Permission denied
+find: ‘/proc/546/task/553/fd’: Permission denied
+find: ‘/proc/546/task/553/fdinfo’: Permission denied
+find: ‘/proc/546/task/553/ns’: Permission denied
+find: ‘/proc/546/fd’: Permission denied
+find: ‘/proc/546/map_files’: Permission denied
+find: ‘/proc/546/fdinfo’: Permission denied
+find: ‘/proc/546/ns’: Permission denied
+find: ‘/proc/547/task/547/fd’: Permission denied
+find: ‘/proc/547/task/547/fdinfo’: Permission denied
+find: ‘/proc/547/task/547/ns’: Permission denied
+find: ‘/proc/547/fd’: Permission denied
+find: ‘/proc/547/map_files’: Permission denied
+find: ‘/proc/547/fdinfo’: Permission denied
+find: ‘/proc/547/ns’: Permission denied
+find: ‘/proc/552/task/552/fd’: Permission denied
+find: ‘/proc/552/task/552/fdinfo’: Permission denied
+find: ‘/proc/552/task/552/ns’: Permission denied
+find: ‘/proc/552/fd’: Permission denied
+find: ‘/proc/552/map_files’: Permission denied
+find: ‘/proc/552/fdinfo’: Permission denied
+find: ‘/proc/552/ns’: Permission denied
+find: ‘/proc/557/task/557/fd’: Permission denied
+find: ‘/proc/557/task/557/fdinfo’: Permission denied
+find: ‘/proc/557/task/557/ns’: Permission denied
+find: ‘/proc/557/task/561/fd’: Permission denied
+find: ‘/proc/557/task/561/fdinfo’: Permission denied
+find: ‘/proc/557/task/561/ns’: Permission denied
+find: ‘/proc/557/task/562/fd’: Permission denied
+find: ‘/proc/557/task/562/fdinfo’: Permission denied
+find: ‘/proc/557/task/562/ns’: Permission denied
+find: ‘/proc/557/fd’: Permission denied
+find: ‘/proc/557/map_files’: Permission denied
+find: ‘/proc/557/fdinfo’: Permission denied
+find: ‘/proc/557/ns’: Permission denied
+find: ‘/proc/560/task/560/fd’: Permission denied
+find: ‘/proc/560/task/560/fdinfo’: Permission denied
+find: ‘/proc/560/task/560/ns’: Permission denied
+find: ‘/proc/560/task/838/fd’: Permission denied
+find: ‘/proc/560/task/838/fdinfo’: Permission denied
+find: ‘/proc/560/task/838/ns’: Permission denied
+find: ‘/proc/560/task/839/fd’: Permission denied
+find: ‘/proc/560/task/839/fdinfo’: Permission denied
+find: ‘/proc/560/task/839/ns’: Permission denied
+find: ‘/proc/560/task/840/fd’: Permission denied
+find: ‘/proc/560/task/840/fdinfo’: Permission denied
+find: ‘/proc/560/task/840/ns’: Permission denied
+find: ‘/proc/560/task/841/fd’: Permission denied
+find: ‘/proc/560/task/841/fdinfo’: Permission denied
+find: ‘/proc/560/task/841/ns’: Permission denied
+find: ‘/proc/560/task/863/fd’: Permission denied
+find: ‘/proc/560/task/863/fdinfo’: Permission denied
+find: ‘/proc/560/task/863/ns’: Permission denied
+find: ‘/proc/560/fd’: Permission denied
+find: ‘/proc/560/map_files’: Permission denied
+find: ‘/proc/560/fdinfo’: Permission denied
+find: ‘/proc/560/ns’: Permission denied
+find: ‘/proc/563/task/563/fd’: Permission denied
+find: ‘/proc/563/task/563/fdinfo’: Permission denied
+find: ‘/proc/563/task/563/ns’: Permission denied
+find: ‘/proc/563/fd’: Permission denied
+find: ‘/proc/563/map_files’: Permission denied
+find: ‘/proc/563/fdinfo’: Permission denied
+find: ‘/proc/563/ns’: Permission denied
+find: ‘/proc/565/task/565/fd’: Permission denied
+find: ‘/proc/565/task/565/fdinfo’: Permission denied
+find: ‘/proc/565/task/565/ns’: Permission denied
+find: ‘/proc/565/fd’: Permission denied
+find: ‘/proc/565/map_files’: Permission denied
+find: ‘/proc/565/fdinfo’: Permission denied
+find: ‘/proc/565/ns’: Permission denied
+find: ‘/proc/566/task/566/fd’: Permission denied
+find: ‘/proc/566/task/566/fdinfo’: Permission denied
+find: ‘/proc/566/task/566/ns’: Permission denied
+find: ‘/proc/566/fd’: Permission denied
+find: ‘/proc/566/map_files’: Permission denied
+find: ‘/proc/566/fdinfo’: Permission denied
+find: ‘/proc/566/ns’: Permission denied
+find: ‘/proc/577/task/577/fd’: Permission denied
+find: ‘/proc/577/task/577/fdinfo’: Permission denied
+find: ‘/proc/577/task/577/ns’: Permission denied
+find: ‘/proc/577/fd’: Permission denied
+find: ‘/proc/577/map_files’: Permission denied
+find: ‘/proc/577/fdinfo’: Permission denied
+find: ‘/proc/577/ns’: Permission denied
+find: ‘/proc/859/task/859/fd’: Permission denied
+find: ‘/proc/859/task/859/fdinfo’: Permission denied
+find: ‘/proc/859/task/859/ns’: Permission denied
+find: ‘/proc/859/fd’: Permission denied
+find: ‘/proc/859/map_files’: Permission denied
+find: ‘/proc/859/fdinfo’: Permission denied
+find: ‘/proc/859/ns’: Permission denied
+find: ‘/proc/869/task/869/fd’: Permission denied
+find: ‘/proc/869/task/869/fdinfo’: Permission denied
+find: ‘/proc/869/task/869/ns’: Permission denied
+find: ‘/proc/869/task/871/fd’: Permission denied
+find: ‘/proc/869/task/871/fdinfo’: Permission denied
+find: ‘/proc/869/task/871/ns’: Permission denied
+find: ‘/proc/869/task/873/fd’: Permission denied
+find: ‘/proc/869/task/873/fdinfo’: Permission denied
+find: ‘/proc/869/task/873/ns’: Permission denied
+find: ‘/proc/869/fd’: Permission denied
+find: ‘/proc/869/map_files’: Permission denied
+find: ‘/proc/869/fdinfo’: Permission denied
+find: ‘/proc/869/ns’: Permission denied
+find: ‘/proc/876/task/876/fd’: Permission denied
+find: ‘/proc/876/task/876/fdinfo’: Permission denied
+find: ‘/proc/876/task/876/ns’: Permission denied
+find: ‘/proc/876/fd’: Permission denied
+find: ‘/proc/876/map_files’: Permission denied
+find: ‘/proc/876/fdinfo’: Permission denied
+find: ‘/proc/876/ns’: Permission denied
+find: ‘/proc/893/task/893/fd’: Permission denied
+find: ‘/proc/893/task/893/fdinfo’: Permission denied
+find: ‘/proc/893/task/893/ns’: Permission denied
+find: ‘/proc/893/task/894/fd’: Permission denied
+find: ‘/proc/893/task/894/fdinfo’: Permission denied
+find: ‘/proc/893/task/894/ns’: Permission denied
+find: ‘/proc/893/task/895/fd’: Permission denied
+find: ‘/proc/893/task/895/fdinfo’: Permission denied
+find: ‘/proc/893/task/895/ns’: Permission denied
+find: ‘/proc/893/fd’: Permission denied
+find: ‘/proc/893/map_files’: Permission denied
+find: ‘/proc/893/fdinfo’: Permission denied
+find: ‘/proc/893/ns’: Permission denied
+find: ‘/proc/966/task/966/fd’: Permission denied
+find: ‘/proc/966/task/966/fdinfo’: Permission denied
+find: ‘/proc/966/task/966/ns’: Permission denied
+find: ‘/proc/966/fd’: Permission denied
+find: ‘/proc/966/map_files’: Permission denied
+find: ‘/proc/966/fdinfo’: Permission denied
+find: ‘/proc/966/ns’: Permission denied
+find: ‘/proc/1016/task/1016/fd’: Permission denied
+find: ‘/proc/1016/task/1016/fdinfo’: Permission denied
+find: ‘/proc/1016/task/1016/ns’: Permission denied
+find: ‘/proc/1016/fd’: Permission denied
+find: ‘/proc/1016/map_files’: Permission denied
+find: ‘/proc/1016/fdinfo’: Permission denied
+find: ‘/proc/1016/ns’: Permission denied
+find: ‘/proc/1270/task/1270/fd’: Permission denied
+find: ‘/proc/1270/task/1270/fdinfo’: Permission denied
+find: ‘/proc/1270/task/1270/ns’: Permission denied
+find: ‘/proc/1270/task/1271/fd’: Permission denied
+find: ‘/proc/1270/task/1271/fdinfo’: Permission denied
+find: ‘/proc/1270/task/1271/ns’: Permission denied
+find: ‘/proc/1270/task/1272/fd’: Permission denied
+find: ‘/proc/1270/task/1272/fdinfo’: Permission denied
+find: ‘/proc/1270/task/1272/ns’: Permission denied
+find: ‘/proc/1270/fd’: Permission denied
+find: ‘/proc/1270/map_files’: Permission denied
+find: ‘/proc/1270/fdinfo’: Permission denied
+find: ‘/proc/1270/ns’: Permission denied
+find: ‘/proc/1429/task/1429/fd’: Permission denied
+find: ‘/proc/1429/task/1429/fdinfo’: Permission denied
+find: ‘/proc/1429/task/1429/ns’: Permission denied
+find: ‘/proc/1429/fd’: Permission denied
+find: ‘/proc/1429/map_files’: Permission denied
+find: ‘/proc/1429/fdinfo’: Permission denied
+find: ‘/proc/1429/ns’: Permission denied
+find: ‘/proc/1432/task/1432/fd’: Permission denied
+find: ‘/proc/1432/task/1432/fdinfo’: Permission denied
+find: ‘/proc/1432/task/1432/ns’: Permission denied
+find: ‘/proc/1432/fd’: Permission denied
+find: ‘/proc/1432/map_files’: Permission denied
+find: ‘/proc/1432/fdinfo’: Permission denied
+find: ‘/proc/1432/ns’: Permission denied
+find: ‘/proc/1488/task/1488/fd’: Permission denied
+find: ‘/proc/1488/task/1488/fdinfo’: Permission denied
+find: ‘/proc/1488/task/1488/ns’: Permission denied
+find: ‘/proc/1488/fd’: Permission denied
+find: ‘/proc/1488/map_files’: Permission denied
+find: ‘/proc/1488/fdinfo’: Permission denied
+find: ‘/proc/1488/ns’: Permission denied
+find: ‘/proc/1532/task/1532/fd/5’: No such file or directory
+find: ‘/proc/1532/task/1532/fdinfo/5’: No such file or directory
+find: ‘/proc/1532/fd/6’: No such file or directory
+find: ‘/proc/1532/fdinfo/6’: No such file or directory
+find: ‘/proc/1547/task/1547/fd’: Permission denied
+find: ‘/proc/1547/task/1547/fdinfo’: Permission denied
+find: ‘/proc/1547/task/1547/ns’: Permission denied
+find: ‘/proc/1547/task/1548/fd’: Permission denied
+find: ‘/proc/1547/task/1548/fdinfo’: Permission denied
+find: ‘/proc/1547/task/1548/ns’: Permission denied
+find: ‘/proc/1547/fd’: Permission denied
+find: ‘/proc/1547/map_files’: Permission denied
+find: ‘/proc/1547/fdinfo’: Permission denied
+find: ‘/proc/1547/ns’: Permission denied
+^C
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script5.sh 1000 1510 /usr
+[?2004l^C
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script5.sh 1000 1510 /usr
+[?2004l^C
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script5.sh 1000 1510 /usr
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script5.sh 1000 1510 /usr
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script5.sh 1000 1510 /usr
+[?2004lfind: invalid -size type `B'
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script5.sh 1000 1510 /usr
+[?2004l^C
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script5.sh 1000 1510 /usr
+[?2004l^C
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script5.sh 1000 1510 /usr
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script5.sh 1000 1510 /usr
+[?2004l^C
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script5.sh 1000 1510 /usr
+[?2004l^C
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script5.sh 1000 1510 /usr
+[?2004l^C
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script5.sh 100 1000 /home.[K/pi/Desktoplab2/lab2
+[?2004l^C
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m find /home/pi/Desktop/lab2 -size +100c -size -1000[K[K[K[K200c
+[?2004l/home/pi/Desktop/lab2/task2.5/2.5.3/file
+/home/pi/Desktop/lab2/task2.5/2.5.4/script.sh
+/home/pi/Desktop/lab2/task2.1/packages1.catfile
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m find /home/pi/Desktop/lab2 -size +100c -size -200c -print[Kns[Kt[K[Kt
+[?2004l/home/pi/Desktop/lab2/task2.5/2.5.3/file
+/home/pi/Desktop/lab2/task2.5/2.5.4/script.sh
+/home/pi/Desktop/lab2/task2.1/packages1.catfile
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m find /home/pi/Desktop/lab2 -size +100c -size -200c -print[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7P./script5.sh 100 1000 /home/pi/Desktop/lab2[16P0 1510 /usr 1000 /home/pi/Desktop/lab2
+[?2004l112 /home/pi/Desktop/lab2/task2.5/2.5.3/file
+303 /home/pi/Desktop/lab2/task2.5/2.5.2/cars.txt
+137 /home/pi/Desktop/lab2/task2.5/2.5.4/script.sh
+121 /home/pi/Desktop/lab2/task2.1/packages1.catfile
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script5.sh 100 1000 /home/pi/Desktop/lab2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind /home/pi/Desktop/lab2 -size +100c -size -200c -print[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7P./script5.sh 100 1000 /home/pi/Desktop/lab2[16P0 1510 /usr
+[?2004l1.4K /usr/lib/cryptsetup/scripts/decrypt_opensc
+1.1K /usr/lib/cryptsetup/scripts/decrypt_derived
+1.1K /usr/lib/cryptsetup/checks/blkid
+1.1K /usr/lib/tmpfiles.d/journal-nocow.conf
+1022 /usr/lib/mime/mailcap
+1001 /usr/lib/kernel/install.d/85-initrd.install
+1.3K /usr/lib/jvm/java-11-openjdk-i386/lib/server/Xusage.txt
+1.3K /usr/lib/jvm/java-11-openjdk-i386/lib/client/Xusage.txt
+1.5K /usr/lib/jvm/java-11-openjdk-i386/legal/java.base/aes.md
+1.5K /usr/lib/jvm/java-11-openjdk-i386/legal/jdk.dynalink/dynalink.md
+1.1K /usr/lib/jvm/java-11-openjdk-i386/legal/jdk.internal.opt/jopt-simple.md
+1.1K /usr/lib/jvm/java-11-openjdk-i386/legal/jdk.scripting.nashorn/joni.md
+1.4K /usr/lib/jvm/java-11-openjdk-i386/legal/java.desktop/xwd.md
+1.4K /usr/lib/jvm/java-11-openjdk-i386/legal/jdk.localedata/thaidict.md
+1.2K /usr/lib/jvm/java-11-openjdk-i386/legal/java.xml/jcup.md
+1.1K /usr/lib/jvm/java-11-openjdk-i386/release
+1.5K /usr/lib/jvm/java-17-openjdk-i386/man/man1/rmiregistry.1.gz
+1.5K /usr/lib/jvm/java-17-openjdk-i386/legal/java.base/aes.md
+1.5K /usr/lib/jvm/java-17-openjdk-i386/legal/jdk.dynalink/dynalink.md
+1.1K /usr/lib/jvm/java-17-openjdk-i386/legal/jdk.internal.opt/jopt-simple.md
+1.4K /usr/lib/jvm/java-17-openjdk-i386/legal/java.desktop/xwd.md
+1.4K /usr/lib/jvm/java-17-openjdk-i386/legal/jdk.localedata/thaidict.md
+1.2K /usr/lib/jvm/java-17-openjdk-i386/legal/java.xml/jcup.md
+1.1K /usr/lib/jvm/java-17-openjdk-i386/release
+1.4K /usr/lib/gcc/i686-linux-gnu/10/libssp_nonshared.a
+1.5K /usr/lib/gcc/i686-linux-gnu/10/include/prfchwintrin.h
+1.2K /usr/lib/gcc/i686-linux-gnu/10/include/bmmintrin.h
+1.3K /usr/lib/gcc/i686-linux-gnu/10/include/nmmintrin.h
+1.2K /usr/lib/gcc/i686-linux-gnu/10/include/stdnoreturn.h
+1.2K /usr/lib/gcc/i686-linux-gnu/10/include/stdalign.h
+1.5K /usr/lib/gcc/i686-linux-gnu/10/include/clzerointrin.h
+1.3K /usr/lib/gcc/i686-linux-gnu/10/include/iso646.h
+1.4K /usr/lib/gcc/i686-linux-gnu/10/include/gcov.h
+1.4K /usr/lib/gcc/i686-linux-gnu/10/include/x86intrin.h
+1004 /usr/lib/terminfo/s/sun
+1.5K /usr/lib/terminfo/c/cons25
+1.1K /usr/lib/terminfo/m/mach-color
+1.1K /usr/lib/terminfo/m/mach-gnu
+1.3K /usr/lib/terminfo/m/mach-gnu-color
+1.3K /usr/lib/terminfo/x/xterm-r5
+1.5K /usr/lib/terminfo/x/xterm-mono
+1.5K /usr/lib/terminfo/x/xterm-r6
+1.5K /usr/lib/terminfo/a/ansi
+1.2K /usr/lib/terminfo/v/vt102
+1.2K /usr/lib/terminfo/v/vt100
+1.4K /usr/lib/terminfo/v/vt220
+1.2K /usr/lib/terminfo/p/pcansi
+1.2K /usr/lib/libreoffice/share/skia/skia_blacklist_vulkan.xml
+1.1K /usr/lib/libreoffice/share/extensions/wiki-publisher/help/kn/help.tree
+1.1K /usr/lib/libreoffice/share/extensions/wiki-publisher/help/or/help.tree
+1.1K /usr/lib/libreoffice/share/extensions/wiki-publisher/help/gu/help.tree
+1.1K /usr/lib/libreoffice/share/extensions/wiki-publisher/help/bn/help.tree
+1.2K /usr/lib/libreoffice/share/extensions/wiki-publisher/help/ml/help.tree
+1.1K /usr/lib/libreoffice/share/extensions/wiki-publisher/help/mr/help.tree
+1004 /usr/lib/libreoffice/share/extensions/wiki-publisher/help/pa-IN/help.tree
+1.1K /usr/lib/libreoffice/share/extensions/wiki-publisher/help/te/help.tree
+1.2K /usr/lib/libreoffice/share/extensions/wiki-publisher/WikiEditor/script.xlb
+1.1K /usr/lib/libreoffice/share/extensions/wiki-publisher/WikiEditor/Module1.xba
+1.3K /usr/lib/libreoffice/share/extensions/wiki-publisher/WikiEditor/dialog.xlb
+1.4K /usr/lib/libreoffice/share/extensions/wiki-publisher/filter/math/mmltex.xsl
+1.3K /usr/lib/libreoffice/share/extensions/wiki-publisher/Paths.xcu
+1.4K /usr/lib/libreoffice/share/extensions/wiki-publisher/ProtocolHandler.xcu
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_rw.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_fa.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_nso.properties
+1.5K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_oc.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_rw.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_nb.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_id.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_om.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_fi.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_kmr_Latn.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_tg.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_bs.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_lt.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_fr.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_da.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_nl.properties
+1.5K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_ast.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_cs.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_ts.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_sl.properties
+1.5K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_ca_valencia.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_sr_Latn.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_pt.properties
+1.5K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_is.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_dz.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_eu.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_gd.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_gl.properties
+1.5K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_ro.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_uz.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_ca_valencia.properties
+1.5K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_tr.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_xh.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_tn.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_nso.properties
+1.5K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_pt_BR.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_nn.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_ro.properties
+1.5K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_szl.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_gug.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_ca.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_br.properties
+1.5K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_sv.properties
+1.5K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_hu.properties
+1.5K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_bn.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_st.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_et.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_gd.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_fi.properties
+1.5K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_fa.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_af.properties
+1.5K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_is.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_da.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_ga.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_oc.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_cy.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_si.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_mk.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_en_ZA.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_pl.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_uz.properties
+1.5K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_th.properties
+1.5K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_sk.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_eu.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_id.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_bs.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_ss.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_nr.properties
+1.5K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_sr_Latn.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_et.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_it.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_ka.properties
+1.5K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_gl.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_es.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_zu.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_en_US.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_en_GB.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_en_ZA.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_af.properties
+1.5K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_es.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_nl.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_en_US.properties
+1.5K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_zh_TW.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_de.properties
+1.5K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_mk.properties
+1.5K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_vi.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_kmr_Latn.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_ve.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_sl.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_gug.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_hr.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_sv.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_de.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_lv.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_eo.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_en_GB.properties
+1.5K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_ca.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_xh.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_nb.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_pt_BR.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_ts.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_nr.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_szl.properties
+1.5K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_br.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_ast.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_nn.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_cy.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_dz.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_ss.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_tn.properties
+1.4K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_tg.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_eo.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_zu.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_om.properties
+1.5K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_it.properties
+1.5K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverStatusDialog_zh_CN.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_st.properties
+1.5K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_hr.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_bn.properties
+1.3K /usr/lib/libreoffice/share/extensions/nlpsolver/locale/NLPSolverCommon_ve.properties
+1.4K /usr/lib/libreoffice/share/basic/Tutorials/TutorialClose.xba
+1.4K /usr/lib/libreoffice/share/basic/Tutorials/TutorialCreator.xba
+1.4K /usr/lib/libreoffice/share/autocorr/acor_sr-Latn-CS.dat
+1.5K /usr/lib/libreoffice/share/autocorr/acor_sr-ME.dat
+1.4K /usr/lib/libreoffice/share/autocorr/acor_sr-Latn-RS.dat
+1.4K /usr/lib/libreoffice/share/autocorr/acor_sr-Latn-ME.dat
+1.1K /usr/lib/libreoffice/share/autocorr/acor_is-IS.dat
+1.5K /usr/lib/libreoffice/share/autocorr/acor_sr-RS.dat
+1.5K /usr/lib/libreoffice/share/autocorr/acor_sr-CS.dat
+1.1K /usr/lib/libreoffice/share/gallery/fontwork.thm
+1.4K /usr/lib/libreoffice/share/gallery/diagrams.thm
+1.5K /usr/lib/libreoffice/share/gallery/sounds.thm
+1.3K /usr/lib/libreoffice/share/gallery/symbolshapes.thm
+1.5K /usr/lib/libreoffice/share/gallery/flowchart.thm
+1.4K /usr/lib/libreoffice/share/gallery/bullets/Bullet15-Arrow-Blue.svg
+1.3K /usr/lib/libreoffice/share/gallery/bullets/Bullet09-Diamond-Red.svg
+1005 /usr/lib/libreoffice/share/gallery/bullets/Bullet19-Leaves-Red.svg
+1.2K /usr/lib/libreoffice/share/gallery/bullets/Bullet05-Square-Orange.svg
+1.3K /usr/lib/libreoffice/share/gallery/bullets/popcorn_2.gif
+1.1K /usr/lib/libreoffice/share/gallery/bullets/Bullet04-Square-Black.svg
+1005 /usr/lib/libreoffice/share/gallery/bullets/popcorn_1.gif
+1.2K /usr/lib/libreoffice/share/gallery/bullets/Bullet08-Diamond-LightBlue.svg
+1.1K /usr/lib/libreoffice/share/gallery/bullets/Bullet06-Square-Purple.svg
+1.4K /usr/lib/libreoffice/share/gallery/bullets/Bullet14-Arrow-Red.svg
+1.5K /usr/lib/libreoffice/share/gallery/arrows.thm
+1.4K /usr/lib/libreoffice/share/gallery/network.thm
+1.1K /usr/lib/libreoffice/share/theme_definitions/ios/switch-off-pressed.svg
+1.2K /usr/lib/libreoffice/share/theme_definitions/ios/switch-on-disabled.svg
+1.1K /usr/lib/libreoffice/share/theme_definitions/ios/switch-on.svg
+1.4K /usr/lib/libreoffice/share/Scripts/java/HelloWorld/parcel-descriptor.xml
+1.4K /usr/lib/libreoffice/share/Scripts/java/Highlight/parcel-descriptor.xml
+1.4K /usr/lib/libreoffice/share/Scripts/java/MemoryUsage/parcel-descriptor.xml
+1.3K /usr/lib/libreoffice/share/Scripts/javascript/HelloWorld/parcel-descriptor.xml
+1.5K /usr/lib/libreoffice/share/Scripts/javascript/HelloWorld/helloworld.js
+1.4K /usr/lib/libreoffice/share/Scripts/javascript/ExportSheetsToHTML/parcel-descriptor.xml
+1.4K /usr/lib/libreoffice/share/Scripts/beanshell/Capitalise/parcel-descriptor.xml
+1.3K /usr/lib/libreoffice/share/Scripts/beanshell/WordCount/parcel-descriptor.xml
+1.5K /usr/lib/libreoffice/share/Scripts/beanshell/HelloWorld/helloworld.bsh
+1.3K /usr/lib/libreoffice/share/Scripts/beanshell/HelloWorld/parcel-descriptor.xml
+1.4K /usr/lib/libreoffice/share/Scripts/beanshell/MemoryUsage/parcel-descriptor.xml
+1.1K /usr/lib/libreoffice/share/xslt/common/copy.xsl
+1.4K /usr/lib/libreoffice/share/config/webcast/webcast.asp
+1.4K /usr/lib/libreoffice/share/config/webcast/webcast.pl
+1.5K /usr/lib/libreoffice/share/config/webcast/poll.asp
+1003 /usr/lib/libreoffice/share/config/webcast/edit.asp
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/dbaccess/ui/querycolmenu.ui
+1.1K /usr/lib/libreoffice/share/config/soffice.cfg/dbaccess/ui/limitbox.ui
+1.1K /usr/lib/libreoffice/share/config/soffice.cfg/svx/ui/fontnamebox.ui
+1.1K /usr/lib/libreoffice/share/config/soffice.cfg/svx/ui/applystylebox.ui
+1018 /usr/lib/libreoffice/share/config/soffice.cfg/svx/ui/findbox.ui
+1.1K /usr/lib/libreoffice/share/config/soffice.cfg/svx/ui/checkbuttonbox.ui
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/svx/ui/accessibilitycheckentry.ui
+1.1K /usr/lib/libreoffice/share/config/soffice.cfg/svx/ui/fontsizebox.ui
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/svx/ui/rowsmenu.ui
+1.1K /usr/lib/libreoffice/share/config/soffice.cfg/svx/ui/interimdockparent.ui
+1.1K /usr/lib/libreoffice/share/config/soffice.cfg/svx/ui/metricfieldbox.ui
+1016 /usr/lib/libreoffice/share/config/soffice.cfg/svx/ui/interimtearableparent.ui
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/svt/ui/datewindow.ui
+1.1K /usr/lib/libreoffice/share/config/soffice.cfg/fps/ui/breadcrumb.ui
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/BasicIDE/toolbar/translationbar.xml
+1.1K /usr/lib/libreoffice/share/config/soffice.cfg/modules/BasicIDE/toolbar/formcontrolsbar.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/BasicIDE/toolbar/fullscreenbar.xml
+1.4K /usr/lib/libreoffice/share/config/soffice.cfg/modules/BasicIDE/toolbar/dialogbar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/BasicIDE/toolbar/findbar.xml
+1.1K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swreport/popupmenu/annotation.xml
+1.3K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swreport/popupmenu/drawtext.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swreport/toolbar/fontworkobjectbar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swreport/toolbar/optimizetablebar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swreport/toolbar/alignmentbar.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swreport/toolbar/insertobjectbar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swreport/toolbar/toolbar.xml
+1.3K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swreport/toolbar/formsfilterbar.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swreport/toolbar/mediaobjectbar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swreport/toolbar/mailmerge.xml
+1.1K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swxform/popupmenu/annotation.xml
+1.3K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swxform/popupmenu/drawtext.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swxform/toolbar/optimizetablebar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swxform/toolbar/alignmentbar.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swxform/toolbar/fullscreenbar.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swxform/toolbar/insertobjectbar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swxform/toolbar/toolbar.xml
+1.3K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swxform/toolbar/formsfilterbar.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swxform/toolbar/mediaobjectbar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swxform/toolbar/mailmerge.xml
+1.1K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swform/popupmenu/annotation.xml
+1.3K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swform/popupmenu/drawtext.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swform/toolbar/optimizetablebar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swform/toolbar/alignmentbar.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swform/toolbar/fullscreenbar.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swform/toolbar/insertobjectbar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swform/toolbar/toolbar.xml
+1.3K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swform/toolbar/formsfilterbar.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swform/toolbar/mediaobjectbar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swform/toolbar/mailmerge.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/simpress/ui/layoutmenu.ui
+1.4K /usr/lib/libreoffice/share/config/soffice.cfg/modules/simpress/ui/fontstylemenu.ui
+1.1K /usr/lib/libreoffice/share/config/soffice.cfg/modules/simpress/ui/pagesfieldbox.ui
+1.4K /usr/lib/libreoffice/share/config/soffice.cfg/modules/simpress/popupmenu/outline.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/simpress/popupmenu/gluepoint.xml
+1017 /usr/lib/libreoffice/share/config/soffice.cfg/modules/simpress/popupmenu/bezier.xml
+1.3K /usr/lib/libreoffice/share/config/soffice.cfg/modules/simpress/popupmenu/drawtext.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/simpress/toolbar/3dobjectsbar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/simpress/toolbar/optimizetablebar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/simpress/toolbar/alignmentbar.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/simpress/toolbar/fullscreenbar.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/simpress/toolbar/slideviewtoolbar.xml
+1.3K /usr/lib/libreoffice/share/config/soffice.cfg/modules/simpress/toolbar/formsfilterbar.xml
+1.4K /usr/lib/libreoffice/share/config/soffice.cfg/modules/simpress/toolbar/masterviewtoolbar.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/simpress/toolbar/mediaobjectbar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/simpress/toolbar/commentsbar.xml
+1.4K /usr/lib/libreoffice/share/config/soffice.cfg/modules/simpress/toolbar/slideviewobjectbar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/simpress/toolbar/textbar.xml
+1.4K /usr/lib/libreoffice/share/config/soffice.cfg/modules/spropctrlr/ui/hyperlinkfield.ui
+1.4K /usr/lib/libreoffice/share/config/soffice.cfg/modules/spropctrlr/ui/formproperties.ui
+1.1K /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/ui/zoombox.ui
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/ui/sortcriteriapage.ui
+1.1K /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/ui/posbox.ui
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/ui/queryrunstreamscriptdialog.ui
+1.3K /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/popupmenu/column_operations.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/popupmenu/rowheader.xml
+1.4K /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/popupmenu/celledit.xml
+1.1K /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/popupmenu/sheettab.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/popupmenu/colheader.xml
+1.3K /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/popupmenu/row_operations.xml
+1.3K /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/popupmenu/drawtext.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/toolbar/alignmentbar.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/toolbar/fullscreenbar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/toolbar/insertcellsbar.xml
+1.3K /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/toolbar/formsfilterbar.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/toolbar/mediaobjectbar.xml
+1.1K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sweb/popupmenu/annotation.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sweb/toolbar/optimizetablebar.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sweb/toolbar/fullscreenbar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sweb/toolbar/toolbar.xml
+1.3K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sweb/toolbar/formsfilterbar.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sweb/toolbar/mediaobjectbar.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sglobal/popupmenu/annotation.xml
+1.3K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sglobal/popupmenu/drawtext.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sglobal/toolbar/optimizetablebar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sglobal/toolbar/alignmentbar.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sglobal/toolbar/fullscreenbar.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sglobal/toolbar/insertobjectbar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sglobal/toolbar/toolbar.xml
+1.3K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sglobal/toolbar/formsfilterbar.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sglobal/toolbar/mediaobjectbar.xml
+1.4K /usr/lib/libreoffice/share/config/soffice.cfg/modules/dbreport/statusbar/statusbar.xml
+1.3K /usr/lib/libreoffice/share/config/soffice.cfg/modules/dbreport/toolbar/sectionshrinkbar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/dbreport/toolbar/alignmentbar.xml
+1.4K /usr/lib/libreoffice/share/config/soffice.cfg/modules/dbreport/toolbar/sectionalignmentbar.xml
+1.4K /usr/lib/libreoffice/share/config/soffice.cfg/modules/dbreport/toolbar/drawbar.xml
+1.4K /usr/lib/libreoffice/share/config/soffice.cfg/modules/dbreport/toolbar/resizebar.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/dbquery/toolbar/sqlobjectbar.xml
+1.4K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sbibliography/ui/editbox.ui
+1.4K /usr/lib/libreoffice/share/config/soffice.cfg/modules/schart/ui/combobox.ui
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/schart/ui/columnfragment.ui
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/schart/popupmenu/draw.xml
+1.1K /usr/lib/libreoffice/share/config/soffice.cfg/modules/schart/popupmenu/drawtext.xml
+1.4K /usr/lib/libreoffice/share/config/soffice.cfg/modules/schart/statusbar/statusbar.xml
+1017 /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/ui/zoombox.ui
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/ui/infonotfounddialog.ui
+1.0K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/ui/checkbox.ui
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/popupmenu/annotation.xml
+1.3K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/popupmenu/drawtext.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/toolbar/optimizetablebar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/toolbar/alignmentbar.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/toolbar/fullscreenbar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/toolbar/toolbar.xml
+1.3K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/toolbar/formsfilterbar.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/toolbar/mediaobjectbar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/toolbar/mailmerge.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sdraw/popupmenu/gluepoint.xml
+1017 /usr/lib/libreoffice/share/config/soffice.cfg/modules/sdraw/popupmenu/bezier.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sdraw/popupmenu/drawtext.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sdraw/toolbar/3dobjectsbar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sdraw/toolbar/optimizetablebar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sdraw/toolbar/alignmentbar.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sdraw/toolbar/fullscreenbar.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sdraw/toolbar/redactedexportbar.xml
+1.3K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sdraw/toolbar/formsfilterbar.xml
+1.4K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sdraw/toolbar/masterviewtoolbar.xml
+1.2K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sdraw/toolbar/mediaobjectbar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sdraw/toolbar/commentsbar.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/sdraw/toolbar/textbar.xml
+1.4K /usr/lib/libreoffice/share/config/soffice.cfg/modules/dbapp/popupmenu/edit.xml
+1.5K /usr/lib/libreoffice/share/config/soffice.cfg/modules/smath/toolbar/toolbar.xml
+1009 /usr/lib/libreoffice/share/config/soffice.cfg/sfx/ui/charviewmenu.ui
+1.1K /usr/lib/libreoffice/share/config/soffice.cfg/sfx/ui/notebookbarpopup.ui
+1019 /usr/lib/libreoffice/share/config/soffice.cfg/sfx/ui/urlbox.ui
+1.3K /usr/lib/libreoffice/share/dtd/officedocument/1_0/event.dtd
+1.2K /usr/lib/libreoffice/share/dtd/officedocument/1_0/groupuinames.dtd
+1.3K /usr/lib/libreoffice/share/dtd/officedocument/1_0/accelerator.dtd
+1.3K /usr/lib/libreoffice/share/dtd/officedocument/1_0/libraries.dtd
+1.1K /usr/lib/libreoffice/share/dtd/officedocument/1_0/module.dtd
+1.4K /usr/lib/libreoffice/share/dtd/officedocument/1_0/menubar.dtd
+1.3K /usr/lib/libreoffice/share/dtd/officedocument/1_0/library.dtd
+1.1K /usr/lib/libreoffice/presets/basic/Standard/Module1.xba
+1.1K /usr/lib/libreoffice/program/opengl/glitterFragmentShader.glsl
+1.4K /usr/lib/libreoffice/program/opengl/linearMultiColorGradientFragmentShader.glsl
+1.1K /usr/lib/libreoffice/program/opengl/reflectionFragmentShader.glsl
+1.5K /usr/lib/libreoffice/program/opengl/radialMultiColorGradientFragmentShader.glsl
+1015 /usr/lib/libreoffice/program/opengl/combinedTextureVertexShader.glsl
+1.3K /usr/lib/libreoffice/program/opengl/rectangularMultiColorGradientFragmentShader.glsl
+1.3K /usr/lib/libreoffice/program/opengl/lineVertexShader.glsl
+1.2K /usr/lib/libreoffice/program/opengl/lineFragmentShader.glsl
+1.1K /usr/lib/libreoffice/program/lounorc
+1.4K /usr/lib/libreoffice/program/resource/en_GB/LC_MESSAGES/acc.mo
+1.3K /usr/lib/libreoffice/program/services/scriptproviderforpython.rdb
+1.3K /usr/lib/libreoffice/program/sofficerc
+1.5K /usr/lib/libreoffice/program/JREProperties.class
+1.3K /usr/lib/libreoffice/program/unoinfo
+1.1K /usr/lib/libreoffice/program/wizards/letter/CGPaperElementLocation.py
+1.1K /usr/lib/libreoffice/program/wizards/letter/CGLetterWizard.py
+1.1K /usr/lib/libreoffice/program/wizards/fax/CGFaxWizard.py
+1.2K /usr/lib/libreoffice/program/wizards/ui/event/TaskEvent.py
+1013 /usr/lib/libreoffice/program/wizards/ui/event/EventListenerList.py
+1.2K /usr/lib/libreoffice/program/wizards/ui/event/TaskListener.py
+1.4K /usr/lib/libreoffice/program/wizards/ui/UIConsts.py
+1.1K /usr/lib/libreoffice/program/wizards/text/TextElement.py
+1.4K /usr/lib/libreoffice/program/wizards/common/PropertyNames.py
+1.1K /usr/lib/libreoffice/program/wizards/common/ListModel.py
+1.1K /usr/lib/libreoffice/program/wizards/common/IRenderer.py
+1.3K /usr/lib/libreoffice/program/wizards/common/NoValidPathException.py
+1.3K /usr/lib/python2.7/tty.pyc
+1023 /usr/lib/python2.7/compiler/__init__.py
+1.3K /usr/lib/python2.7/compiler/__init__.pyc
+1.5K /usr/lib/python2.7/compiler/syntax.py
+1.4K /usr/lib/python2.7/lib-tk/tkColorChooser.pyc
+1.5K /usr/lib/python2.7/lib-tk/tkCommonDialog.pyc
+1.5K /usr/lib/python2.7/lib-tk/Tkconstants.py
+1.4K /usr/lib/python2.7/lib-tk/tkCommonDialog.py
+1.1K /usr/lib/python2.7/ensurepip/_uninstall.pyc
+1.2K /usr/lib/python2.7/hotshot/stones.pyc
+1.1K /usr/lib/python2.7/xml/dom/NodeFilter.pyc
+1.1K /usr/lib/python2.7/xml/__init__.pyc
+1.2K /usr/lib/python2.7/lib2to3/pygram.py
+1.3K /usr/lib/python2.7/lib2to3/pgen2/token.py
+1.3K /usr/lib/python2.7/lib2to3/fixes/fix_reduce.pyc
+1.2K /usr/lib/python2.7/lib2to3/fixes/fix_paren.py
+1.3K /usr/lib/python2.7/lib2to3/fixes/fix_unicode.py
+1.1K /usr/lib/python2.7/lib2to3/fixes/fix_sys_exc.py
+1.4K /usr/lib/python2.7/lib2to3/fixes/fix_zip.pyc
+1.0K /usr/lib/python2.7/lib2to3/fixes/fix_repr.pyc
+1002 /usr/lib/python2.7/lib2to3/fixes/fix_exec.py
+1.1K /usr/lib/python2.7/lib2to3/fixes/fix_funcattrs.pyc
+1.4K /usr/lib/python2.7/lib2to3/fixes/fix_ws_comma.pyc
+1.2K /usr/lib/python2.7/lib2to3/fixes/fix_methodattrs.pyc
+1.4K /usr/lib/python2.7/lib2to3/fixes/fix_exec.pyc
+1.2K /usr/lib/python2.7/lib2to3/fixes/fix_xreadlines.pyc
+1.1K /usr/lib/python2.7/lib2to3/fixes/fix_nonzero.pyc
+1.1K /usr/lib/python2.7/lib2to3/fixes/fix_ws_comma.py
+1.2K /usr/lib/python2.7/lib2to3/fixes/fix_input.pyc
+1.3K /usr/lib/python2.7/lib2to3/fixes/fix_numliterals.pyc
+1.5K /usr/lib/python2.7/lib2to3/pygram.pyc
+1.3K /usr/lib/python2.7/json/tool.pyc
+1.4K /usr/lib/python2.7/sunaudio.py
+1002 /usr/lib/python2.7/this.py
+1.1K /usr/lib/python2.7/encodings/gb18030.py
+1.3K /usr/lib/python2.7/encodings/latin_1.py
+1.1K /usr/lib/python2.7/encodings/euc_jisx0213.py
+1019 /usr/lib/python2.7/encodings/big5.py
+1.1K /usr/lib/python2.7/encodings/euc_jis_2004.py
+1.2K /usr/lib/python2.7/encodings/unicode_internal.py
+1.1K /usr/lib/python2.7/encodings/euc_jp.py
+1023 /usr/lib/python2.7/encodings/cp950.py
+1.1K /usr/lib/python2.7/encodings/utf_16_be.py
+1.1K /usr/lib/python2.7/encodings/iso2022_jp_3.py
+1.1K /usr/lib/python2.7/encodings/shift_jisx0213.py
+1005 /usr/lib/python2.7/encodings/utf_8.py
+1023 /usr/lib/python2.7/encodings/johab.py
+1023 /usr/lib/python2.7/encodings/cp932.py
+1.1K /usr/lib/python2.7/encodings/gb2312.py
+1.1K /usr/lib/python2.7/encodings/shift_jis.py
+1023 /usr/lib/python2.7/encodings/cp949.py
+1.1K /usr/lib/python2.7/encodings/iso2022_jp_2.py
+1.1K /usr/lib/python2.7/encodings/shift_jis_2004.py
+1.1K /usr/lib/python2.7/encodings/iso2022_jp_1.py
+1.1K /usr/lib/python2.7/encodings/iso2022_jp_2004.py
+1.1K /usr/lib/python2.7/encodings/euc_kr.py
+1.1K /usr/lib/python2.7/encodings/iso2022_kr.py
+1.1K /usr/lib/python2.7/encodings/iso2022_jp_ext.py
+1.1K /usr/lib/python2.7/encodings/utf_16_le.py
+1.2K /usr/lib/python2.7/encodings/raw_unicode_escape.py
+1.1K /usr/lib/python2.7/encodings/big5hkscs.py
+1011 /usr/lib/python2.7/encodings/hz.py
+1.3K /usr/lib/python2.7/encodings/undefined.py
+1.2K /usr/lib/python2.7/encodings/unicode_escape.py
+1.2K /usr/lib/python2.7/encodings/mbcs.py
+1.3K /usr/lib/python2.7/encodings/ascii.py
+1015 /usr/lib/python2.7/encodings/gbk.py
+1.1K /usr/lib/python2.7/encodings/iso2022_jp.py
+1.4K /usr/lib/python2.7/distutils/command/install_headers.py
+1.1K /usr/lib/python2.7/sqlite3/__init__.py
+1.2K /usr/lib/python2.7/this.pyc
+1.3K /usr/lib/python2.7/importlib/__init__.py
+1.5K /usr/lib/python2.7/importlib/__init__.pyc
+1.3K /usr/lib/python2.7/dummy_threading.pyc
+1.2K /usr/lib/python2.7/curses/wrapper.pyc
+1.1K /usr/lib/python2.7/email/mime/base.pyc
+1006 /usr/lib/python2.7/email/mime/text.py
+1.3K /usr/lib/python2.7/email/mime/application.py
+1.3K /usr/lib/python2.7/email/mime/text.pyc
+1.5K /usr/lib/python2.7/email/mime/message.pyc
+1.3K /usr/lib/python2.7/email/mime/message.py
+1.1K /usr/lib/python2.7/dircache.py
+1.1K /usr/lib/modules/5.10.0-15-686/modules.softdep
+1.3K /usr/lib/sonic-pi/app/server/ruby/lib/sonicpi/busallocator.rb
+1.4K /usr/lib/sonic-pi/app/server/ruby/lib/sonicpi/jobs.rb
+1.4K /usr/lib/sonic-pi/app/server/ruby/lib/sonicpi/lang/maths.rb
+1.2K /usr/lib/sonic-pi/app/server/ruby/lib/sonicpi/osc/udp_client.rb
+1.1K /usr/lib/sonic-pi/app/server/ruby/lib/sonicpi/osc/tcp_client.rb
+1.3K /usr/lib/sonic-pi/app/server/ruby/lib/sonicpi/synthnode.rb
+1.5K /usr/lib/sonic-pi/app/server/ruby/lib/sonicpi/allocator.rb
+1.3K /usr/lib/sonic-pi/app/server/ruby/lib/sonicpi/synthtracker.rb
+1.2K /usr/lib/sonic-pi/app/server/ruby/lib/sonicpi/preparser.rb
+1.2K /usr/lib/sonic-pi/app/server/ruby/lib/sonicpi/bus.rb
+1.4K /usr/lib/sonic-pi/app/server/ruby/lib/sonicpi/blanknode.rb
+1.4K /usr/lib/sonic-pi/app/server/ruby/lib/sonicpi/sox.rb
+1.4K /usr/lib/sonic-pi/app/server/ruby/vendor/ruby-beautify/lib/ruby-beautify-legacy/line.rb
+1.2K /usr/lib/sonic-pi/app/server/ruby/bin/task-register.rb
+1.2K /usr/lib/sonic-pi/app/server/ruby/bin/fetch-url.rb
+1.1K /usr/lib/firmware/go7007/s2250-1.fw
+1.3K /usr/lib/firmware/regulatory.db.p7s-debian
+1.5K /usr/lib/firmware/rtl_nic/rtl8153a-3.fw
+1.3K /usr/lib/firmware/rtl_nic/rtl8168d-2.fw
+1.1K /usr/lib/firmware/rtl_nic/rtl8153b-2.fw
+1.5K /usr/lib/firmware/rtl_nic/rtl8168d-1.fw
+1.1K /usr/lib/firmware/rtl_nic/rtl8411-2.fw
+1.3K /usr/lib/firmware/rtl_nic/rtl8168f-2.fw
+1.1K /usr/lib/firmware/brcm/brcmfmac43430-sdio.txt
+1.5K /usr/lib/firmware/brcm/brcmfmac4330-sdio.Prowise-PT301.txt
+1.1K /usr/lib/firmware/brcm/brcmfmac43436s-sdio.txt
+1.2K /usr/lib/firmware/regulatory.db.p7s-upstream
+1.3K /usr/lib/firmware/ar3k/ramps_0x01020200_26.dfu
+1.2K /usr/lib/firmware/ar3k/ramps_0x01020001_26.dfu
+1.2K /usr/lib/firmware/ar3k/ramps_0x01020200_40.dfu
+1.0K /usr/lib/firmware/ath6k/AR6003/hw1.0/bdata.SD32.bin
+1.0K /usr/lib/firmware/ath6k/AR6003/hw1.0/bdata.WB31.bin
+1.0K /usr/lib/firmware/ath6k/AR6003/hw1.0/bdata.SD31.bin
+1.5K /usr/lib/firmware/cxgb3/ael2005_twx_edc.bin
+1.1K /usr/lib/firmware/cxgb3/ael2005_opt_edc.bin
+1.1K /usr/lib/firmware/ti-connectivity/wl128x-nvs.bin
+1.5K /usr/lib/firmware/nvidia/gm200/acr/ucode_unload.bin
+1.5K /usr/lib/firmware/nvidia/gm200/gr/sw_nonctx.bin
+1.3K /usr/lib/firmware/nvidia/tu102/acr/unload_bl.bin
+1.3K /usr/lib/firmware/nvidia/tu102/acr/bl.bin
+1.3K /usr/lib/firmware/nvidia/gv100/acr/unload_bl.bin
+1.3K /usr/lib/firmware/nvidia/gv100/acr/bl.bin
+1.3K /usr/lib/firmware/nvidia/gp102/acr/unload_bl.bin
+1.3K /usr/lib/firmware/nvidia/gp102/acr/bl.bin
+1.3K /usr/lib/firmware/nvidia/tu116/acr/unload_bl.bin
+1.3K /usr/lib/firmware/nvidia/tu116/acr/bl.bin
+1.3K /usr/lib/firmware/nvidia/gp10b/acr/bl.bin
+1.4K /usr/lib/firmware/nvidia/gm20b/gr/sw_nonctx.bin
+1.5K /usr/lib/firmware/nvidia/gm206/acr/ucode_unload.bin
+1.4K /usr/lib/firmware/nvidia/gk20a/sw_nonctx.bin
+1.5K /usr/lib/firmware/nvidia/gp100/acr/ucode_unload.bin
+1.2K /usr/lib/firmware/qcom/a300_pfp.fw
+1.0K /usr/lib/firmware/ath10k/QCA9887/hw1.0/board.bin
+1.1K /usr/lib/python3.9/keyword.py
+1.4K /usr/lib/python3.9/config-3.9-i386-linux-gnu/Setup.local
+1.3K /usr/lib/python3.9/lib2to3/pygram.py
+1.3K /usr/lib/python3.9/lib2to3/pgen2/token.py
+1.2K /usr/lib/python3.9/lib2to3/fixes/fix_paren.py
+1.3K /usr/lib/python3.9/lib2to3/fixes/fix_unicode.py
+1.1K /usr/lib/python3.9/lib2to3/fixes/fix_sys_exc.py
+1.1K /usr/lib/python3.9/lib2to3/fixes/fix_reload.py
+1.1K /usr/lib/python3.9/lib2to3/fixes/__pycache__/fix_reduce.cpython-39.pyc
+1016 /usr/lib/python3.9/lib2to3/fixes/__pycache__/fix_numliterals.cpython-39.pyc
+1.1K /usr/lib/python3.9/lib2to3/fixes/__pycache__/fix_xreadlines.cpython-39.pyc
+1.1K /usr/lib/python3.9/lib2to3/fixes/__pycache__/fix_ws_comma.cpython-39.pyc
+1.1K /usr/lib/python3.9/lib2to3/fixes/__pycache__/fix_exec.cpython-39.pyc
+1.4K /usr/lib/python3.9/lib2to3/fixes/__pycache__/fix_paren.cpython-39.pyc
+1.2K /usr/lib/python3.9/lib2to3/fixes/__pycache__/fix_intern.cpython-39.pyc
+1.3K /usr/lib/python3.9/lib2to3/fixes/__pycache__/fix_asserts.cpython-39.pyc
+1.2K /usr/lib/python3.9/lib2to3/fixes/__pycache__/fix_reload.cpython-39.pyc
+1.4K /usr/lib/python3.9/lib2to3/fixes/__pycache__/fix_sys_exc.cpython-39.pyc
+1.3K /usr/lib/python3.9/lib2to3/fixes/fix_zip.py
+1.2K /usr/lib/python3.9/lib2to3/fixes/fix_intern.py
+1.1K /usr/lib/python3.9/lib2to3/fixes/fix_ws_comma.py
+1.3K /usr/lib/python3.9/lib2to3/__pycache__/pygram.cpython-39.pyc
+1003 /usr/lib/python3.9/this.py
+1.1K /usr/lib/python3.9/encodings/gb18030.py
+1.3K /usr/lib/python3.9/encodings/latin_1.py
+1.1K /usr/lib/python3.9/encodings/euc_jisx0213.py
+1019 /usr/lib/python3.9/encodings/big5.py
+1.1K /usr/lib/python3.9/encodings/euc_jis_2004.py
+1.1K /usr/lib/python3.9/encodings/euc_jp.py
+1023 /usr/lib/python3.9/encodings/cp950.py
+1.1K /usr/lib/python3.9/encodings/utf_16_be.py
+1.1K /usr/lib/python3.9/encodings/iso2022_jp_3.py
+1.1K /usr/lib/python3.9/encodings/shift_jisx0213.py
+1005 /usr/lib/python3.9/encodings/utf_8.py
+1023 /usr/lib/python3.9/encodings/johab.py
+1023 /usr/lib/python3.9/encodings/cp932.py
+1.1K /usr/lib/python3.9/encodings/gb2312.py
+1.1K /usr/lib/python3.9/encodings/shift_jis.py
+1023 /usr/lib/python3.9/encodings/cp949.py
+1.1K /usr/lib/python3.9/encodings/iso2022_jp_2.py
+^C
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m vi script5.sh 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"script5.sh" 7 lines, 149 bytes[1;1H#!/bin/bash
+# 1-min_size, 2-max_size, 3-catalog
+
+for i in $(find "$3" -size "+$1c" -size "-$2c" -type f)
+do
+ ls -lh "$i" | awk '{print $5, $9}'
+done
+[94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[K[24;1H:[?25hwq[?25l[?2004l[>4;m"script5.sh" 7 lines, 149 bytes written
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ssh krazhevskiy13@1921[K.168.56.102
+[?2004lkrazhevskiy13@192.168.56.102's password: 
+Linux kali 5.18.0-kali5-amd64 #1 SMP PREEMPT_DYNAMIC Debian 5.18.5-1kali6 (2022-07-07) x86_64
+
+The programs included with the Kali GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Kali GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Sep 26 06:37:45 2022 from 192.168.56.101
+                                                                                ]0;krazhevskiy13@kali: ~[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1ms[0m[1ms[0m[38;2;153;153;153mcreen[39m[1ms[39m[1mc[0m[1ms[1mc[39m[1mr[0m[0m[4m[37ms[0m[4m[37mc[0m[4m[37mr[4m[37me[24m[39m[4m[37me[4m[37me[24m[39m[24m[36ms[24m[36mc[24m[36mr[24m[36me[24m[36me[36mn[39m[?1l>[?2004l
+[!p[?3;4l[4l>[?1049h[22;0;0t[4l[?1h=[0m(B[1;24r[H[2J[H[2J[H[2J
+GNU Screen version 4.09.00 (GNU) 30-Jan-22
+
+Copyright (c) 2018-2020 Alexander Naumov, Amadeusz Slawinski
+Copyright (c) 2015-2017 Juergen Weigert, Alexander Naumov, Amadeusz Slawinski
+Copyright (c) 2010-2014 Juergen Weigert, Sadrul Habib Chowdhury
+Copyright (c) 2008-2009 Juergen Weigert, Michael Schroeder, Micah Cowan,
+Sadrul Habib Chowdhury
+Copyright (c) 1993-2007 Juergen Weigert, Michael Schroeder
+Copyright (c) 1987 Oliver Laumann
+
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation; either version 3, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+this program (see the file COPYING); if not, see[30D
+
+[Press Space for next page; Return to end.]
+[H[2Jhttps://www.gnu.org/licenses/, or contact Free Software Foundation, Inc., 51
+Franklin Street, Fifth Floor, Boston, MA  02111-1301  USA.
+
+Send bugreports, fixes, enhancements, t-shirts, money, beer & pizza to
+screen-devel@gnu.org
+
+
+Capabilities:
++copy +remote-detach +power-detach +multi-attach +multi-user +font +color-256
++utf8 +rxvt +builtin-telnet[23;25H[Press Space or Return to end.]
+[H[2J[32m┌──([1m[34mkrazhevskiy13㉿kali[0m[32m)-[[1m[39m~[0m[32m]
+└─[1m[34m$[C[0m[36ml[39m[36ml[39m[2ms[36mls[39m
+[0m[1m[34mDesktop[0m    [1m[34mDownloads[0m  [1m[34mkrazhevskiy[0m  [1m[34mMusic[0m     [1m[34mPublic[0m     [1m[34mTemplates[0m
+[1m[34mDocuments[0m  file       [1m[34mlab1[0m         [1m[34mPictures[0m  [1m[32mscript.sh[0m  [1m[34mVideos[0m
+                                                                                
+[J[32m┌──([1m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[39m~[0m[32m]
+└─[1m[34m$[0m[34m[39m [K[1ms[0m[1ms[0m[2mcreen[1msc[0m[36ms[39m[36mcp[39m   [2m pi@192.168.56.101:~/script.sh ~/[33D pi@192.168.56.101:~/script.sh [1m~/[0m5.sh [1m~/[0m
+pi@192.168.56.101's password: 
+script5.sh                                      0%    0     0.0KB/s   --:-- ETAscript5.sh                                    100%  149    65.6KB/s   00:00    
+                                                                                
+[J[32m┌──([1m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[39m~[0m[32m]
+└─[1m[34m$[0m[34m[39m [K[36ml[39m[36ml[39m[2ms[36mls[39m
+[0m[1m[34mDesktop[0m    [1m[34mDownloads[0m  [1m[34mkrazhevskiy[0m  [1m[34mMusic[0m     [1m[34mPublic[0m      [1m[32mscript.sh[0m  [1m[34mVideos[0m
+[1m[34mDocuments[0m  file       [1m[34mlab1[0m         [1m[34mPictures[0m  [1m[32mscript5.sh[0m  [1m[34mTemplates[0m
+                                                                                
+[J[32m┌──([1m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[39m~[0m[32m]
+└─[1m[34m$[0m[34m[39m [K[36m.[39m[36m.[39m[2m/script.sh file 000[19D[1m./[0m[1m./s[0m[1msc[0m[1mcr[0m[1mri[0m[1mip[0m[1mpt[0m[1mt5[0m           [11D[2m.sh[1m5.[0m[1m.s[0m[11D[36m.[39m[36m/[39m[36ms[39m[36mc[39m[36mr[39m[36mi[39m[36mp[39m[36mt[39m[36m5[39m[36m.[39m[36msh[39m 1000 1510 [1m/[0m[1m/u[0m[1mus[0m[1msr[0m
+find: ‘/usr/lib/mysql/plugin/auth_pam_tool_dir’: Permission denied
+1.1K /usr/share/X11/xkb/rules/xkb.dtd
+1.2K /usr/share/X11/xkb/symbols/kr
+1.5K /usr/share/X11/xkb/symbols/tm
+1021 /usr/share/X11/xkb/symbols/macintosh_vndr/jp
+1.2K /usr/share/X11/xkb/compat/olpc
+1.1K /usr/share/X11/xkb/compat/basic
+1.2K /usr/share/X11/xkb/compat/pc98
+1.5K /usr/share/X11/xkb/compat/xtest
+1.4K /usr/share/X11/xkb/compat/level5
+1.1K /usr/share/X11/xkb/compat/accessx
+1.3K /usr/share/X11/xkb/geometry/nokia
+1.4K /usr/share/X11/xorg.conf.d/10-quirks.conf
+1.4K /usr/share/X11/xorg.conf.d/40-libinput.conf
+1.1K /usr/share/X11/locale/iso8859-15/XLC_LOCALE
+1.2K /usr/share/X11/locale/zh_CN.gbk/XLC_LOCALE
+1.2K /usr/share/X11/locale/zh_TW.UTF-8/XLC_LOCALE
+1.1K /usr/share/X11/locale/zh_HK.big5hkscs/XLC_LOCALE
+1.4K /usr/share/X11/locale/zh_CN.gb18030/XLC_LOCALE
+1.1K /usr/share/X11/locale/zh_HK.big5/XLC_LOCALE
+1007 /usr/share/X11/locale/th_TH.UTF-8/XLC_LOCALE
+1.4K /usr/share/X11/bindings/intergraph
+1.4K /usr/share/X11/bindings/doubleclick
+1.4K /usr/share/X11/bindings/tek
+1.5K /usr/share/X11/bindings/sni_97801
+1.5K /usr/share/X11/bindings/ncr_vt
+1.4K /usr/share/X11/bindings/siemens_9733
+1.4K /usr/share/X11/bindings/sony
+1.4K /usr/share/X11/bindings/intergraph17
+1.4K /usr/share/X11/bindings/sni
+1.5K /usr/share/X11/bindings/megatek
+1.4K /usr/share/X11/bindings/sgi
+1.5K /usr/share/X11/bindings/hp
+1.4K /usr/share/X11/bindings/dg_AViiON
+1.5K /usr/share/X11/bindings/dec
+1.4K /usr/share/X11/bindings/ibm
+1.5K /usr/share/X11/bindings/siemens_wx200
+1.4K /usr/share/X11/bindings/hitachi
+1.4K /usr/share/X11/bindings/ncr_at
+1.4K /usr/share/X11/bindings/hal
+1.2K /usr/share/xfce4/xkb/flags/ma.svg
+1.2K /usr/share/xfce4/xkb/flags/so.svg
+1.5K /usr/share/xfce4/xkb/flags/az.svg
+1.1K /usr/share/xfce4/xkb/flags/tn.svg
+1.1K /usr/share/xfce4/xkb/flags/dz.svg
+1.3K /usr/share/xfce4/xkb/flags/gb.svg
+1.3K /usr/share/xfce4/xkb/flags/cu.svg
+1.2K /usr/share/xfce4/xkb/flags/mm.svg
+1.1K /usr/share/xfce4/helpers/aterm.desktop
+1.2K /usr/share/xfce4/helpers/jumanji.desktop
+1.3K /usr/share/xfce4/helpers/qterminal.desktop
+1.2K /usr/share/xfce4/helpers/nxterm.desktop
+1.3K /usr/share/xfce4/helpers/icedove.desktop
+1.2K /usr/share/xfce4/helpers/mutt.desktop
+1.2K /usr/share/xfce4/helpers/thunar.desktop
+1.3K /usr/share/xfce4/helpers/muttng.desktop
+1.5K /usr/share/xfce4/helpers/xterm.desktop
+1.3K /usr/share/xfce4/helpers/chromium.desktop
+1.1K /usr/share/xfce4/helpers/sakura.desktop
+1.2K /usr/share/xfce4/helpers/neomutt.desktop
+1.5K /usr/share/xfce4/helpers/urxvt.desktop
+1.3K /usr/share/xfce4/helpers/iceweasel.desktop
+1.1K /usr/share/xfce4/helpers/dillo.desktop
+1.2K /usr/share/xfce4/helpers/midori.desktop
+1.3K /usr/share/xfce4/helpers/nautilus.desktop
+1.1K /usr/share/xfce4/helpers/icecat.desktop
+1.1K /usr/share/xfce4/helpers/geary.desktop
+1.2K /usr/share/xfce4/helpers/qupzilla.desktop
+1.5K /usr/share/xfce4/helpers/google-chrome.desktop
+1.4K /usr/share/xfce4/helpers/vimprobable2.desktop
+1.2K /usr/share/xfce4/helpers/balsa.desktop
+1.3K /usr/share/xfce4/helpers/terminator.desktop
+1.2K /usr/share/xfce4/helpers/kmail.desktop
+1.1K /usr/share/xfce4/helpers/brave.desktop
+1.3K /usr/share/xfce4/helpers/rox-filer.desktop
+1.3K /usr/share/xfce4/helpers/encompass.desktop
+1.3K /usr/share/xfce4/helpers/sylpheed.desktop
+1.1K /usr/share/alsa/alsa.conf.d/60-speex.conf
+1.2K /usr/share/alsa/pcm/iec958.conf
+1003 /usr/share/alsa/pcm/surround50.conf
+1.3K /usr/share/alsa/pcm/modem.conf
+1004 /usr/share/alsa/pcm/surround41.conf
+1.2K /usr/share/alsa/pcm/hdmi.conf
+1002 /usr/share/alsa/pcm/surround71.conf
+1.4K /usr/share/alsa/cards/vc4-hdmi.conf
+1.5K /usr/share/alsa/cards/SB-XFi.conf
+1.5K /usr/share/alsa/cards/HdmiLpeAudio.conf
+1.5K /usr/share/alsa/cards/VXPocket440.conf
+1.2K /usr/share/alsa/cards/PS3.conf
+1.3K /usr/share/alsa/cards/Loopback.conf
+1.5K /usr/share/alsa/cards/aliases.conf
+1.2K /usr/share/alsa/cards/FM801.conf
+1.4K /usr/share/alsa/cards/YMF744.conf
+1.4K /usr/share/alsa/cards/ENS1370.conf
+1.2K /usr/share/alsa/cards/VIA686A.conf
+1.2K /usr/share/alsa/ucm2/Qualcomm/sm8250/HiFi.conf
+1.2K /usr/share/alsa/ucm2/Tegra/alc5632/alc5632.conf
+1.5K /usr/share/alsa/ucm2/Tegra/alc5632/Record.conf
+1.5K /usr/share/alsa/ucm2/USB-Audio/Audient/Audient-iD4-HiFi.conf
+1.2K /usr/share/alsa/ucm2/USB-Audio/Gigabyte/Aorus-Master-Main-Audio-HiFi.conf
+1.2K /usr/share/alsa/ucm2/USB-Audio/Behringer/Flow8-Streaming-Hifi.conf
+1.1K /usr/share/alsa/ucm2/USB-Audio/Dell/WD15-Dock-HiFi.conf
+1.5K /usr/share/alsa/ucm2/USB-Audio/Realtek/ALC4080-HiFi.conf
+1.3K /usr/share/alsa/ucm2/USB-Audio/Realtek/ALC1220-VB-Desktop-HiFi.conf
+1.1K /usr/share/alsa/ucm2/codecs/rt5651/HeadPhones-swapped.conf
+1.3K /usr/share/alsa/ucm2/codecs/es8316/MonoSpeaker.conf
+1.5K /usr/share/alsa/ucm2/codecs/rt5645/EnableSeq.conf
+1.2K /usr/share/alsa/ucm2/codecs/rt5640/IN3-InternalMic.conf
+1.2K /usr/share/alsa/ucm2/codecs/rt5640/DigitalMics.conf
+1.1K /usr/share/alsa/ucm2/codecs/rt5640/HeadsetMic2-IN1.conf
+1001 /usr/share/alsa/ucm2/codecs/rt5640/Speaker.conf
+1.2K /usr/share/alsa/ucm2/codecs/rt5640/HeadsetMic.conf
+1.2K /usr/share/alsa/ucm2/codecs/rt5640/IN1-InternalMic.conf
+1.3K /usr/share/alsa/ucm2/Intel/broxton-rt298/broxton-rt298.conf
+1.2K /usr/share/alsa/ucm2/Intel/sof-essx8336/sof-essx8336.conf
+1.5K /usr/share/alsa/ucm2/Intel/sof-ehl-rt5660/Hdmi.conf
+1.1K /usr/share/alsa/ucm2/Intel/sof-ehl-rt5660/HiFi.conf
+1.1K /usr/share/alsa/ucm2/Intel/bytcr-rt5640/HiFi-Components.conf
+1.4K /usr/share/alsa/ucm2/Intel/chtnau8824/HiFi.conf
+1.5K /usr/share/alsa/ucm2/Intel/sof-hda-dsp/sof-hda-dsp.conf
+1005 /usr/share/alsa/ucm2/Intel/sof-hda-dsp/HiFi.conf
+1.5K /usr/share/alsa/ucm2/Intel/skylake-rt286/skylake-rt286.conf
+1.3K /usr/share/alsa/ucm2/Intel/bytcr-rt5651/HiFi-LongName.conf
+1.4K /usr/share/alsa/ucm2/Intel/bytcr-rt5651/HiFi-Components.conf
+1.3K /usr/share/alsa/ucm2/sof-soundwire/rt1316-2.conf
+1.2K /usr/share/alsa/ucm2/sof-soundwire/sof-soundwire.conf
+1.2K /usr/share/alsa/ucm2/sof-soundwire/rt5682.conf
+1.1K /usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard/Pandaboard.conf
+1003 /usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard/HiFiLP.conf
+1.4K /usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard/HiFi.conf
+1.4K /usr/share/alsa/ucm2/OMAP/abe-twl6040/SDP4430/HiFi.conf
+1.4K /usr/share/alsa/ucm2/Rockchip/es8316/HiFi.conf
+1.3K /usr/share/alsa/ucm2/HDA/HDA.conf
+1.1K /usr/share/alsa/ucm2/common/ctl/remap.conf
+1.4K /usr/share/rdesktop/keymaps/pt-br
+1.1K /usr/share/rdesktop/keymaps/lt
+1.5K /usr/share/rdesktop/keymaps/he
+1.2K /usr/share/rdesktop/keymaps/ru
+1.1K /usr/share/rdesktop/keymaps/nl
+1.1K /usr/share/rdesktop/keymaps/et
+1.2K /usr/share/apport/package-hooks/source_sudo.py
+1.5K /usr/share/apport/package-hooks/source_plymouth.py
+1.2K /usr/share/apport/package-hooks/openssh-client.py
+1004 /usr/share/apport/package-hooks/openssh-server.py
+1.2K /usr/share/webshells/asp/cmd-asp-5.1.asp
+1.4K /usr/share/webshells/aspx/cmdasp.aspx
+1.3K /usr/share/webshells/cfm/cfexec.cfm
+1.2K /usr/share/gcc/python/libstdcxx/v6/__init__.py
+1.3K /usr/share/cherrytree/icons/Breeze_Light_icons/ct_pin.svg
+1.5K /usr/share/cherrytree/icons/Breeze_Light_icons/ct_case_upper.svg
+1.4K /usr/share/cherrytree/icons/Breeze_Light_icons/ct_clear.svg
+1.5K /usr/share/cherrytree/icons/Breeze_Light_icons/ct_term-red.svg
+1.3K /usr/share/cherrytree/icons/Breeze_Light_icons/ct_help.svg
+1.2K /usr/share/cherrytree/icons/Breeze_Light_icons/ct_sort-desc.svg
+1.2K /usr/share/cherrytree/icons/Breeze_Light_icons/ct_color_bg.svg
+1.3K /usr/share/cherrytree/icons/Breeze_Light_icons/ct_case_lower.svg
+1.2K /usr/share/cherrytree/icons/Breeze_Light_icons/ct_code.svg
+1.2K /usr/share/cherrytree/icons/Breeze_Light_icons/ct_rotate-left.svg
+1016 /usr/share/cherrytree/icons/Breeze_Light_icons/ct_fmt-txt-subscript.svg
+1.2K /usr/share/cherrytree/icons/Breeze_Light_icons/ct_execute.svg
+1.2K /usr/share/cherrytree/icons/Breeze_Light_icons/ct_rotate-right.svg
+1.1K /usr/share/cherrytree/icons/Breeze_Light_icons/ct_anchor.svg
+1.2K /usr/share/cherrytree/icons/Breeze_Light_icons/ct_sort-asc.svg
+1.5K /usr/share/cherrytree/icons/Breeze_Dark_icons/ct_case_upper.svg
+1.4K /usr/share/cherrytree/icons/Breeze_Dark_icons/ct_clear.svg
+1.5K /usr/share/cherrytree/icons/Breeze_Dark_icons/ct_term-red.svg
+1.5K /usr/share/cherrytree/icons/Breeze_Dark_icons/ct_export_from_cherrytree.svg
+1.4K /usr/share/cherrytree/icons/Breeze_Dark_icons/ct_done.svg
+1.3K /usr/share/cherrytree/icons/Breeze_Dark_icons/ct_help.svg
+1.2K /usr/share/cherrytree/icons/Breeze_Dark_icons/ct_sort-desc.svg
+1.2K /usr/share/cherrytree/icons/Breeze_Dark_icons/ct_color_bg.svg
+1.3K /usr/share/cherrytree/icons/Breeze_Dark_icons/ct_case_lower.svg
+1.2K /usr/share/cherrytree/icons/Breeze_Dark_icons/ct_code.svg
+1.3K /usr/share/cherrytree/icons/Breeze_Dark_icons/ct_toolbar.svg
+1.2K /usr/share/cherrytree/icons/Breeze_Dark_icons/ct_rotate-left.svg
+1016 /usr/share/cherrytree/icons/Breeze_Dark_icons/ct_fmt-txt-subscript.svg
+1.2K /usr/share/cherrytree/icons/Breeze_Dark_icons/ct_execute.svg
+1.2K /usr/share/cherrytree/icons/Breeze_Dark_icons/ct_rotate-right.svg
+1.1K /usr/share/cherrytree/icons/Breeze_Dark_icons/ct_anchor.svg
+1.2K /usr/share/cherrytree/icons/Breeze_Dark_icons/ct_sort-asc.svg
+1.1K /usr/share/java-wrappers/get-classpath
+1.4K /usr/share/dnsrecon/dnsrecon/lib/__pycache__/crtenum.cpython-310.pyc
+1.4K /usr/share/nano/awk.nanorc
+1.5K /usr/share/nano/objc.nanorc
+1.1K /usr/share/nano/rust.nanorc
+1.1K /usr/share/nano/elisp.nanorc
+1.4K /usr/share/nano/yaml.nanorc
+1009 /usr/share/nano/extra/haskell.nanorc
+1.3K /usr/share/nano/extra/ada.nanorc
+1.3K /usr/share/nano/html.nanorc
+1.4K /usr/share/nano/ruby.nanorc
+1.1K /usr/share/nano/php.nanorc
+1.2K /usr/share/nano/po.nanorc
+1.5K /usr/share/nano/go.nanorc
+1.4K /usr/share/nano/python.nanorc
+1.0K /usr/share/dirb/wordlists/stress/uri_hex.txt
+1.5K /usr/share/dirb/wordlists/euskera.txt
+1.3K /usr/share/dirb/wordlists/catala.txt
+1.1K /usr/share/onboard/scripts/sokSettings.py
+1.3K /usr/share/onboard/themes/DarkRoom.theme
+1.3K /usr/share/onboard/themes/Nightshade.theme
+ls: cannot access '/usr/share/onboard/themes/Classic': No such file or directory
+ls: cannot access 'Onboard.theme': No such file or directory
+1.2K /usr/share/onboard/themes/HighContrast.theme
+1.1K /usr/share/onboard/themes/LowContrast.theme
+1.2K /usr/share/onboard/themes/HighContrastInverse.theme
+1.2K /usr/share/onboard/themes/Blackboard.theme
+1.3K /usr/share/onboard/themes/Ambiance.theme
+1.3K /usr/share/onboard/themes/Droid.theme
+1.3K /usr/share/onboard/themes/ModelM.theme
+1.3K /usr/share/onboard/themes/Typist.theme
+1.5K /usr/share/pixmaps/ophcrack.xpm
+1.3K /usr/share/pixmaps/xfce4_xicon2.png
+1.2K /usr/share/ca-certificates/mozilla/AffirmTrust_Networking.crt
+1.4K /usr/share/ca-certificates/mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
+1.4K /usr/share/ca-certificates/mozilla/Secure_Global_CA.crt
+1.5K /usr/share/ca-certificates/mozilla/Starfield_Class_2_CA.crt
+1.3K /usr/share/ca-certificates/mozilla/emSign_Root_CA_-_G1.crt
+1.3K /usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_G2.crt
+1.2K /usr/share/ca-certificates/mozilla/Amazon_Root_CA_1.crt
+1.3K /usr/share/ca-certificates/mozilla/SecureSign_RootCA11.crt
+1.4K /usr/share/ca-certificates/mozilla/Starfield_Services_Root_Certificate_Authority_-_G2.crt
+1.4K /usr/share/ca-certificates/mozilla/GlobalSign_Root_CA_-_R2.crt
+1.2K /usr/share/ca-certificates/mozilla/certSIGN_ROOT_CA.crt
+1017 /usr/share/ca-certificates/mozilla/Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.crt
+^C
+                                                                                
+[K[32m┌──([1m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[39m~[0m[32m][39m
+[32m└─[1m[34m$[0m[34m[39m [K[36m./script5.sh[39m 1000 1510 [1m/usr[0m[27D[36mls[39m                         [25D[36mscp pi@192.1[39m68.56.101:~[1m/scr[0mipt5.sh ~/[37D[36mls[39m                                   [35D[36mexit[39m[36mscreen[39m[36mexit[39m  [36mif [ ![39m -z "$STY" ]; then echo 'Screen session'; fi[50D[36m./scri[39mpt.sh file 000                              [30D[20D[36mvim sc[39mript.sh       [13D[36m./scri[39mpt.sh  [11D[36mscp[39m pi@192.168.56.101:~/script.sh [1m~/[0m[34D[36mr[39meen -ls                          [26D[10D[36m./s[39mcript.sh[11D[36mif [39m[ ! -z "$STY" ]; then echo 'Scr[1mee[0mn session'; fi[50D[36mls[39m                                                [48D[36mexi[39mt[36mmcd[39m temp[8D[36mfun[39mction mcd() { mkdir $1 && cd $1[1m; [0m}[37D[36m./s[39mcript12.sh 1 2 3 4 ds lk 5 dfv    [33D[36mchmod[39m u+x script12.sh            [12D[21D[36mvim s[39m[6P[10C      [15D[36m./scr[39mipt11.sh arg1 2 decimal[14D              [15D[13D[36mchmod[39m u+x script11.sh[21D[36mvim s[39m[6P[10C      [15D[36m./scr[39mipt10.sh  [13D[36mvim s[39mcript10.sh[15D[36m./scr[39mipt10.sh  [13D[36mchmod[39m u+x script10.sh[21D[36mvim s[39m[6P[10C      [15D[36m./scr[39mipt9.sh   [12D[36mchmod[39m u+x script9.sh[20D[36mvim s[39m[6P[9C      [14D[36m./scr[39mipt8.sh  [12D[36mvim s[39mcript8.sh[14D[36m./scr[39mipt8.sh  [12D[36mchmod[39m u+x script8.sh[20D[36mvim s[39m[6P[9C      7.sh[14D[36mbash [39mscript7.sh[15D[36mvim[39m [P[10C [14D[36mbas[39mh script7.sh[15D[36mvim[39m[P[11C [14D[36mbas[39mh script7.sh[15D[36mvim[39m[P[11C [14D[36mbas[39mh script7.sh[15D[36mvim[39m[P[11C [14D[36mbas[39mh script7.sh[15D[36mvim[39m[P[11C [14D[36m./s[39m[P[P[9C  [12D[36mvim[39m script7.sh[14D[36m./s[39m[P[P[9C  [12D[36mvim[39m script7.sh[14D[36m./s[39m[P[P[9C  [12D[36mvim[39m script7.sh[14D[36m./s[39m[P[P[9C  [12D[36mvim[39m script7.sh[14D[36m./s[39m[P[P[9C  [12D[36mvim[39m script7.sh[14D[36m./s[39m[P[P[9C  [12D[36mchm[39mod u+x script7.sh[20D[36mvim[39m[6P[11C      [14D[36m./s[39mcript6.sh  [12D[36mchm[39mod u+x script6.sh[20D[36mvim[39m[6P[11C      [14D[36m./s[39mcript5.sh  [12D[36mchm[39mod u+x script5.sh[20D[36mvim[39m [1mscript5.sh[0m      [14D[36m./e[39mx[1mample.awk [0mcolours.csv[25D[36mchm[39mo[1md u+x exam[0mple.awk    [21D[36mvim[39m [1mexample.aw[0mk      [15D[36mls[39m             [13D[36mpri[39mn[1mtf "0x%X\n[0m " 15[11D[1m%d\n" [0m0xF  [9D[1mDistan[0mce is %5d Miles\n" $distance[42D[36mdis[39mt[1mance=15[0m                               [31D[11D[36mprin[39m[36mt[39m[36mf[39m [33m"[39m[33mH[39m[33me[39m[33mllo, [1m[35m$USER[0m[33m.\n\n"[39m[18D[33m%d\n" 5[39m           [11D[15D[36m./scri[39mp[33mt2.sh[39m   [12D[36mchmod[39m u+x script2.sh[20D[36mvim s[39m[6P[9C      [14D[36m./asc[39mript.sh  [12D[36mchmod[39m u+x ascript.sh[20D[36mls[39m                  [18D[36mvim a[39mscript.sh[14D[36mls[39m            [12D[36ml[39m [36ml[39m[2ms  [36mcd[39m task2.4.3[0m
+[2mcd: no such file or directory: task2.4.3[0m
+[2m                                                                                [0m
+[K[32m┌──([1m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[39m~[0m[32m][39m
+[32m└─[1m[34m$[0m[34m[39m [K[36mcd[39m task2.4.3[12D[36m./script5.sh[39m 1000 1510 [1m/usr[0m
+find: ‘/usr/lib/mysql/plugin/auth_pam_tool_dir’: Permission denied
+1.1K /usr/share/X11/xkb/rules/xkb.dtd
+1.2K /usr/share/X11/xkb/symbols/kr
+1.5K /usr/share/X11/xkb/symbols/tm
+1021 /usr/share/X11/xkb/symbols/macintosh_vndr/jp
+1.2K /usr/share/X11/xkb/compat/olpc
+1.1K /usr/share/X11/xkb/compat/basic
+1.2K /usr/share/X11/xkb/compat/pc98
+1.5K /usr/share/X11/xkb/compat/xtest
+1.4K /usr/share/X11/xkb/compat/level5
+1.1K /usr/share/X11/xkb/compat/accessx
+1.3K /usr/share/X11/xkb/geometry/nokia
+1.4K /usr/share/X11/xorg.conf.d/10-quirks.conf
+1.4K /usr/share/X11/xorg.conf.d/40-libinput.conf
+1.1K /usr/share/X11/locale/iso8859-15/XLC_LOCALE
+1.2K /usr/share/X11/locale/zh_CN.gbk/XLC_LOCALE
+1.2K /usr/share/X11/locale/zh_TW.UTF-8/XLC_LOCALE
+1.1K /usr/share/X11/locale/zh_HK.big5hkscs/XLC_LOCALE
+1.4K /usr/share/X11/locale/zh_CN.gb18030/XLC_LOCALE
+1.1K /usr/share/X11/locale/zh_HK.big5/XLC_LOCALE
+1007 /usr/share/X11/locale/th_TH.UTF-8/XLC_LOCALE
+1.4K /usr/share/X11/bindings/intergraph
+1.4K /usr/share/X11/bindings/doubleclick
+^C
+                                                                                
+[K[32m┌──([1m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[39m~[0m[32m][39m
+[32m└─[1m[34m$[0m[34m[39m [K[36m./script5.sh[39m 1000 1510 [1m/usr[0m[27D[36mcd task2.4.3[39m               [15D[12D[36m./script5.sh[39m 1000 1510 [1m/usr[0m[27D[36mls[39m                         [25D[36mscp pi@192.1[39m68.56.101:~[1m/scr[0mipt5.sh ~/[37D[36mls[39m                                   [35D[36mex[39mit[36msc[39mreen[36mex[39mit  [36mif[39m [ ! -z "$STY" ]; then echo 'Screen session'; fi[50D[36m./[39mscript.sh file 000                              [30D[20D[36mvi[39mm script.sh       [13D[36m./[39m[P[P[9C  [11D[36msc[39mp pi@192.168.56.101:~/script.sh ~/[36D[36mscreen[39m [32m-ls[39m                          [26D[10D[36m./scri[39mp[32mt.s[39mh[11D[36mif [ ![39m [32m-z [39m"$STY" ]; then echo 'Screen session'; fi[50D[36mls[39m                                                [48D[36mexit[39m[36mmcd te[39mm[32mp[39m[8D[1m[36mfunction[0m mcd[1m[34m([0m[1m[34m)[0m [1m[34m{[0m [36mmkdir[39m $1 [1m[34m&&[0m [36mcd[39m $1[1m[34m;[0m [1m[34m}[0m[37D[1m[36m./script[0m12.s[1m[34mh[0m[1m[34m [0m1[1m[34m [0m2[36m 3 4 [39mds l[1m[34mk [0m5[36m d[39mfv    [33D[1m[36mchmod u+[0mx sc[1m[34mr[0m[1m[34mi[0mp[1m[34mt[0m1[36m2.sh[39m            [12D[21D[1m[36mvim scri[0mpt12[1m[34m.[0m[1m[34ms[0mh      [15D[1m[36m./script[0m11.s[1m[34mh[0m[1m[34m [0ma[1m[34mr[0mg[36m1 2 d[39mecim[1m[34mal[0m[15D               [15D[13D[1m[36mchmod u+[0mx sc[1m[34mr[0m[1m[34mi[0mp[1m[34mt[0m1[36m1.sh[39m[21D[1m[36mvim scri[0mpt11[1m[34m.[0m[1m[34ms[0mh      [15D[1m[36m./script[0m10.s[1m[34mh[0m  [13D[36mv[39m[36mi[39m[36mm[39m script10.sh[15D[36m./s[39m[P[P[10C  [13D[36mchm[39mod u+x script10.sh[21D[36mvim[39m[6P[12C      [15D[36m./s[39mcript9.sh   [12D[36mchm[39mod u+x script9.sh[20D[36mvim[39m[6P[11C      [14D[36m./s[39mcript8.sh  [12D[36mvim[39m script8.sh[14D[4m[37m./script8.sh[24m[39m  [12D[4m[37mchmod u+x sc[24m[39mript8.sh[20D[4m[37mvim script8.[24m[39msh      [14D[36mvim[39m script7.sh[14D[36mbas[39mh script7.sh[15D[36mvim[39m[P[11C [14D[36mbash[39m script7.sh[15D[36mvim [39m[P[10C [14D[36mbash[39m script7.sh[15D[36mvim[39m[P[11C 8.sh[14D[36mchm[39mod u+x script8.sh[20D[4m[37m./script8.sh[24m[39m        [8D[12D[4m[37mvim script8.[24m[39msh[14D[4m[37m./script8.sh[24m[39m  [12D[36mvim[39m script9.sh[14D[36mchm[39mod u+x script9.sh[20D[36m./s[39m[8P[9C        [8D[12D[36mvim[39m script10.sh[15D[36mchm[39mod u+x script10.sh[21D[36m./s[39m[8P[10C        [8D[13D[36mvim[39m script10.sh [2mh  sh   .sh    2.sh[1mscript[0m     [2m.sh[1mp[0m    [2mt.sh[1mi[0m     [2mpt.sh[1mr[0m      [2mipt.sh[1mc[0m       [2mript.sh[1ms[0m        [8D[2mcript.sh[8D[0m         [9D[2mscript.sh[9D         [10D script.sh[10D[36mvi[39m           [11Dm script.sh[11D[4m[37mv[24m[0m[2m[37m[39m            [12D[4m[37mv[24m[0m[2m[37m[39mim script.sh[12D             [13D[4m[37m./script10.sh[24m[0m[2m[37m[39m[13D[36mchmod[39m u+x script10.sh[21D[4m[37m./script10.sh[24m[0m[2m[37m[39m        [8D[13D             [13D[4m[37m./script10.sh[24m[0m[2m[37m[39m[13D[36mchmod[39m u+x script10.sh[21D[36mvim[39m[0m[6P[12C[2m      [15D[4m[37m./script9.sh[24m[0m[2m[37m[39m   [12D[36mchmod[39m u+x script9.sh[20D[4m[37m./script9.sh[24m[0m[2m[37m[39m        [8D[12D[36mvim[39m script10.sh[15D[36mchmod[39m u+x script10.sh[21D[4m[37m./script10.sh[24m[0m[2m[37m[39m        [8D[13D             [13D[4m[37m./script10.sh[24m[0m[2m[37m[39m[13D[36mvim[39m script11.sh[15D[36mchmod[39m u+x script11.sh[21D[4m[37m./script11.sh[24m[0m[2m[37m[39m        [8D arg1 2 decimal[28D[36mvim[39m script12.sh             [13D[15D[36mchmod[39m u+x script12.sh[21D[4m[37m./script12.sh[24m[0m[2m[37m[39m 1 2 3 4 ds lk 5 dfv[33D[1m[36mfunction[0m mcd[1m[34m([0m[1m[34m)[0m [1m[34m{[0m [36mmkdir[39m $1 [1m[34m&&[0m [36mcd[39m $1[1m[34m;[0m [1m[34m}[0m[37D[4m[37mm[24m[39m[4m[37mc[24m[39m[4m[37md[24m[39m temp                             [29D[8D[36mexit[39m    [36mls[39m  [1m[36mif[0m [1m[34m[[0m ! [32m-z[39m [33m"[1m[35m$STY[0m[33m"[39m [1m[34m][0m[1m[34m;[0m [1m[36mthen[0m [36mecho[39m [33m'Screen session'[39m[1m[34m;[0m [1m[36mfi[0m[50D[36m.[39m[36m/s[39m[36mcript.sh[39m                                       [39D[11D[36mscreen[39m [32m-ls[39m [8D[36mp[39m pi@192.168.56.101:~/script.sh [1m~/[0m[36D[36m./script.sh[39m                         [25D[11D[36mvim[39m [1mscript.sh[0m[13D[36m./sc[39m[36mr[39m[36mi[39m[36mp[39m[36mt[39m[36m.[39m[36ms[39m[36mh[39m [1mfile[0m 000[20D[1m[36mif[0m [1m[34m[[0m ! [32m-z[39m [33m"[1m[35m$STY[0m[33m"[39m [1m[34m][0m[1m[34m;[0m [1m[36mthen[0m [36mecho[39m [33m'Screen session'[39m[1m[34m;[0m [1m[36mfi[0m[50D[36me[39m[36mxi[39m[36mt[39m                                              [46D[36mscreen[39m[36mexit[39m  [36mls[39m  [36mscp[39m pi@192.168.56.101:~/script5.sh [1m~/[0m[37D[36mls[39m                                   [35D[36m./script5.sh[39m 1000 1510 [1m/usr[0m[27D[36mcd[39m task2.4.3               [15D[12D[36m./script5.sh[39m 1000 1510 [1m/usr[0m[27D                           [27D[36m./script5.sh[39m 1000 1510 [1m/usr[0m[27D[36mcd[39m task2.4.3               [15D[12D[36m./script5.sh[39m 1000 1510 [1m/usr[0m[27D                           [27D[4m[37me[24m[39m[4m[37me[24m[39m[2mxit[36mex[39m[4m[37mexi[24m[0m[2m[37m[39m[36mexit[39m[0m
+[?1l>[24;1H
+[?1049l[23;0;0t[screen is terminating]
+                                                                                ]0;krazhevskiy13@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkrazhevskiy13㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[37me[24m[39m[4m[37me[24m[39m[38;2;153;153;153mxit[39m[24m[36me[36mx[39m[4m[37me[4m[37mx[4m[37mi[24m[39m[24m[36me[24m[36mx[24m[36mi[36mt[39m[?1l>[?2004l
+Connection to 192.168.56.102 closed.
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m exit
+[?2004lexit
+
+Script done on 2022-09-26 13:16:07+01:00 [COMMAND_EXIT_CODE="0"]

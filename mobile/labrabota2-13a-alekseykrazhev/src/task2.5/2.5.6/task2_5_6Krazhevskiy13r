@@ -1,0 +1,113 @@
+Script started on 2022-09-26 13:18:27+01:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m vi script6.sh
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"script6.sh" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[K[24;1H:[?25hwq[?25l[?2004l[>4;m"script6.sh" [New File] 0 lines, 0 bytes written
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m chmod u+x script6.sh 
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script6.sh 
+[?2004l1 iter
+2 iter
+3 iter
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script6.sh 
+[?2004lfile1
+file2
+file3
+file4
+file5
+file6
+file7
+file8
+file9
+file10
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script6.sh 
+[?2004l0834cc2c62ca9085c21be5dbe814ad81
+b98e1a32dc7d34e226991a20a432626b
+ff81f0d4bc80ad3726200c5bf657be7a
+c4910a5a448d9e8e6c6ab37adadbff82
+c5ebe8afdd94d6064089691f9ad3add2
+5f66936679b37c1f563f6f61e15e4cbc
+c9cfe6f86506878cff6cc6f7c0bd5dac
+4850874257410329bb811f71ffdc100f
+2a90b54a0e881177d8ab6b3809a4b518
+5f99e99df5bbc9d43d03b72e0c756564
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script6.sh [8@chmod u+x [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8P./[C[C[C[C[C[C[C[C[C[C[C
+[?2004lfile1.mcookie
+file2.mcookie
+file3.mcookie
+file4.mcookie
+file5.mcookie
+file6.mcookie
+file7.mcookie
+file8.mcookie
+file9.mcookie
+file10.mcookie
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script6.sh 
+[?2004lfile1.66ed5324a90208e1e12b940b40bc4250
+file2.e55e8e1e2f4ff8efecbd5e8a42035b57
+file3.214408406ba2c9097478da7414414400
+file4.f14ccedd6e57fd03b2e8f29da75e2b92
+file5.a3594ca5fe1fd65c804a5e26a71297cc
+file6.0ae2aa88d554188abeb73dfd7680f1e2
+file7.ee5f13c6aa3c02eaa41c3cd6ab6ec0dc
+file8.5df56fb1a2bc22f9fd9522d132195f1c
+file9.c770e549bd49f2e70e430412866c4791
+file10.1cd86bdc06caa3a92b4e0019be3d7fd6
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script6.sh 
+[?2004lfilename
+filename
+filename
+filename
+filename
+filename
+filename
+filename
+filename
+filename
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script6.sh 
+[?2004lfile1.fc385fe5c8c89eeaa84396c6463a5d11
+file2.2be82aecc9d4661a2482d6b79a580595
+file3.29f029b5dd6597ae99e628502c050510
+file4.e14d93258126fe2a22d9c73560418cf9
+file5.0102d1399da8890da9b628a778ebfe8d
+file6.9db790823210f20ba224981d546bdbb0
+file7.9b5d38c2ce10613b5cdf4174e8f367a3
+file8.93de61cd086c579a8bd450c9039eedab
+file9.cd4c72f5c2a8ab2740d47ebe9f7a5d97
+file10.c205f84581fc7470f9d3e18b73fa7dd3
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./script6.sh 
+[?2004lfile1.8246321480fc70ea23613e1f338a0155
+file2.892e32bb59ad145416a971aba807f751
+file3.a22acb83c167a5eec14fa2ac91ab298d
+file4.82303aadc57acbd52c3fa6cc6296b150
+file5.0582359d89965dd36fa77624a602e6a3
+file6.1b6ed8c471627c0ce97ec0397f28fdc3
+file7.1b78886b33e4f8cf939c35eac773872f
+file8.6390613be51bc904134fc5dc7764da0c
+file9.64231563d468e901a5e1d49818ddbfe8
+file10.17ebde5da4cc4fea3baceb51919e229b
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ls
+[?2004l[0m[01;34mBookshelf[0m                                file8.6390613be51bc904134fc5dc7764da0c
+[01;34mDesktop[0m                                  file9.64231563d468e901a5e1d49818ddbfe8
+[01;34mDocuments[0m                                [01;34mkrazhevskiy[0m
+[01;34mDownloads[0m                                [01;34mMusic[0m
+file10.17ebde5da4cc4fea3baceb51919e229b  [01;34mPictures[0m
+file1.8246321480fc70ea23613e1f338a0155   [01;34mPublic[0m
+file2.892e32bb59ad145416a971aba807f751   [01;32mscript6.sh[0m
+file3.a22acb83c167a5eec14fa2ac91ab298d   task2_5_6Krazhevskiy13r
+file4.82303aadc57acbd52c3fa6cc6296b150   [01;34mTemplates[0m
+file5.0582359d89965dd36fa77624a602e6a3   timelog2_5_6Krazhevskiy13r
+file6.1b6ed8c471627c0ce97ec0397f28fdc3   [01;34mVideos[0m
+file7.1b78886b33e4f8cf939c35eac773872f
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m [K]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m vi d[Kscript6.sh 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;25r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[25;1H"script6.sh" 9 lines, 117 bytes[1;1H#!/bin/bash
+
+for (( c=1; c<=10; c++ ))
+do
+a=$(mcookie)
+filename="file$c.$a"
+touch "$filename"
+echo "$filename"
+done
+[94m~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [1;1H[?25h[?25l[m[25;1H[K[25;1H:[?25hwq[?25l[?2004l[>4;m"script6.sh" 9 lines, 117 bytes written
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m exit
+[?2004lexit
+
+Script done on 2022-09-26 13:29:04+01:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0EEF6198-340B-87B1-A844-568BE9423663" name="Organization">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-26 18:53:21 UTC</createdTime>
+<generatorID>5EEB4834-689B-3E38-3615-BA66158A678E</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Event_id" id="EFF37A7E-B966-2EEF-FDBB-AD0495002FCA">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-26 18:53:21 UTC</createdTime>
+<generatorID>2D17A7CA-6390-B77F-CC73-9A8DF06CA2AA</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1E05BA1-74C7-53F0-5767-09140BE5D63A" referredColumn="DC16E360-8B26-F3E4-EAD9-C754093D8AA2"/>
+</associations>
+</Column>
+<Column name="name" id="81B296EF-9CB8-09B3-6F11-EB377BF2C2CC">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-26 18:53:21 UTC</createdTime>
+<generatorID>73A90F27-6A85-F552-B2C0-DE3F89BAA1C0</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM2025675</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Organization_ID" id="97C9318B-C4E6-FE79-5D38-62262610A25E">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-26 18:53:21 UTC</createdTime>
+<ownerDesignName>lab2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6FFC4735-3255-BBE2-198F-4006BEE55A08" name="Organization_PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-26 18:53:21 UTC</createdTime>
+<ownerDesignName>lab2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="97C9318B-C4E6-FE79-5D38-62262610A25E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="548B94DD-ED2C-9CC5-BB48-7D362607690F" name="Organization_Event_FK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-26 18:53:21 UTC</createdTime>
+<generatorID>DB412771-84BF-FE9E-00AD-7B7B4559DB28</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFF37A7E-B966-2EEF-FDBB-AD0495002FCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="727D8BAA-0E52-B5B7-6C2A-D639EDF34DE0" name="Relation_6">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-27 14:53:51 UTC</createdTime>
+<generatorID>AD78F40A-4D88-77A3-70A4-CFA1167C6A08</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

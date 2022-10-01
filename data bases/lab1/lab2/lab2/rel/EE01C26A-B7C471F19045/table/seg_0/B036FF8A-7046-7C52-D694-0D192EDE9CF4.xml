@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B036FF8A-7046-7C52-D694-0D192EDE9CF4" name="Participant">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-26 18:53:21 UTC</createdTime>
+<generatorID>F62B811B-3683-7387-9FFE-570CF384B453</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="74BC7F05-F8E1-C996-1E0B-22FC76841715">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-26 18:53:21 UTC</createdTime>
+<generatorID>C2FA6B4A-6441-21AA-277D-C2816A042A03</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="B951B1A5-6F52-44CB-F876-92CF110F2C5B">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-26 18:53:21 UTC</createdTime>
+<generatorID>293A7F25-61F4-3F01-8672-94603DE397B8</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM2025675</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Event_id" id="979EDA8D-FC89-8A89-D823-5587F9EF0DEB">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-26 18:53:21 UTC</createdTime>
+<generatorID>BDB6BDA6-1AA7-652B-9012-4A6226A0C393</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4909C561-1595-BAED-6047-F0F405010D1C" referredColumn="DC16E360-8B26-F3E4-EAD9-C754093D8AA2"/>
+</associations>
+</Column>
+<Column name="id_org" id="C6E81933-9BEA-9FEC-F9F7-05FAA30EFA2E">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-26 18:53:21 UTC</createdTime>
+<generatorID>EFB4D28E-1D5A-1503-1BD6-01B6DDEAFB22</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Organization_Organization_ID" id="92F3160A-7FF4-947E-46F4-6BE6FFF60C10">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-27 14:53:51 UTC</createdTime>
+<ownerDesignName>lab2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1D990CD-1721-74CC-AEDB-C2431B7B595A" referredColumn="97C9318B-C4E6-FE79-5D38-62262610A25E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8CDD1A2E-E9ED-3A00-FC5C-D7256FFF46CE" name="Participant_PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-26 18:53:21 UTC</createdTime>
+<generatorID>E5B9C115-3C9A-437E-B420-C5A2F3D2145C</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74BC7F05-F8E1-C996-1E0B-22FC76841715"/>
+<colUsage columnID="979EDA8D-FC89-8A89-D823-5587F9EF0DEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6ED0E4A6-2030-DA8A-EE9C-5A6DC0DC53D1" name="Participant_Event_FK">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-26 18:53:22 UTC</createdTime>
+<generatorID>B6FEE59E-6855-2A28-59B7-DFB7BA0E5B11</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="979EDA8D-FC89-8A89-D823-5587F9EF0DEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D340F316-2ADB-96AB-8040-85E48EC05DD0" name="Relation_6v1">
+<createdBy>alex</createdBy>
+<createdTime>2022-09-27 14:53:51 UTC</createdTime>
+<generatorID>AD78F40A-4D88-77A3-70A4-CFA1167C6A08</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92F3160A-7FF4-947E-46F4-6BE6FFF60C10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
