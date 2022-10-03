@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="687.0" prefWidth="998.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.BankUIController">
+   <children>
+       <Text fx:id="txOut1" layoutX="353.0" layoutY="86.0" text="Hello! Choose option from menu..." wrappingWidth="298.0">
+         <font>
+            <Font size="16.0" />
+         </font></Text>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="Account">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#addNewAccountClientText" text="Add new account for client" />
+                  <MenuItem mnemonicParsing="false" onAction="#viewAllAccounts" text="View all accounts" />
+                  <MenuItem mnemonicParsing="false" onAction="#deleteAccountText" text="Delete account" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Balance">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#countAllMoneyText" text="Count all money" />
+                  <MenuItem mnemonicParsing="false" onAction="#countPosNegText" text="Count pos &amp; neg balance" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Block">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#blockAccountText" text="Block account" />
+                  <MenuItem mnemonicParsing="false" onAction="#unblockAccountText" text="Unblock account" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Client">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#addNewClientText" text="Add new client" />
+                  <MenuItem mnemonicParsing="false" onAction="#viewAllClients" text="View all clients" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Sort">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#sortByMoney" text="Sort by money" />
+                  <MenuItem mnemonicParsing="false" onAction="#sortByAccount" text="Sort by acc number" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Transactions">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#putMoney" text="Put money" />
+                  <MenuItem mnemonicParsing="false" onAction="#getMoney" text="Get money" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Finish work">
+               <items>
+              <MenuItem mnemonicParsing="false" onAction="#close" text="Write data to file" />
+               </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TextField fx:id="txIn1" layoutX="354.0" layoutY="222.0" prefHeight="24.0" prefWidth="203.0" visible="false">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <Button fx:id="btn" layoutX="431.0" layoutY="491.0" mnemonicParsing="false" onAction="#buttonAddClient" text="Submit" visible="false" />
+      <TextField fx:id="txIn2" layoutX="358.0" layoutY="332.0" prefHeight="24.0" prefWidth="203.0" visible="false" />
+      <TextField fx:id="txIn3" layoutX="358.0" layoutY="447.0" prefHeight="24.0" prefWidth="203.0" visible="false" />
+      <Text fx:id="txOut2" layoutX="350.0" layoutY="287.0" wrappingWidth="297.9999999999999">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="txOut3" layoutX="353.0" layoutY="390.0" wrappingWidth="298.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="largeText" editable="false" layoutX="150.0" layoutY="86.0" prefHeight="529.0" prefWidth="683.0" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>
