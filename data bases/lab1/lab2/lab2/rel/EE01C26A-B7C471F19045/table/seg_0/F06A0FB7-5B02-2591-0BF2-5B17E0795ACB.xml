@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F06A0FB7-5B02-2591-0BF2-5B17E0795ACB" name="Organization">
+<createdBy>alex</createdBy>
+<createdTime>2022-10-04 15:17:41 UTC</createdTime>
+<generatorID>5EEB4834-689B-3E38-3615-BA66158A678E</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="name" id="43F22B1E-437A-C9FE-7036-AFF9A962F350">
+<createdBy>alex</createdBy>
+<createdTime>2022-10-04 15:17:41 UTC</createdTime>
+<generatorID>73A90F27-6A85-F552-B2C0-DE3F89BAA1C0</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM2025675</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Participant_id" id="24CB267D-34B2-F770-FC68-6101F12CBCAF">
+<createdBy>alex</createdBy>
+<createdTime>2022-10-04 15:17:41 UTC</createdTime>
+<generatorID>7D6DE401-0C92-0F01-862E-D3F96E3362A1</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06BF96D2-5364-8129-C820-FA69CEC95DB1" referredColumn="9C480245-C16D-A5F0-DA62-B663AF1C0641"/>
+</associations>
+</Column>
+<Column name="Participant_id1" id="AB977365-3C0D-7A34-1C44-3A750DCEE474">
+<createdBy>alex</createdBy>
+<createdTime>2022-10-04 15:17:41 UTC</createdTime>
+<generatorID>99F3F103-5081-ED5C-2C98-D6F149C439A0</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06BF96D2-5364-8129-C820-FA69CEC95DB1" referredColumn="FEB75726-A7BB-A1E0-DD5C-132E26169F24"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9FDF2429-E92F-FA24-19C0-197B8E84FFC9" name="Organization_PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-10-04 15:17:41 UTC</createdTime>
+<generatorID>1AC1D88C-520E-C021-1F49-0900027049BA</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="4B3C49FD-5530-56F2-D3A1-B1289FDCF560" name="Organization__IDX">
+<createdBy>alex</createdBy>
+<createdTime>2022-10-04 15:17:41 UTC</createdTime>
+<ownerDesignName>lab2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>31605E1E-A037-48F3-0E3E-1CB2ED71283E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="24CB267D-34B2-F770-FC68-6101F12CBCAF"/>
+<colUsage columnID="AB977365-3C0D-7A34-1C44-3A750DCEE474"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67A2F5D7-150A-C30F-DD9B-BF321A1B617F" name="Organization_Participant_FK">
+<createdBy>alex</createdBy>
+<createdTime>2022-10-04 15:17:41 UTC</createdTime>
+<generatorID>31605E1E-A037-48F3-0E3E-1CB2ED71283E</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24CB267D-34B2-F770-FC68-6101F12CBCAF"/>
+<colUsage columnID="AB977365-3C0D-7A34-1C44-3A750DCEE474"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -65,14 +65,45 @@
 <domain>DOM10006</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id2" id="BB3B6136-CC07-07F6-0D51-288CEA8640CF">
+<createdBy>alex</createdBy>
+<createdTime>2022-10-04 15:14:44 UTC</createdTime>
+<generatorID>4C91DDE1-9526-E436-C6D4-1C9628C22EE4</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<engineerTo>
+<item key="EE01C26A-7236-774D-8051-B7C471F19045" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C2FA6B4A-6441-21AA-277D-C2816A042A03</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id11" id="4ED9DB83-D720-F70C-8888-3CB2C4A76343">
+<createdBy>alex</createdBy>
+<createdTime>2022-10-04 15:14:44 UTC</createdTime>
+<generatorID>4C91DDE1-9526-E436-C6D4-1C9628C22EE4</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<engineerTo>
+<item key="EE01C26A-7236-774D-8051-B7C471F19045" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>BDB6BDA6-1AA7-652B-9012-4A6226A0C393</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="E5B9C115-3C9A-437E-B420-C5A2F3D2145C" name="Participants PK">
 <createdBy>alex</createdBy>
 <createdTime>2022-09-26 18:36:37 UTC</createdTime>
 <ownerDesignName>lab2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="EE01C26A-7236-774D-8051-B7C471F19045" value="true"/>
+<item key="EE01C26A-7236-774D-8051-B7C471F19045" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

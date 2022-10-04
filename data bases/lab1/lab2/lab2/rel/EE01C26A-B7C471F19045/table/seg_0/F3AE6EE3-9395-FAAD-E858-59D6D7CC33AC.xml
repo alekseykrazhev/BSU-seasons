@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3AE6EE3-9395-FAAD-E858-59D6D7CC33AC" name="Place">
+<createdBy>alex</createdBy>
+<createdTime>2022-10-04 15:17:41 UTC</createdTime>
+<generatorID>3342E2B2-2370-6A94-0C0B-4B6183912422</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="name" id="43A1B31E-4949-9858-953B-32469B463101">
+<createdBy>alex</createdBy>
+<createdTime>2022-10-04 15:17:41 UTC</createdTime>
+<generatorID>0EEFAD77-D1F5-A254-C4D4-C1359B4EA675</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM2025675</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="7742DE5B-FD36-FAFC-0DFE-217F9163D466">
+<createdBy>alex</createdBy>
+<createdTime>2022-10-04 15:17:41 UTC</createdTime>
+<generatorID>76F207B1-13AE-7CA9-BB43-241EC186B9BD</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34E82431-720A-0923-54A3-24BF0322ADE1" name="Place_PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-10-04 15:17:41 UTC</createdTime>
+<generatorID>420B6004-CEC3-8FEA-54DB-4D4A2F3E5F31</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

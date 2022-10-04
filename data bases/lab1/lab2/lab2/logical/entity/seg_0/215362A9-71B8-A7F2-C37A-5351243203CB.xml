@@ -109,8 +109,9 @@
 <createdBy>alex</createdBy>
 <createdTime>2022-09-24 18:25:30 UTC</createdTime>
 <ownerDesignName>lab2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="EE01C26A-7236-774D-8051-B7C471F19045" value="true"/>
+<item key="EE01C26A-7236-774D-8051-B7C471F19045" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

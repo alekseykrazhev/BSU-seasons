@@ -15,20 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="2D17A7CA-6390-B77F-CC73-9A8DF06CA2AA">
-<createdBy>alex</createdBy>
-<createdTime>2022-09-26 18:27:24 UTC</createdTime>
-<generatorID>DB412771-84BF-FE9E-00AD-7B7B4559DB28</generatorID>
-<ownerDesignName>lab2</ownerDesignName>
-<engineerTo>
-<item key="EE01C26A-7236-774D-8051-B7C471F19045" value="true"/>
-</engineerTo>
-<referedAttribute>4C277FBA-A7F8-D8EC-C18E-24851243675E</referedAttribute>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>DOM10006</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="name" id="73A90F27-6A85-F552-B2C0-DE3F89BAA1C0">
 <createdBy>alex</createdBy>
 <createdTime>2022-09-26 18:37:02 UTC</createdTime>
@@ -41,5 +27,44 @@
 <domain>DOM2025675</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id1" id="7D6DE401-0C92-0F01-862E-D3F96E3362A1">
+<createdBy>alex</createdBy>
+<createdTime>2022-10-04 15:13:41 UTC</createdTime>
+<generatorID>31605E1E-A037-48F3-0E3E-1CB2ED71283E</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<engineerTo>
+<item key="EE01C26A-7236-774D-8051-B7C471F19045" value="true"/>
+</engineerTo>
+<referedAttribute>C2FA6B4A-6441-21AA-277D-C2816A042A03</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id11" id="99F3F103-5081-ED5C-2C98-D6F149C439A0">
+<createdBy>alex</createdBy>
+<createdTime>2022-10-04 15:13:41 UTC</createdTime>
+<generatorID>31605E1E-A037-48F3-0E3E-1CB2ED71283E</generatorID>
+<ownerDesignName>lab2</ownerDesignName>
+<engineerTo>
+<item key="EE01C26A-7236-774D-8051-B7C471F19045" value="true"/>
+</engineerTo>
+<referedAttribute>BDB6BDA6-1AA7-652B-9012-4A6226A0C393</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1AC1D88C-520E-C021-1F49-0900027049BA" name="Organization PK">
+<createdBy>alex</createdBy>
+<createdTime>2022-10-04 14:51:57 UTC</createdTime>
+<ownerDesignName>lab2</ownerDesignName>
+<engineerTo>
+<item key="EE01C26A-7236-774D-8051-B7C471F19045" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
 </Entity>
