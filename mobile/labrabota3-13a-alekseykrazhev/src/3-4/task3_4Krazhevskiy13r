@@ -1,0 +1,123 @@
+Script started on 2022-10-17 02:27:12-09:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m vim yask[K[K[K[Ktask1.sh
+[?2004lbash: vim: command not found
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m vim task1.sh[1P task1.sh
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"task1.sh" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[K[24;1H:[?25hwq[?25l[?2004l[>4;m"task1.sh" [New File] 0 lines, 0 bytes written
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cat task1.sh
+[?2004l#! /bin/bash
+# trap test
+trap 'echo you hit Ctrl+C; exit' SIGINT
+count=0
+while:
+	do
+		sleep 1
+		count=$(expr $count + 1)
+		echo $count
+	done
+	
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./task1.sh
+[?2004lbash: ./task1.sh: Permission denied
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m chmod u+x r[Ka[Kat[K[Ktask1.sh
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m chmod u+x task1.sh[8P./task1.sh
+[?2004l./task1.sh: line 5: while:: command not found
+./task1.sh: line 6: syntax error near unexpected token `do'
+./task1.sh: line 6: `	do'
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./task1.sh
+[?2004l./task1.sh: line 5: while:: command not found
+./task1.sh: line 6: syntax error near unexpected token `do'
+./task1.sh: line 6: `do'
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./task1.sh
+[?2004l1
+2
+3
+4
+^Cyou hit Ctrl+C
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m vi task2.sh
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"task2.sh" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[K[24;1H:[?25hwq[?25l[?2004l[>4;m"task2.sh" [New File] 0 lines, 0 bytes written
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m chmod u+x task2.sh
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cat task2.sh
+[?2004l#! /bin/bash
+
+(while true; do ls >> res.txt; sleep 5; done) &
+(while true; do wc res.txt >> res.txt; sleep 5; done) &
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./task2.sh
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cate [K[K res.txt
+[?2004lBookshelf
+Desktop
+Documents
+Downloads
+Music
+Pictures
+Public
+res.txt
+task1.sh
+task2.sh
+task3_4Krazhevskiy13r
+Templates
+timelog3_4Krazhevskiy13r
+Videos
+ 14  14 150 res.txt
+ 15  18 170 res.txt
+Bookshelf
+Desktop
+Documents
+Downloads
+Music
+Pictures
+Public
+res.txt
+task1.sh
+task2.sh
+task3_4Krazhevskiy13r
+Templates
+timelog3_4Krazhevskiy13r
+Videos
+ 30  36 340 res.txt
+Bookshelf
+Desktop
+Documents
+Downloads
+Music
+Pictures
+Public
+res.txt
+task1.sh
+task2.sh
+task3_4Krazhevskiy13r
+Templates
+timelog3_4Krazhevskiy13r
+Videos
+ 45  54 510 res.txt
+Bookshelf
+Desktop
+Documents
+Downloads
+Music
+Pictures
+Public
+res.txt
+task1.sh
+task2.sh
+task3_4Krazhevskiy13r
+Templates
+timelog3_4Krazhevskiy13r
+Videos
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m vi task3.sh
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"task3.sh" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[K[24;1H:[?25hwq[?25l[?2004l[>4;m"task3.sh" [New File] 0 lines, 0 bytes written
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m chmod u+x task3.sh
+[?2004l[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cat t
+task1.sh                  task3_4Krazhevskiy13r     timelog3_4Krazhevskiy13r
+task2.sh                  task3.sh                  
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cat task3.sh
+[?2004l#! /bin/bash
+trap 'echo hello' SIGALRM
+(while true; do echo A; sleep 5; done)
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./ task3.sh
+[?2004lbash: ./: Is a directory
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ./ task3.sh[1Ptask3.sh
+[?2004lA
+^C
+[?2004h]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m exit
+[?2004lexit
+
+Script done on 2022-10-17 02:39:16-09:00 [COMMAND_EXIT_CODE="130"]

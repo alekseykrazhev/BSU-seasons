@@ -1,0 +1,4 @@
+trap 'echo $(whoami) $(pwd) > pwd.txt; exit' 15
+while true; do
+a=0
+done

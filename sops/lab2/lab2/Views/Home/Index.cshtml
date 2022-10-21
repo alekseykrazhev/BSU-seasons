@@ -1,0 +1,92 @@
+﻿@model IEnumerable<lab2.Models.Player>
+
+@{
+    ViewData["Title"] = "Critters";
+}
+
+<style>
+    h1{
+        margin-top: 20px;
+    }
+</style>
+
+<h1>Critters</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Player ID
+            </th>
+            <th>
+                Jersey
+            </th>
+            <th>
+                First name
+            </th>
+            <th>
+                Second name
+            </th>
+            <th>
+                Position
+            </th>
+            <th>
+                Birthday
+            </th>
+            <th>
+                Weight
+            </th>
+            <th>
+                Height
+            </th>
+            <th>
+                Birthcity
+            </th>
+            <th>
+                Birthstate
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <div>
+                <form asp-action="Save" method="post">
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.playerid)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.jersey)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.fname)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.sname)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.position)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.birthday)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.weight)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.height)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.birthcity)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.birthstate)
+                        </td>
+                    </tr>
+                </form>
+            </div>
+        }
+    </tbody>
+</table>

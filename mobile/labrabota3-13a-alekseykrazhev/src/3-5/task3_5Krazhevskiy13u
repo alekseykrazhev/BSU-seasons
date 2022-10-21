@@ -1,0 +1,53 @@
+Script started on 2022-10-17 15:25:32+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h(base) ]0;alex@avocadobook: ~[01;32malex@avocadobook[00m:[01;34m~[00m$ vim script.sh
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"script.sh" 14L, 585B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m#!/bin/bash
+#USAGE: ./script dir file min_size max_size [create_date_min [create_date_max [mm[3;1Hax_procs]]][m[3;12H[K[4;1H[34m#outputs to FILE <PID FULL_PATH FILE_NAME FILE_SIZE TOTAL_FILES> for each subdirr[5;1Hectory
+#+in DIR by separate processes with total amout of its do not exeed MAX_PROC[m
+
+[36mmax_procs[m=[35m${7[m[38;5;130m:-[m1[35m}[m
+[36mbefore_date[m=[35m$([m[35mdate +%s -d [m[35m${6[m[38;5;130m:-[mtoday[35m})[m
+[36mfrom_date[m=[35m$([m[35mdate +%s -d [m[35m${5[m[38;5;130m:-[m19700101[35m})[m
+
+[38;5;130mfind[m [38;5;130m"[m[35m$1[m[38;5;130m"[m [35m-type[m f [35m-size[m +[35m$3[m [35m-size[m -[35m$4[m [35m-newermt[m @[35m$from_date[m ! [35m-newermt[m @[35m$before_dd[13;1Hate[m [38;5;130m\[m
+    [35m-execdir[m readlink [35m-ne[m[38;5;130m . [m\; [38;5;130m\[m
+    [35m-printf[m [38;5;130m"[m[31m %f %s %C+ total [m[38;5;130m"[m [38;5;130m\[m
+    [35m-execdir[m bash [35m-c[m [38;5;130m'[m[31mls -AF . | grep -cv "/$" [m[38;5;130m'[m \; |
+tee [38;5;130m"[m[35m$2[m[38;5;130m"[m
+[94m~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H10,11[9CAll[12;11H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P$q q\[?12$p[?25l[24;53H:[12;11H[24;54H2[12;11H[24;55He[12;11H[24;56H2[12;11H[24;57He[12;11H[24;58H/[12;11H[24;59H3[12;11H[24;60H4[12;11H[24;61H3[12;11H[24;62H4[12;11H[24;53H          [12;11H[27m[23m[29m[m[H[2J[1;1H[96m#!/bin/bash
+#USAGE: ./script dir file min_size max_size [create_date_min [create_date_max [mm[3;1Hax_procs]]]
+#outputs to FILE <PID FULL_PATH FILE_NAME FILE_SIZE TOTAL_FILES> for each subdirr[5;1Hectory
+#+in DIR by separate processes with total amout of its do not exeed MAX_PROC[m
+
+[1m[96mmax_procs[m=[38;5;81m${7[m[93m:-[m1[38;5;81m}[m
+[1m[96mbefore_date[m=[38;5;81m$([m[38;5;224mdate +%s -d [m[38;5;81m${6[m[93m:-[mtoday[38;5;81m})[m
+[1m[96mfrom_date[m=[38;5;81m$([m[38;5;224mdate +%s -d [m[38;5;81m${5[m[93m:-[m19700101[38;5;81m})[m
+
+[93mfind[m [93m"[m[38;5;81m$1[m[93m"[m [38;5;224m-type[m f [38;5;224m-size[m +[38;5;81m$3[m [38;5;224m-size[m -[38;5;81m$4[m [38;5;224m-newermt[m @[38;5;81m$from_date[m ! [38;5;224m-newermt[m @[38;5;81m$before_dd[13;1Hate[m [93m\[m
+    [38;5;224m-execdir[m readlink [38;5;224m-ne[m[93m . [m\; [93m\[m
+    [38;5;224m-printf[m [93m"[m[95m %f %s %C+ total [m[93m"[m [93m\[m
+    [38;5;224m-execdir[m bash [38;5;224m-c[m [93m'[m[95mls -AF . | grep -cv "/$" [m[93m'[m \; |
+tee [93m"[m[38;5;81m$2[m[93m"[m
+[94m~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H10,11[9CAll"script.sh" 14L, 585B[12;11H[?25h[?25l[24;53H:[12;11H[24;1H[K[24;1H:[?25hwq[?25l[?2004l[>4;m"script.sh" 14L, 585B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h(base) ]0;alex@avocadobook: ~[01;32malex@avocadobook[00m:[01;34m~[00m$ cat script.sh 
+[?2004l#!/bin/bash
+#USAGE: ./script dir file min_size max_size [create_date_min [create_date_max [max_procs]]]
+#outputs to FILE <PID FULL_PATH FILE_NAME FILE_SIZE TOTAL_FILES> for each subdirectory
+#+in DIR by separate processes with total amout of its do not exeed MAX_PROC
+ 
+max_procs=${7:-1}
+before_date=$(date +%s -d ${6:-today})
+from_date=$(date +%s -d ${5:-19700101})
+ 
+find "$1" -type f -size +$3 -size -$4 -newermt @$from_date ! -newermt @$before_date \
+    -execdir readlink -ne . \; \
+    -printf " %f %s %C+ total " \
+    -execdir bash -c 'ls -AF . | grep -cv "/$" ' \; |
+tee "$2"
+[?2004h(base) ]0;alex@avocadobook: ~[01;32malex@avocadobook[00m:[01;34m~[00m$ ./ [K[K[Kcat script.sh [1Pvim script.shexit[Kcat script.sh[2Pout.txt./script.sh /usr out.txt 31000 31500 19700101 20221017
+[?2004l/usr/bin snap 15964536 2022-10-05+19:55:12.1514024060 total 1631
+[?2004h(base) ]0;alex@avocadobook: ~[01;32malex@avocadobook[00m:[01;34m~[00m$ cat out.txt 
+[?2004l/usr/bin snap 15964536 2022-10-05+19:55:12.1514024060 total 1631
+[?2004h(base) ]0;alex@avocadobook: ~[01;32malex@avocadobook[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2022-10-17 15:26:03+03:00 [COMMAND_EXIT_CODE="0"]

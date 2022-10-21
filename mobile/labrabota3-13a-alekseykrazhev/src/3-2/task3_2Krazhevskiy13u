@@ -1,0 +1,50 @@
+Script started on 2022-10-17 12:38:16+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="91" LINES="55"]
+[?2004h(base) ]0;alex@avocadobook: ~[01;32malex@avocadobook[00m:[01;34m~[00m$ (while tre[Kue; do echo -n A >> log; ske[K[Kleep 1; done)
+[?2004l^Z
+[1]+  Stopped                 ( while true; do
+    echo -n A >> log; sleep 1;
+done )
+[?2004h(base) ]0;alex@avocadobook: ~[01;32malex@avocadobook[00m:[01;34m~[00m$ bg
+[?2004l[1]+ ( while true; do
+    echo -n A >> log; sleep 1;
+done ) &
+[?2004h(base) ]0;alex@avocadobook: ~[01;32malex@avocadobook[00m:[01;34m~[00m$ (whie[Kle true; do echo -n B >> log; sleep 1; done_[K) &
+[?2004l[2] 71300
+[?2004h(base) ]0;alex@avocadobook: ~[01;32malex@avocadobook[00m:[01;34m~[00m$ jobs
+[?2004l[1]-  Running                 ( while true; do
+    echo -n A >> log; sleep 1;
+done ) &
+[2]+  Running                 ( while true; do
+    echo -n B >> log; sleep 1;
+done ) &
+[?2004h(base) ]0;alex@avocadobook: ~[01;32malex@avocadobook[00m:[01;34m~[00m$ sudo renice 10 -p 4287
+[?2004l[sudo] password for alex: 
+4287 (process ID) old priority 0, new priority 10
+[?2004h(base) ]0;alex@avocadobook: ~[01;32malex@avocadobook[00m:[01;34m~[00m$ kill -19 %1
+[?2004l
+[1]+  Stopped                 ( while true; do
+    echo -n A >> log; sleep 1;
+done )
+[?2004h(base) ]0;alex@avocadobook: ~[01;32malex@avocadobook[00m:[01;34m~[00m$ jobs
+[?2004l[1]+  Stopped                 ( while true; do
+    echo -n A >> log; sleep 1;
+done )
+[2]-  Running                 ( while true; do
+    echo -n B >> log; sleep 1;
+done ) &
+[?2004h(base) ]0;alex@avocadobook: ~[01;32malex@avocadobook[00m:[01;34m~[00m$ kill -19 %2
+[?2004l
+[2]+  Stopped                 ( while true; do
+    echo -n B >> log; sleep 1;
+done )
+[?2004h(base) ]0;alex@avocadobook: ~[01;32malex@avocadobook[00m:[01;34m~[00m$ jobs
+[?2004l[1]-  Stopped                 ( while true; do
+    echo -n A >> log; sleep 1;
+done )
+[2]+  Stopped                 ( while true; do
+    echo -n B >> log; sleep 1;
+done )
+[?2004h(base) ]0;alex@avocadobook: ~[01;32malex@avocadobook[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2022-10-17 12:45:00+03:00 [COMMAND_EXIT_CODE="0"]
