@@ -1,345 +1,517 @@
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.csproj.AssemblyReference.cache
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.GeneratedMSBuildEditorConfig.editorconfig
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.AssemblyInfoInputs.cache
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.AssemblyInfo.cs
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.csproj.CoreCompileInputs.cache
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.MvcApplicationPartsAssemblyInfo.cache
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.RazorAssemblyInfo.cache
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.RazorAssemblyInfo.cs
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\staticwebassets\lab1.StaticWebAssets.Manifest.cache
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\staticwebassets\lab1.StaticWebAssets.xml
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\scopedcss\bundle\lab1.styles.css
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.TagHelpers.input.cache
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.TagHelpers.output.cache
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.RazorCoreGenerate.cache
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Delete.cshtml.g.cs
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Temp.cshtml.g.cs
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.RazorTargetAssemblyInfo.cache
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.RazorTargetAssemblyInfo.cs
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.pdb
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\lab1.exe
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\lab1.deps.json
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\lab1.runtimeconfig.json
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\lab1.runtimeconfig.dev.json
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\lab1.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\lab1.pdb
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\lab1.Views.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\lab1.Views.pdb
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\System.Text.Json.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.Views.pdb
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.csproj.CopyComplete
-C:\Учеба\3 курс\дс1\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.genruntimeconfig.cache
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.csprojAssemblyReference.cache
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.AssemblyInfoInputs.cache
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.AssemblyInfo.cs
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.csproj.CoreCompileInputs.cache
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.RazorAssemblyInfo.cache
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.RazorAssemblyInfo.cs
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.TagHelpers.input.cache
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.TagHelpers.output.cache
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.RazorCoreGenerate.cache
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Temp.cshtml.g.cs
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.RazorTargetAssemblyInfo.cache
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.RazorTargetAssemblyInfo.cs
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.pdb
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\lab1.exe
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\lab1.deps.json
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\lab1.runtimeconfig.json
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\lab1.runtimeconfig.dev.json
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\lab1.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\lab1.pdb
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\lab1.Views.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\lab1.Views.pdb
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\System.Text.Json.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Select.cshtml.g.cs
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.Views.pdb
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.csproj.CopyComplete
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\staticwebassets\lab1.StaticWebAssets.Manifest.cache
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\staticwebassets\lab1.StaticWebAssets.xml
-C:\Users\Xiaomi\Desktop\lab1\MVC\MVC\obj\Debug\netcoreapp3.1\lab1.genruntimeconfig.cache
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.csproj.AssemblyReference.cache
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.GeneratedMSBuildEditorConfig.editorconfig
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.AssemblyInfoInputs.cache
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.AssemblyInfo.cs
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.csproj.CoreCompileInputs.cache
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.MvcApplicationPartsAssemblyInfo.cache
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.RazorAssemblyInfo.cache
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.RazorAssemblyInfo.cs
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/staticwebassets/lab1.StaticWebAssets.Manifest.cache
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/staticwebassets/lab1.StaticWebAssets.xml
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/scopedcss/bundle/lab1.styles.css
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.TagHelpers.input.cache
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.TagHelpers.output.cache
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.RazorCoreGenerate.cache
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Home/Delete.cshtml.g.cs
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Home/Temp.cshtml.g.cs
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.RazorTargetAssemblyInfo.cache
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.RazorTargetAssemblyInfo.cs
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.pdb
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/appsettings.Development.json
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/appsettings.json
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/lab1.exe
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/lab1.deps.json
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/lab1.runtimeconfig.json
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/lab1.runtimeconfig.dev.json
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/lab1.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/lab1.pdb
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/lab1.Views.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/lab1.Views.pdb
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Razor.Language.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Razor.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Workspaces.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Data.Sqlite.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Sqlite.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/dotnet-aspnet-codegenerator-design.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/NuGet.Frameworks.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/SQLitePCLRaw.core.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Composition.AttributedModel.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Composition.Convention.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Composition.Hosting.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Composition.Runtime.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Composition.TypedParts.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Text.Json.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/alpine-x64/native/libe_sqlite3.so
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/linux-arm/native/libe_sqlite3.so
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/linux-arm64/native/libe_sqlite3.so
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/linux-armel/native/libe_sqlite3.so
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/linux-musl-x64/native/libe_sqlite3.so
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/linux-x64/native/libe_sqlite3.so
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/linux-x86/native/libe_sqlite3.so
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/libe_sqlite3.dylib
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/e_sqlite3.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/e_sqlite3.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/e_sqlite3.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/e_sqlite3.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.Views.pdb
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.csproj.CopyComplete
+C:/Учеба/3 курс/дс1/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.genruntimeconfig.cache
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.csprojAssemblyReference.cache
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.AssemblyInfoInputs.cache
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.AssemblyInfo.cs
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.csproj.CoreCompileInputs.cache
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.RazorAssemblyInfo.cache
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.RazorAssemblyInfo.cs
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.TagHelpers.input.cache
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.TagHelpers.output.cache
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.RazorCoreGenerate.cache
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Home/Temp.cshtml.g.cs
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.RazorTargetAssemblyInfo.cache
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.RazorTargetAssemblyInfo.cs
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.pdb
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/appsettings.Development.json
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/appsettings.json
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/lab1.exe
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/lab1.deps.json
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/lab1.runtimeconfig.json
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/lab1.runtimeconfig.dev.json
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/lab1.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/lab1.pdb
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/lab1.Views.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/lab1.Views.pdb
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Razor.Language.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Razor.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Workspaces.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Data.Sqlite.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Sqlite.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/dotnet-aspnet-codegenerator-design.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/NuGet.Frameworks.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/SQLitePCLRaw.core.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Composition.AttributedModel.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Composition.Convention.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Composition.Hosting.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Composition.Runtime.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Composition.TypedParts.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Text.Json.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/alpine-x64/native/libe_sqlite3.so
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/linux-arm/native/libe_sqlite3.so
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/linux-arm64/native/libe_sqlite3.so
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/linux-armel/native/libe_sqlite3.so
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/linux-musl-x64/native/libe_sqlite3.so
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/linux-x64/native/libe_sqlite3.so
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/linux-x86/native/libe_sqlite3.so
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/libe_sqlite3.dylib
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/e_sqlite3.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/e_sqlite3.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/e_sqlite3.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/e_sqlite3.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Home/Select.cshtml.g.cs
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.Views.pdb
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.csproj.CopyComplete
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/staticwebassets/lab1.StaticWebAssets.Manifest.cache
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/staticwebassets/lab1.StaticWebAssets.xml
+C:/Users/Xiaomi/Desktop/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.genruntimeconfig.cache
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.csproj.AssemblyReference.cache
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.AssemblyInfoInputs.cache
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.AssemblyInfo.cs
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.csproj.CoreCompileInputs.cache
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.MvcApplicationPartsAssemblyInfo.cache
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.RazorAssemblyInfo.cache
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.RazorAssemblyInfo.cs
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.TagHelpers.input.cache
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.TagHelpers.output.cache
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.pdb
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/appsettings.json
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/lab1.StaticWebAssets.xml
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/lab1
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/lab1.deps.json
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/lab1.runtimeconfig.json
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/lab1.runtimeconfig.dev.json
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/lab1.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/lab1.pdb
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/lab1.Views.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/lab1.Views.pdb
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Razor.Language.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Razor.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Workspaces.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Data.Sqlite.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Sqlite.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/dotnet-aspnet-codegenerator-design.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/NuGet.Frameworks.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/SQLitePCLRaw.core.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/SQLitePCLRaw.provider.dynamic_cdecl.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Composition.AttributedModel.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Composition.Convention.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Composition.Hosting.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Composition.Runtime.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Composition.TypedParts.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/System.Text.Json.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/alpine-x64/native/libe_sqlite3.so
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/linux-arm/native/libe_sqlite3.so
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/linux-arm64/native/libe_sqlite3.so
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/linux-armel/native/libe_sqlite3.so
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/linux-x64/native/libe_sqlite3.so
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/linux-x86/native/libe_sqlite3.so
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/libe_sqlite3.dylib
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/e_sqlite3.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/e_sqlite3.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/e_sqlite3.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/e_sqlite3.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.GeneratedMSBuildEditorConfig.editorconfig
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/staticwebassets/lab1.StaticWebAssets.Manifest.cache
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.RazorCoreGenerate.cache
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Home/Select.cshtml.g.cs
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Home/Temp.cshtml.g.cs
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.RazorTargetAssemblyInfo.cache
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.RazorTargetAssemblyInfo.cs
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.Views.pdb
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.csproj.CopyComplete
+/home/alex/Documents/BSU-season-5/sops/lab1_var4/lab1/MVC/MVC/obj/Debug/netcoreapp3.1/lab1.genruntimeconfig.cache

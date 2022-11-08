@@ -1,0 +1,150 @@
+﻿@model IEnumerable<lab1.Models.Player>
+
+@{
+    ViewData["Title"] = "Temp";
+}
+
+<h1>Temp</h1>
+@{
+    if (Model.Count() > 0)
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        Player ID
+                    </th>
+                    <th>
+                        Jersey
+                    </th>
+                    <th>
+                        First name
+                    </th>
+                    <th>
+                        Second name
+                    </th>
+                    <th>
+                        Position
+                    </th>
+                    <th>
+                        Birthday
+                    </th>
+                    <th>
+                        Weight
+                    </th>
+                    <th>
+                        Height
+                    </th>
+                    <th>
+                        Birthcity
+                    </th>
+                    <th>
+                        Birthstate
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <style>
+                h1 {
+                    margin-top: 20px;
+                }
+
+                #playerid {
+                    width: 100px;
+                }
+
+                #jersey {
+                    width: 50px;
+                }
+
+                #fname {
+                    width: 100px;
+                }
+
+                #sname {
+                    width: 116px;
+                }
+
+                #position {
+                    width: 56px;
+                }
+
+                #birthday {
+                    width: 136px;
+                }
+
+                #weight {
+                    width: 50px;
+                }
+
+                #height {
+                    width: 55px;
+                }
+
+                #birthcity {
+                    width: 116px;
+                }
+
+                #birthstate {
+                    width: 50px;
+                }
+
+                h4{
+                    color:red;
+                }
+            </style>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <div>
+                        <form asp-action="Save" method="post">
+                            <tr>
+                                <td>
+                                    <input id="playerid" type="text" class="form-control" value="@Html.DisplayFor(modelItem => item.playerid)" name="playerid" readonly />
+                                </td>
+                                <td>
+                                    <input id="jersey" type="text" class="form-control" value="@Html.DisplayFor(modelItem => item.jersey)" name="jersey" readonly />
+                                </td>
+                                <td>
+                                    <input id="fname" type="text" class="form-control" value="@Html.DisplayFor(modelItem => item.fname)" name="fname" readonly />
+                                </td>
+                                <td>
+                                    <input id="sname" type="text" class="form-control" value="@Html.DisplayFor(modelItem => item.sname)" name="sname" readonly />
+                                </td>
+                                <td>
+                                    <input id="position" type="text" class="form-control" value="@Html.DisplayFor(modelItem => item.position)" name="position" readonly />
+                                </td>
+                                <td>
+                                    <input id="birthday" type="date" class="form-control" value="@Html.DisplayFor(modelItem => item.birthday)" name="birthday" />
+                                </td>
+                                <td>
+                                    <input id="weight" type="text" class="form-control" value="@Html.DisplayFor(modelItem => item.weight)" name="weight" readonly />
+                                </td>
+                                <td>
+                                    <input id="height" type="text" class="form-control" value="@Html.DisplayFor(modelItem => item.height)" name="height" readonly />
+                                </td>
+                                <td>
+                                    <input id="birthcity" type="text" class="form-control" value="@Html.DisplayFor(modelItem => item.birthcity)" name="birthcity" />
+                                </td>
+                                <td>
+                                    <input id="birthstate" type="text" class="form-control" value="@Html.DisplayFor(modelItem => item.birthstate)" name="birthstate" readonly />
+                                </td>
+                                <td>
+                                    <button type="submit" value="Save" class="btn btn-warning">Save</button>
+                                </td>
+                            </tr>
+                        </form>
+                    </div>
+                }
+            </tbody>
+        </table>
+        <div align="center">
+            <a class="btn btn-danger" asp-action="Clear" asp-route-id="@null">Clear all</a>
+        </div>
+    }
+    else
+    {
+        <div align="center">Temp is clear</div>
+    }
+}
+

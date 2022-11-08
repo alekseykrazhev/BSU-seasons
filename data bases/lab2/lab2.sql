@@ -85,6 +85,21 @@ CREATE TABLE IF NOT EXISTS `mydb`.`SPECIALITY` (
   PRIMARY KEY (`Code_Spec`))
 ENGINE = InnoDB;
 
+create trigger ch_code before insert on mydb.SPECIALITY
+begin
+    for each ROW
+        set new.Code_Spec = (SELECT max(Code_Spec) + 1 FROM mydb.SCECIALITY);
+end
+
+create trigger max_code after insert on mydb.SPECIALITY
+begin
+    for each row
+        if (new.Code_Spec > 1755) then
+            SIGNAL SQLSTATE '45000';
+            SET message_text = 'too much elements';
+        end if;
+end
+
 CREATE UNIQUE INDEX `Code_Spec_UNIQUE` ON `mydb`.`SPECIALITY` (`Code_Spec` ASC) VISIBLE;
 
 
