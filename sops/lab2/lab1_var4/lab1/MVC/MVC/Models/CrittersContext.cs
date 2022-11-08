@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using GrpcService1.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace lab1.Models
@@ -13,6 +14,16 @@ namespace lab1.Models
             : base(options)
         {
             Database.EnsureCreated();
+        }
+
+        public CrittersContext()
+        {
+            Database.EnsureCreated();
+        }
+        
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlite("Data Source=data.sqlite");
         }
 
         public void MoveToTemp(Player player)

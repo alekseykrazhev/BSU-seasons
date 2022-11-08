@@ -13,12 +13,6 @@ namespace lab1.Controllers
 {
     public class HomeController : Controller
     {
-        Models.CrittersContext crittersContext;
-        public HomeController(Models.CrittersContext context)
-        {
-            crittersContext = context;
-        }
-
         public static DateTime? startDate;
         public static DateTime? endDate;
         
@@ -101,18 +95,6 @@ namespace lab1.Controllers
             return RedirectToAction("Temp");
         }
 
-        private IEnumerable<Player> FindPlayer(string playerid)
-        {
-            if (playerid != null || playerid.Length != 0)
-            {
-                return crittersContext.roster.Where(predicate: e => e.playerid == playerid);
-            }
-            else
-            {
-                return crittersContext.roster.Where(e => e.playerid == playerid);
-            }
-        }
-
         [HttpPost]
         public async Task<IActionResult> Save(string playerid, string jersey, string fname, string sname, string position, 
             DateTime birthday, string weight, string height, string birthcity, string birthstate)
@@ -124,17 +106,6 @@ namespace lab1.Controllers
                 HttpClientHandler.DangerousAcceptAnyServerCertificateValidator;
             var channel = GrpcChannel.ForAddress("https://localhost:7175", new GrpcChannelOptions { HttpHandler = httpHandler });
             var client = new Greeter.GreeterClient(channel);
-            
-            /*
-            if(birthday <= endDate && birthday >= startDate)
-            {
-                var formatted = birthday.ToString("yyyy.MM.dd");
-                foreach (var item in FindPlayer(playerid))
-                {
-                    crittersContext.SaveCritter(item, playerid, Convert.ToInt32(jersey), fname, sname, position, formatted,
-                        Convert.ToInt32(weight), Convert.ToInt32(height), birthcity, birthstate);
-                }
-            }*/
 
             string formatted = "";
             if (birthday <= endDate && birthday >= startDate)
