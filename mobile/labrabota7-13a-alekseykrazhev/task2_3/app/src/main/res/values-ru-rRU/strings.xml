@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">guess_number</string>
+    <string name="hint">Вводить здесь</string>
+    <string name="guess">Угадай!</string>
+    <string name="start_text">Угадай число</string>
+    <string name="hint_left">Введите левую границу</string>
+    <string name="hint_right">Введите правую границу</string>
+</resources>

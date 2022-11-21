@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calculator14</string>
+    <string name="default_text">Enter equation to solve:</string>
+    <string name="hint_len">Enter L</string>
+    <string name="hint_a">Ender a</string>
+    <string name="hint_hord">Enter hord</string>
+    <string name="s">Square</string>
+</resources>
