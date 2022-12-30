@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">task2</string>
+    <string name="save_user">Save user</string>
+    <string name="hint_enter_last_name">Enter last name:</string>
+    <string name="hint_enter_age">Enter age:</string>
+    <string name="hint_enter_first_name">Enter first name:</string>
+    <string name="female_male">male/female</string>
+</resources>

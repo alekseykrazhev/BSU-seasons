@@ -86,9 +86,9 @@ def part1():
 
     print(x1)
 
-    points = np.zeros(10)
-    values = np.zeros(10)
-    for i in range(0, 10):
+    points = np.zeros(11)
+    values = np.zeros(11)
+    for i in range(0, 11):
         points[i] = x_i(i)
         values[i] = func(points[i])
 
@@ -188,11 +188,12 @@ def chebyshev_points(a: float, b: float) -> np.ndarray:
     """
     Method to get chebyshev points to interpolate.
     """
-    points = np.zeros(n_)
-    for k in range(0, n_):
-        xk = np.cos(((2 * k + 1) * np.pi) / (2 * n_))
+    points = np.zeros(n_+1)
+    for k in range(0, n_+1):
+        xk = np.cos(((2 * k + 1) * np.pi) / (2 * n_ + 2))
         points[k] = ((a + b) / 2) + (((b - a) / 2) * xk)
-    return points
+
+    return points[::-1]
 
 
 def max_der(n, a, b):
@@ -201,7 +202,7 @@ def max_der(n, a, b):
 
 
 def r_n(n, a, b):
-    return (max_der(n, a, b) / np.math.factorial(n + 1)) * (np.power(b - a, n + 1) / np.power(2, 2*n + 1)) * 100
+    return (max_der(n, a, b) / np.math.factorial(n + 1)) * (np.power(b - a, n + 1) / np.power(2, 2*n + 1))
 
 
 def part3():
@@ -212,12 +213,15 @@ def part3():
     print(f'Chebyshev points: {points}')
 
     values = np.zeros(len(points))
+    # print(points.shape, values.shape)
     for i in range(len(points)):
         values[i] = func(points[i])
 
     print(f'Values in points: {values}')
 
     x1, y1 = get_recovery_points_and_values()
+    print(f'Recovery points: {x1}')
+    # print(x1.shape, y1.shape)
     a_s = divided_diff(points, values)[0, :]
     inter = newton_poly(a_s, points, x1)
 

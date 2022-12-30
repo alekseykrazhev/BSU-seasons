@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"Model.entity","l":"Action"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"Model.entity","l":"Auction"},{"p":"Model.entity","l":"Brocker"},{"p":"Model.entity","l":"Burse"},{"p":"Model.entity","l":"Lot"},{"p":"View","l":"Main"},{"p":"View","l":"Main.MyThead"}];updateSearchResults();

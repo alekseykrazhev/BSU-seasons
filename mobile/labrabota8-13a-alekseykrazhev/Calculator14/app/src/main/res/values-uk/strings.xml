@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Калькулятор14</string>
+    <string name="default_text">Введіть рівняння для вирішення:</string>
+    <string name="hint_len">Введіть L</string>
+    <string name="hint_a">Введіть a</string>
+    <string name="hint_hord">Введіть хорду</string>
+    <string name="s">Площа</string>
+    <string name="res">Резултат:</string>
+    <string name="back">Вычысліці зноў</string>
+    <string name="wrong_params">Ашыбка!</string>
+</resources>

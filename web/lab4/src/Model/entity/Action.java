@@ -1,14 +1,27 @@
 package Model.entity;
 
+/**
+ * Auction class implementation
+ */
 public class Action {
     private int id;
     private String corporationName;
     private int actionCount;
     private Double price;
 
+    /**
+     * Default constructor
+     */
     public Action() {
     }
 
+    /**
+     * Constructor with params
+     * @param id - id
+     * @param corporationName - name
+     * @param actionCount - num
+     * @param price - price
+     */
     public Action(int id, String corporationName, int actionCount, Double price) {
         this.id = id;
         this.corporationName = corporationName;
@@ -28,7 +41,7 @@ public class Action {
         return corporationName;
     }
 
-    public void setCorporationName(String corporationName) {
+    synchronized public void setCorporationName(String corporationName) {
         this.corporationName = corporationName;
     }
 
@@ -36,7 +49,7 @@ public class Action {
         return actionCount;
     }
 
-    public void setActionCount(int actionCount) {
+    synchronized public void setActionCount(int actionCount) {
         this.actionCount = actionCount;
     }
 
@@ -44,7 +57,7 @@ public class Action {
         return price;
     }
 
-    public void setPrice(Double price) {
+    synchronized public void setPrice(Double price) {
         this.price = price;
     }
 

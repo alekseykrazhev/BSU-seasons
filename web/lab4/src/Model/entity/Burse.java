@@ -1,13 +1,25 @@
 package Model.entity;
 
+/**
+ * Burs class implementation
+ */
 public class Burse {
     private int id;
     private  String name;
     private Double index;
 
+    /**
+     * Default constructor
+     */
     public Burse() {
     }
 
+    /**
+     * Constructor with params
+     * @param id - id
+     * @param name - name
+     * @param index - index
+     */
     public Burse(int id, String name, Double index) {
         this.id = id;
         this.name = name;
@@ -18,7 +30,7 @@ public class Burse {
         return id;
     }
 
-    public void setId(int id) {
+    synchronized public void setId(int id) {
         this.id = id;
     }
 
@@ -26,7 +38,7 @@ public class Burse {
         return name;
     }
 
-    public void setName(String name) {
+    synchronized public void setName(String name) {
         this.name = name;
     }
 
@@ -34,13 +46,13 @@ public class Burse {
         return index;
     }
 
-    public void setIndex(Double index) {
+    synchronized public void setIndex(Double index) {
         this.index = index;
     }
 
     @Override
     public String toString() {
-        return "Burse{" +
+        return "Burs{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", index=" + index +

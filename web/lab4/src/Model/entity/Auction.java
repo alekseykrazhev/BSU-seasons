@@ -1,13 +1,22 @@
 package Model.entity;
 
+/**
+ * Auction class implementation
+ */
 public class Auction {
     private int id;
     private Lot lot;
     private int winnerBrockerId;
 
+    /**
+     * Default constructor
+     */
     public Auction() {
     }
 
+    /**
+     * Constructor with params
+     */
     public Auction(int id, Lot lot, int winnerBrockerId) {
         this.id = id;
         this.lot = lot;
@@ -18,7 +27,7 @@ public class Auction {
         return id;
     }
 
-    public void setId(int id) {
+    synchronized public void setId(int id) {
         this.id = id;
     }
 
@@ -26,7 +35,7 @@ public class Auction {
         return lot;
     }
 
-    public void setLot(Lot lot) {
+    synchronized public void setLot(Lot lot) {
         this.lot = lot;
     }
 
@@ -34,7 +43,7 @@ public class Auction {
         return winnerBrockerId;
     }
 
-    public void setWinnerBrockerId(int winnerBrockerId) {
+    synchronized public void setWinnerBrockerId(int winnerBrockerId) {
         this.winnerBrockerId = winnerBrockerId;
     }
 

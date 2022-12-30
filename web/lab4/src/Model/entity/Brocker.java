@@ -1,16 +1,29 @@
 package Model.entity;
 
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
+/**
+ * Broker class implementation
+ */
 public class Brocker {
     private int id;
     private String name;
-    private List<Action> actionList;
+    private CopyOnWriteArrayList<Action> actionList;
 
+    /**
+     * Default constructor
+     */
     public Brocker() {
     }
 
-    public Brocker(int id, String name, List<Action> actionList) {
+    /**
+     * Constructor with params
+     * @param id - id
+     * @param name - name
+     * @param actionList - list
+     */
+    public Brocker(int id, String name, CopyOnWriteArrayList<Action> actionList) {
         this.id = id;
         this.name = name;
         this.actionList = actionList;
@@ -20,7 +33,7 @@ public class Brocker {
         return id;
     }
 
-    public void setId(int id) {
+    synchronized public void setId(int id) {
         this.id = id;
     }
 
@@ -28,21 +41,21 @@ public class Brocker {
         return name;
     }
 
-    public void setName(String name) {
+    synchronized public void setName(String name) {
         this.name = name;
     }
 
-    public List<Action> getActionList() {
+    public CopyOnWriteArrayList<Action> getActionList() {
         return actionList;
     }
 
-    public void setActionList(List<Action> actionList) {
+    synchronized public void setActionList(CopyOnWriteArrayList<Action> actionList) {
         this.actionList = actionList;
     }
 
     @Override
     public String toString() {
-        return "Brocker{" +
+        return "Broker{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", actionList=" + actionList +

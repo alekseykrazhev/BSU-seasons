@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NoteApp</string>
+    <string name="action_open">Open</string>
+    <string name="action_save">Save</string>
+    <string name="hint_open">Filename to open goes here.</string>
+    <string name="hint_save">Filename to save to goes here.</string>
+    <string name="hint_enter">Write some notes down here.</string>
+    <string name="clear">Clear your notes.</string>
+</resources>

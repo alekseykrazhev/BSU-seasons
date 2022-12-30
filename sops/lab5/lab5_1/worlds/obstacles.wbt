@@ -1,0 +1,49 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+  basicTimeStep 16
+}
+Viewpoint {
+  orientation -0.1999819002649057 0.10627438657737273 0.9740189907409611 1.6356346457964255
+  position 0.2107790642516587 -2.5018017946744013 0.9745488595779227
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+WoodenBox {
+  translation -0.441811 0.408687 0.05
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.436705 0.38708 0.05
+  name "wooden box(2)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.448869 -0.422853 0.05
+  name "wooden box(1)"
+  size 0.1 0.1 0.1
+}
+E-puck {
+  controller "scratch1"
+}
+Floor {
+  size 1 1
+}
+DEF DA_BALL Solid {
+  translation 0.259577 0.065423 0.12
+  children [
+    Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry DEF BALL_LE Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  boundingObject USE BALL_LE
+  physics Physics {
+  }
+}

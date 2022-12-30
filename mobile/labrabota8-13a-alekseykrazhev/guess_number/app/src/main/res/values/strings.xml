@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">guess_number</string>
+    <string name="hint">Enter here</string>
+    <string name="guess">Guess!</string>
+    <string name="start_text">Take a guess here</string>
+    <string name="hint_left">Enter left bound</string>
+    <string name="hint_right">Enter right bound</string>
+</resources>

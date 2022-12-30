@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:outlineSpotShadowColor="@color/black"
+    android:padding="4dp">
+
+    <EditText
+        android:id="@+id/filename_open_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_open"
+        android:autofillHints="filename"
+        android:inputType="text">
+    </EditText>
+
+    <EditText
+        android:id="@+id/filename_save_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_save"
+        android:autofillHints="filename"
+        android:inputType="text">
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="top|start"
+        android:hint="@string/hint_enter"
+        android:inputType="textMultiLine"
+        android:autofillHints="text">
+    </EditText>
+
+    <Button
+        android:id="@+id/clear_text_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear"
+        android:backgroundTint="#820314">
+    </Button>
+
+    <android.gesture.GestureOverlayView
+        android:id="@+id/gesture_field"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:background="#f498ad"
+        android:gestureColor="#52037e"
+        android:uncertainGestureColor="#fcf974">
+    </android.gesture.GestureOverlayView>
+
+</LinearLayout>

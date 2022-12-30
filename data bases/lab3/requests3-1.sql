@@ -42,8 +42,3 @@ where h_doctor.code_spec = h_speciality.code_spec
 SELECT h_patient.SURNAME, h_patient.FIRSTNAME, h_patient.MIDDLE_NAME, (select min(price) from h_services), h_services.price
 from h_patient, h_services, h_visit
 where h_services.price >= (select min(price) from h_services) and h_services.price <= (select min(price) from h_services) + 50;
-
--- ВНУТРЕННЕЕ:--
--- Укажите сведения о визитах, где были оказаны услуги с максимальной стоимостью, с указанием этих услуг. --
-
-

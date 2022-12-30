@@ -12,6 +12,11 @@ import java.nio.channels.SocketChannel;
  */
 public class NIOClient {
 
+    /**
+     * Main method to do all the work.
+     * @param args - com line params
+     * @throws IOException - except
+     */
     public static void main(String[] args) throws IOException {
 
         BufferedReader reader =

@@ -1,14 +1,23 @@
 package Model.entity;
 
+/**
+ * Lot class implementation
+ */
 public class Lot {
     private int id;
     private String name;
     private Action action;
     private Double newPrice;
 
+    /**
+     * Default constructor
+     */
     public Lot() {
     }
 
+    /**
+     * Constructor with params
+     */
     public Lot(int id, String name, Action action, Double newPrice) {
         this.id = id;
         this.name = name;
@@ -20,7 +29,7 @@ public class Lot {
         return id;
     }
 
-    public void setId(int id) {
+    synchronized public void setId(int id) {
         this.id = id;
     }
 
@@ -28,7 +37,7 @@ public class Lot {
         return name;
     }
 
-    public void setName(String name) {
+    synchronized public void setName(String name) {
         this.name = name;
     }
 
@@ -36,7 +45,7 @@ public class Lot {
         return action;
     }
 
-    public void setAction(Action action) {
+    synchronized public void setAction(Action action) {
         this.action = action;
     }
 
@@ -44,7 +53,7 @@ public class Lot {
         return newPrice;
     }
 
-    public void setNewPrice(Double newPrice) {
+    synchronized public void setNewPrice(Double newPrice) {
         this.newPrice = newPrice;
     }
 

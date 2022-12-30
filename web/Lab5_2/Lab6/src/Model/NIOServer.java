@@ -17,11 +17,16 @@ import java.util.*;
  */
 public class NIOServer {
 
+    /**
+     * Main method to do the task.
+     * @param args - command line args.
+     * @throws IOException - exception
+     */
     @SuppressWarnings("unused")
     public static void main(String[] args) throws IOException {
 
         final Logger logger = Logger.getLogger( NIOServer.class.getName() );
-        final Random random = new Random();
+        //final Random random = new Random();
         ArrayList<SocketChannel> clients = new ArrayList<>();
         Selector selector = Selector.open();
         ServerSocketChannel servSocket = ServerSocketChannel.open();
@@ -35,10 +40,8 @@ public class NIOServer {
             logger.info("i'm a server and i'm waiting for new connection and buffer select...");
             selector.select();
             Set<SelectionKey> keys = selector.selectedKeys();
-            Iterator<SelectionKey> iter = keys.iterator();
 
-            while (iter.hasNext()) {
-                SelectionKey myKey = iter.next();
+            for (SelectionKey myKey : keys) {
                 if (myKey.isAcceptable()) {
                     SocketChannel client = servSocket.accept();
                     client.configureBlocking(false);
@@ -48,7 +51,7 @@ public class NIOServer {
                 }
 
                 Scanner sc = new Scanner(new File("index.txt"));
-                while(sc.hasNext()) {
+                while (sc.hasNext()) {
                     System.out.println(sc.nextLine());
                 }
                 System.out.println("Choose client index");
