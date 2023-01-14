@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Easy Quizy</string>
+    <!--Quiz result-->
+    <string name="quiz_result">Your score: %1d / 10</string>
+    <string name="quiz_best_result">Best score: %1d / 10</string>
+    <string name="quiz_you_answered">You answered %1d of 10</string>
+
+    <!-- Preference Titles -->
+    <string name="theme_header">Theme</string>
+    <string name="key_theme">theme</string>
+
+    <!-- Messages Preferences -->
+    <string name="theme_title">Choose current theme</string>
+
+    <!-- Preferences values-->
+    <string name="dark">Dark</string>
+    <string name="key_dark">DARK</string>
+    <string name="light">Light</string>
+    <string name="key_light">LIGHT</string>
+    <string name="system">System</string>
+    <string name="key_system">SYSTEM</string>
+    <string name="key_result">result</string>
+
+    <!--    Buttons-->
+    <string name="start_quiz_btn">Start quiz</string>
+    <string name="ok_btn">OK</string>
+    <string name="retry_btn">Retry</string>
+    <string name="submit_btn">Submit</string>
+
+    <!--    Navigation labels-->
+    <string name="result_dialog">Congratulations!</string>
+    <string name="settings">Settings</string>
+
+</resources>

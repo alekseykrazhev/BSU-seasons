@@ -1,0 +1,14 @@
+<resources>
+    <!-- Theme Preference -->
+    <array name="preference_theme_labels">
+        <item>@string/system</item>
+        <item>@string/dark</item>
+        <item>@string/light</item>
+    </array>
+
+    <array name="preference_theme_keys">
+        <item>@string/key_system</item>
+        <item>@string/key_dark</item>
+        <item>@string/key_light</item>
+    </array>
+</resources>

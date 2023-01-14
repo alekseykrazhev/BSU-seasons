@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/start_screen_dest">
+
+    <fragment
+        android:id="@+id/start_screen_dest"
+        android:name="com.example.android.lab11.quiz_application.presentation.start.StartScreenFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_start_screen">
+        <action
+            android:id="@+id/action_go_to_quiz"
+            app:destination="@id/quiz_dest"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_go_to_settings"
+            app:destination="@id/settings_dest" />
+    </fragment>
+    <fragment
+        android:id="@+id/quiz_dest"
+        android:name="com.example.android.lab11.quiz_application.presentation.quiz.QuizFragment"
+        android:label="@string/app_name"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+        app:popExitAnim="@anim/nav_default_pop_exit_anim"
+        tools:layout="@layout/fragment_quiz">
+        <action
+            android:id="@+id/action_quiz_dest_to_result_dest"
+            app:destination="@id/result_dest" />
+    </fragment>
+    <dialog
+        android:id="@+id/result_dest"
+        android:name="com.example.android.lab11.quiz_application.presentation.result.ResultDialogFragment"
+        android:label="@string/result_dialog"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+        app:popExitAnim="@anim/nav_default_pop_exit_anim"
+        tools:layout="@layout/dialog_quiz_result">
+        <argument
+            android:name="result"
+            android:defaultValue="0"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_result_dest_to_start_screen_dest"
+            app:destination="@id/start_screen_dest"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </dialog>
+    <fragment
+        android:id="@+id/settings_dest"
+        android:name="com.example.android.lab11.quiz_application.presentation.settings.SettingsFragment"
+        android:label="@string/settings"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+        app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+</navigation>
