@@ -1,0 +1,5 @@
+{
+    "database-client.showTrigger": true,
+    "database-client.toggleLayoutWhenQuery": true,
+    "java.configuration.updateBuildConfiguration": "automatic"
+}

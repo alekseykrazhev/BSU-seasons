@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"Connector"},{"l":"Connector.Properties"},{"l":"Controller"},{"l":"DAO"},{"l":"Exception"},{"l":"Model"},{"l":"View"}];updateSearchResults();

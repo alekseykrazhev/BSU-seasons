@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd"
+             version="2.2">
+
+    <persistence-unit name="com.application.zhkh" transaction-type="RESOURCE_LOCAL">
+        <provider>org.hibernate.ejb.HibernatePersistence</provider>
+        <class>com.example.lab2_part2.Model.Application</class>
+        <class>com.example.lab2_part2.Model.Dispatcher</class>
+        <class>com.example.lab2_part2.Model.Tenant</class>
+        <class>com.example.lab2_part2.Model.Worker</class>
+        <class>com.example.lab2_part2.Model.WorkPlan</class>
+        <properties>
+            <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+            <property name="hibernate.connection.password" value="MyPasswd123"/>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost/mydb"/>
+            <property name="hibernate.connection.username" value="root"/>
+        </properties>
+    </persistence-unit>
+
+</persistence>
