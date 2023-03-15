@@ -41,7 +41,7 @@ public class WorkPlanDAO implements DAO<WorkPlan> {
      * SQL queries strings
      */
     private final String selectAll = "select * from work_plan";
-    private final String insertNewPlan = "insert into work_plan values (#1, #2, #3)";
+    private final String insertNewPlan = "insert into work_plan values (#1, #2, #3, #4)";
 
     @Override
     public void createTable() throws DAOException {}
@@ -89,7 +89,8 @@ public class WorkPlanDAO implements DAO<WorkPlan> {
 
             PreparedStatement statement = connection.prepareStatement(insertNewPlan.replace(
                     "#1", String.valueOf(workPlan.id)).replace("#2", String.valueOf(
-                    workPlan.worker.id)).replace("#3", String.valueOf(workPlan.id_type)));
+                    workPlan.worker.id)).replace("#3", String.valueOf(workPlan.id_type))
+                    .replace("#4", "name"));
 
             statement.executeUpdate();
 

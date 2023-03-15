@@ -14,8 +14,7 @@ public class Main {
      * @throws DAOException daoe
      */
     public static void main(String[] args) throws Exception, DAOException {
-        Controller main = new Controller();
-        main.doWork();
+        Controller.doWork();
     }
 
 }

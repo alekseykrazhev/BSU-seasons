@@ -18,6 +18,8 @@ import java.util.Scanner;
  */
 public class Controller {
 
+    static int id_count = 0;
+
     /**
      * Main logger
      */
@@ -81,9 +83,10 @@ public class Controller {
                     workers.update(workers1.get(0), null);
 
                     WorkPlanDAO planDAO = new WorkPlanDAO();
-                    WorkPlan workPlan = new WorkPlan(WorkPlanDAO.amount + 1, "NewPlan",
+                    WorkPlan workPlan = new WorkPlan(id_count, "NewPlan",
                             workers1.get(0), app_id);
                     planDAO.insert(workPlan, app_id);
+                    ++id_count;
 
                     logger.info("Fourth option successful");
                 }
