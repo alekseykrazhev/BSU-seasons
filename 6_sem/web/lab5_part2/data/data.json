@@ -1,0 +1,37 @@
+[
+    {
+        "tenant": "Alex",
+        "applicationID": 0,
+        "workType": 2,
+        "isExpired": "True",
+        "dispatcherID": 1
+    },
+    {
+        "tenant": "Alex1",
+        "applicationID": 1,
+        "workType": 1,
+        "isExpired": "False",
+        "dispatcherID": 2
+    },
+    {
+        "tenant": "Ale2",
+        "applicationID": 2,
+        "workType": 2,
+        "isExpired": "False",
+        "dispatcherID": 1
+    },
+    {
+        "tenant": "Ale3",
+        "applicationID": 3,
+        "workType": 3,
+        "isExpired": "True",
+        "dispatcherID": 3
+    },
+    {
+        "tenant": "Alex4",
+        "applicationID": 4,
+        "workType": 1,
+        "isExpired": "False",
+        "dispatcherID": 3
+    }
+]

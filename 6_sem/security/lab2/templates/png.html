@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% block title %}Convert to PNG{% endblock %}
+</head>
+<body>
+
+{% block action %}"/png"{% endblock %}
+{% block action_drop %}"/png"{% endblock %}
+
+{% block main %}
+{% endblock %}
+
+{% block result %}
+    <div style="text-align: center;">
+        <h1>{{ result }}</h1>
+    </div>
+{% endblock %}
+
+</body>
+</html>

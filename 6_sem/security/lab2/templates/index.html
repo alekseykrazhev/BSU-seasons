@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% block title %}Create zip archive{% endblock %}
+</head>
+
+<body>
+
+{% block action %}"/"{% endblock %}
+{% block action_drop %}"/"{% endblock %}
+
+{% block main %}
+{% endblock %}
+
+{% block result %}
+    <div style="text-align: center;">
+        <h1>{{ result }}</h1>
+    </div>
+{% endblock %}
+
+</body>
+</html>
