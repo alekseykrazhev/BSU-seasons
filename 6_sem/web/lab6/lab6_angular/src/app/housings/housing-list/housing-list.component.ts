@@ -16,6 +16,7 @@ import { Router } from '@angular/router';
 
 export class HousingListComponent {
   housings: Housing[] = Housings;
+    selectedHousing: Housing | undefined;
 
   constructor(private housingService: HousingsService, public router: Router) {
     this.housingService.getHousings().subscribe((housings: Housing[]) => this.housings = housings);
@@ -24,6 +25,7 @@ export class HousingListComponent {
   onSelect(housing: Housing): void {
     const id = housing.id;
     console.log(id);
-    this.router.navigate(['/', id]);
+    // this.router.navigate(['/', id]);
+    this.selectedHousing = housing;
   }
 }

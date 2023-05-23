@@ -1,8 +1,14 @@
-<div class="conatainer mt-5">
-    <h3>Housing Details</h3>
-    <div *ngIf="housing">
-        <div>{{housing.description}}</div>
-        <div>{{housing.worker}}</div>
+<div *ngIf="housing" class="conatainer mt-5">
+    <h3>{{housing.description}} details</h3>
+    <div (ngSubmit)="onSubmit()">
+        <div><label>ID:</label>{{housing.id}}</div>
+        <div>
+            <label>Description:</label>
+            <input type="text" [(ngModel)]="housing.description" placeholder="description" />
+        </div>
+        <div>
+            <label>Worker:</label>
+            <input type="text" [(ngModel)]="housing.worker" placeholder="worker" />
+        </div>
     </div>
-    <button class="btn btn-primary" (click)="goBack()">Back</button>
 </div>

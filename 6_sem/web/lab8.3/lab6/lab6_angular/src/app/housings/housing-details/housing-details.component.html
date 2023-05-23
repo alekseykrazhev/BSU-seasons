@@ -1,0 +1,14 @@
+<div *ngIf="housing" class="conatainer mt-5">
+    <h3>{{housing.name}} details</h3>
+    <div (ngSubmit)="onSubmit()">
+        <div><label>ID:</label>{{housing.id}}</div>
+        <div>
+            <label>Name:</label>
+            <input type="text" [(ngModel)]="housing.name" placeholder="name" />
+        </div>
+        <div>
+            <label>ID Type:</label>
+            <input type="number" [(ngModel)]="housing.id_type" placeholder="id_type" />
+        </div>
+    </div>
+</div>

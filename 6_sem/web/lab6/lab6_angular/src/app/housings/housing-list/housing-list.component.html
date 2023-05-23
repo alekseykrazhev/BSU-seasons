@@ -2,7 +2,8 @@
   <h2>Housing List:</h2>
   <ul>
       <li *ngFor="let housing of housings" (click)="onSelect(housing)">
-        {{housing.description}} - {{housing.worker}}
+        {{housing.id}} - {{housing.description}} - {{housing.worker}}
       </li>
   </ul>
 </div>
+<app-housing-details [housing]="selectedHousing"></app-housing-details>

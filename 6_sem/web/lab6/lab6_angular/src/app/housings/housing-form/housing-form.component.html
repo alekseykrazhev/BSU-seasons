@@ -1,0 +1,18 @@
+<div class="container d-flex justify-content-center">
+    <div class="container mt-5">
+        <h3>Add new application:</h3>
+        <form  #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)">
+            <div>
+                <label>Description:</label>
+                <input type="text" [(ngModel)]="description" name="description" required/>
+            </div>
+            <div>
+                <label>Worker:</label>
+                <input type="text" [(ngModel)]="worker" name="worker" required/>
+            </div>
+            <div>
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
