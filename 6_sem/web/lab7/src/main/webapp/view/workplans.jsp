@@ -2,7 +2,7 @@
 <%--<%@ page contentType="text/html;charset=UTF-8" language="java" %>--%>
 
 <jsp:include page="blocks/header.jsp">
-    <jsp:param name="title" value="Housings. Work Plans"/>
+    <jsp:param name="title" value="My App. Workers"/>
 </jsp:include>
 
 <main class="main bets-page title-regular-14">
@@ -36,7 +36,7 @@
     </div>
 
     <div class="container mt-5">
-        <h2>Add new Work Plan</h2>
+        <h2>Add new Worker</h2>
         <form id="myForm" class="form" action="${pageContext.request.contextPath}/?command=workplans" method="post">
             <div class="form-group">
                 <label for="id_type">ID Type</label>

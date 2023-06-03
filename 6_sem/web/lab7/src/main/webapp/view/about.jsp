@@ -1,5 +1,5 @@
 <jsp:include page="blocks/header.jsp">
-    <jsp:param name="title" value="Housings. About"/>
+    <jsp:param name="title" value="My App. About"/>
     <jsp:param name="pageStyle" value="${pageContext.request.contextPath}/static/styles/pages/about.css"/>
 </jsp:include>
 <head>
@@ -9,11 +9,8 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-6">
-            <h2 class="section-title">About Housings App</h2>
-            <p class="section-text">Welcome to Housings App, your go-to platform for finding your dream home.
-                We provide a wide range of housing options to suit your needs, whether you're looking to buy or
-                rent. Our team of experts is dedicated to helping you find the perfect property and making your
-                housing journey a seamless experience.</p>
+            <h2 class="section-title">About My App</h2>
+            <p class="section-text">We are a team of experienced repair technicians dedicated to providing high-quality repairs for all types of devices, from smartphones to laptops and more. With years of experience under our belts, we have the knowledge and expertise to diagnose and fix any issue you may be experiencing with your device.</p>
         </div>
     </div>
 </div>

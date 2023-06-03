@@ -8,7 +8,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title><fmt:message key="app.title"/></title>
+    <title><fmt:message key="app.title"/>My App. Log in</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
 </head>
 <body>

@@ -2,7 +2,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <jsp:include page="blocks/header.jsp">
-    <jsp:param name="title" value="Housings. Applications"/>
+    <jsp:param name="title" value="My App. Repairs"/>
 </jsp:include>
 
 <main class="main applications-page title-regular-14">
